@@ -23,6 +23,9 @@ cp -r tools/specs/* /home/claude/partner/wk/
 | `cover.py` | `make_cover(src, title, out, sub, focus_y)` designed cover frame. |
 | `fetch.py` | Polite Wikimedia Commons downloader (`cats` / `files jobs.txt`), writes credits.json per folder. |
 | `search.py` | Commons file search to JSON. |
+| `ov.py` | Openverse search/download (Flickr, Commons, museums) with credits. |
+| `blur.py in.jpg [out.jpg] [--boxes x,y,w,h;...]` | Blurs faces of private people (OpenCV YuNet; needs `pip install opencv-python-headless` + model in /home/claude/models/yunet.onnx from media.githubusercontent.com/media/opencv/opencv_zoo/main/models/face_detection_yunet/face_detection_yunet_2023mar.onnx). Writes `<name>_b.jpg`, copies the credit. Can hit doll/statue faces: only run it on photos with real people and check the result. |
+| `sheet.py dir out.jpg` / `chk.sh video out.jpg` | Contact sheet of a photo folder / 14 frames of a finished video. |
 
 Image paths in specs are relative to `/home/claude/partner/wk/`. `specs/jobs_week.txt` lists the Commons files chosen for this week; `specs/search_week.json` has more candidates per topic.
 
