@@ -23,7 +23,7 @@ def credit(path):
     if not m:
         return None
     who = re.sub(r"\s+", " ", m.get("artist") or "Unknown").replace("Unknown authorUnknown author", "Unknown").split(" from ")[0][:38]
-    return f"Photo: {who} / {m.get('license', '?')} / Wikimedia Commons"
+    return f"Photo: {who} / {m.get('license', '?')} / {m.get('src', 'Wikimedia Commons')}"
 
 
 def bg_photo(path, focus=0.45, zoom=1.0, tint=None):

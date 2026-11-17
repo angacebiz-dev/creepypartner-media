@@ -57,7 +57,7 @@ def credit(path):
     who = re.sub(r"\s+", " ", m.get("artist") or "Unknown")
     who = who.replace("Unknown authorUnknown author", "Unknown").split(" from ")[0][:40]
     lic = m.get("license") or "?"
-    return f"{'Photo' if not path.endswith(('.webm','.ogv','.mp4')) else 'Video'}: {who} / {lic} / Wikimedia Commons"
+    return f"{'Photo' if not path.endswith(('.webm','.ogv','.mp4')) else 'Video'}: {who} / {lic} / {m.get('src', 'Wikimedia Commons')}"
 
 IMG = {}
 def load(path, tint):
