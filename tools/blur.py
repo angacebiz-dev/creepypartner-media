@@ -1,5 +1,11 @@
 """Blur faces of private people in a photo (keeps the real photo, protects identities).
-  python3 blur.py <in.jpg> [out.jpg] [--boxes x,y,w,h;x,y,w,h] [--thresh 0.6] [--show sheet.jpg]
+  python3 blur.py <in.jpg> --preview prev.jpg          -> detect only, draw NUMBERED boxes to check (no output photo)
+  python3 blur.py <in.jpg> [out.jpg] --only 1,3        -> blur only the approved detections (never dolls/statues/objects)
+  python3 blur.py <in.jpg> [out.jpg] --noauto --boxes x,y,w,h;...   -> manual boxes only
+  python3 blur.py <in.jpg> [out.jpg] --heavy x,y,w,h;...  -> very strong blur on regions (victims / crime-scene parts)
+  python3 blur.py <in.jpg> [out.jpg] --full            -> whole photo blurred so nothing can be made out (crime scene)
+RULES (Lodo, Nov 17): unknown people + kids = blur faces; victims/crime scenes = heavy blur, keep the photo;
+dolls, statues, haunted objects (Annabelle, Robert, Mothman statue...) NEVER blurred -> always --preview first and pick with --only.
 Auto-detects faces with OpenCV YuNet (multi-scale + tiled so small faces are found), adds any manual boxes,
 then applies a heavy blur + slight darkening to each face (padded). Writes <name>_b.jpg by default and copies
 the credit entry in credits.json. Prints the boxes it blurred so they can be checked on a sheet.
@@ -69,7 +75,32 @@ if __name__ == "__main__":
     dst = a[1] if len(a) > 1 and not a[1].startswith("--") else os.path.splitext(src)[0] + "_b.jpg"
     thresh = float(a[a.index("--thresh") + 1]) if "--thresh" in a else 0.6
     img = cv2.imread(src)
-    boxes = detect(img, thresh)
+    if "--full" in a:
+        H, W = img.shape[:2]
+        small = cv2.resize(img, (max(1, W // 40), max(1, H // 40)), interpolation=cv2.INTER_AREA)
+        img = cv2.GaussianBlur(cv2.resize(small, (W, H), interpolation=cv2.INTER_LINEAR), (0, 0), max(W, H) / 60)
+        img = (img.astype(np.float32) * 0.8).astype(np.uint8)
+        cv2.imwrite(dst, img, [cv2.IMWRITE_JPEG_QUALITY, 92]); boxes = ["FULL"]
+    else:
+        boxes = [] if "--noauto" in a else detect(img, thresh)
+    if "--preview" in a:
+        pv = img.copy()
+        for i, (x, y, w, h) in enumerate(boxes):
+            cv2.rectangle(pv, (x, y), (x + w, y + h), (0, 0, 255), max(2, img.shape[1] // 400))
+            cv2.putText(pv, str(i + 1), (x, max(15, y - 4)), cv2.FONT_HERSHEY_SIMPLEX, max(0.6, img.shape[1] / 1200), (0, 255, 255), 2)
+        cv2.imwrite(a[a.index("--preview") + 1], pv); print("preview", len(boxes), boxes); sys.exit(0)
+    if "--only" in a:
+        keep = {int(v) for v in a[a.index("--only") + 1].split(",") if v}
+        boxes = [b for i, b in enumerate(boxes) if i + 1 in keep]
+    if "--heavy" in a:
+        H, W = img.shape[:2]
+        for s in a[a.index("--heavy") + 1].split(";"):
+            x, y, w, h = [int(v) for v in s.split(",")]
+            roi = img[y:y + h, x:x + w]
+            sm = cv2.resize(roi, (max(1, w // 25), max(1, h // 25)), interpolation=cv2.INTER_AREA)
+            img[y:y + h, x:x + w] = cv2.GaussianBlur(cv2.resize(sm, (w, h)), (0, 0), max(w, h) / 30)
+    if boxes == ["FULL"]:
+        print(dst, "FULL heavy blur"); sys.exit(0)
     if "--boxes" in a:
         for s in a[a.index("--boxes") + 1].split(";"):
             boxes.append([int(v) for v in s.split(",")])

@@ -1,15 +1,51 @@
-{"name": "winchester",
+{
+ "name": "winchester",
  "caption": "She kept builders working on this house for 36 years. Stairs into ceilings. A door that opens onto a two-story drop. The legend says it was for the ghosts. Would you live here? Comment 'KEEP BUILDING' or 'I'M OUT' #winchestermysteryhouse #hauntedhouse #sanjose #creepy #hauntedhistory #truehorror #paranormal",
  "title": "She built for 36 years",
  "ritual": "Comment 'KEEP BUILDING' or 'I'M OUT'",
  "slides": [
-  {"text": "SHE KEPT BUILDING FOR 36 YEARS... FOR THE GHOSTS", "cover": true, "img": "win/f17.jpg"},
-  {"text": "San Jose, California. The Winchester Mystery House. About 160 rooms. Built for one woman.", "img": "win/f11.jpg"},
-  {"text": "Sarah Winchester. She married into the family behind the Winchester rifle, 'the gun that won the West.'", "img": "win/f38.jpg", "tint": "grey"},
-  {"text": "In 1866 her baby daughter died. In 1881 her husband died. She inherited a fortune.", "img": "win/f39.jpg", "tint": "dark"},
-  {"text": "In 1886 she bought a farmhouse in San Jose... and the construction didn't stop until she died, 36 years later.", "img": "win/f15.jpg", "tint": "grey"},
-  {"text": "The legend: a medium told her the spirits of people killed by Winchester rifles would come for her... unless she kept building.", "img": "win/f13.jpg", "tint": "dark"},
-  {"text": "Inside, there are stairs that run straight into the ceiling... and doors that open onto walls.", "img": "win/f34.jpg", "tint": "grey"},
-  {"text": "On the second floor, a door opens onto nothing. Just a drop to the garden below.", "img": "win/f30.jpg"},
-  {"text": "She died in 1922. Historians say the ghost story is mostly legend. But you can still tour it... by flashlight.", "img": "win/f35.jpg", "tint": "dark"}
- ]}
+  {
+   "text": "SHE KEPT BUILDING FOR 36 YEARS... FOR THE GHOSTS",
+   "cover": true,
+   "img": "win/f17.jpg"
+  },
+  {
+   "text": "San Jose, California. The Winchester Mystery House. About 160 rooms. Built for one woman.",
+   "img": "win/f11.jpg"
+  },
+  {
+   "text": "Sarah Winchester. She married into the family behind the Winchester rifle, 'the gun that won the West.'",
+   "img": "win/f38.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "In 1866 her baby daughter died. In 1881 her husband died. She inherited a fortune.",
+   "img": "win/f39.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "In 1886 she bought a farmhouse in San Jose... and the construction didn't stop until she died, 36 years later.",
+   "img": "win/f15.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "The legend: a medium told her the spirits of people killed by Winchester rifles would come for her... unless she kept building.",
+   "img": "win/f37_b.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "Inside, there are stairs that run straight into the ceiling... and doors that open onto walls.",
+   "img": "win/f34.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "On the second floor, a door opens onto nothing. Just a drop to the garden below.",
+   "img": "win/f30.jpg"
+  },
+  {
+   "text": "She died in 1922. Historians say the ghost story is mostly legend. But you can still tour it... by flashlight.",
+   "img": "win/f36_b.jpg",
+   "tint": "dark"
+  }
+ ]
+}
