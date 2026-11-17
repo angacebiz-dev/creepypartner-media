@@ -22,6 +22,8 @@ def credit(path):
     m = _CR[cf].get(os.path.basename(path))
     if not m:
         return None
+    if m.get("text"):
+        return m["text"]
     who = re.sub(r"\s+", " ", m.get("artist") or "Unknown").replace("Unknown authorUnknown author", "Unknown").split(" from ")[0][:38]
     return f"Photo: {who} / {m.get('license', '?')} / {m.get('src', 'Wikimedia Commons')}"
 
@@ -34,11 +36,11 @@ def bg_photo(path, focus=0.45, zoom=1.0, tint=None, cover=False):
     if im.width / im.height > 0.8:
         bg = ImageOps.fit(im, (W, H)).filter(ImageFilter.GaussianBlur(28)); bg = ImageEnhance.Brightness(bg).enhance(0.35)
         fw = int(W * zoom); fg = im.resize((fw, int(im.height * fw / im.width)), Image.LANCZOS)
-        if fg.height > 1100:
-            fg = ImageOps.fit(fg, (fw, 1100), centering=(0.5, focus))
+        if fg.height > 980:
+            fg = ImageOps.fit(fg, (fw, 980), centering=(0.5, focus))
         if fw > W:
             fg = fg.crop(((fw - W) // 2, 0, (fw - W) // 2 + W, fg.height))
-        bg.paste(fg, ((W - fg.width) // 2, max(250, 760 - fg.height // 2)))
+        bg.paste(fg, ((W - fg.width) // 2, max(220, 730 - fg.height // 2)))
         out = bg
     else:
         out = ImageOps.fit(im, (int(W * zoom), int(H * zoom)), Image.LANCZOS, centering=(0.5, focus))

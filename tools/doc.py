@@ -12,6 +12,7 @@ sys.path.insert(0, "/home/claude/partner/video02"); sys.path.insert(0, "/home/cl
 from tts import creepy
 from kokoro_onnx import Kokoro
 from cover import make_cover
+from spoken import say
 
 WK = "/home/claude/partner/wk/"; FONTS = "/home/claude/partner/fonts/"
 W, H, FPS = 1080, 1920, 30
@@ -23,7 +24,7 @@ if not os.path.exists("voice.wav") or "--revoice" in sys.argv:
     k = Kokoro('/home/claude/tts/kokoro-v1.0.onnx', '/home/claude/tts/voices-v1.0.bin')
     SR = 44100; t = 0.5; audio = [np.zeros(int(SR * 0.5))]; tl = []
     for L in spec["lines"]:
-        s, sr = k.create(L["text"], voice="bm_lewis", speed=spec.get("speed", 0.86), lang="en-us")
+        s, sr = k.create(say(L["text"]), voice="bm_lewis", speed=spec.get("speed", 0.86), lang="en-us")
         sf.write("tmp.wav", s, sr); creepy("tmp.wav", f"seg_{L['id']}.wav", semis=-2.5)
         a, _ = sf.read(f"seg_{L['id']}.wav"); a = a.mean(1) if a.ndim > 1 else a
         nz = np.where(np.abs(a) > 0.01)[0]; a = a[max(nz[0] - 400, 0): nz[-1] + 1500]
@@ -54,6 +55,8 @@ def credit(path):
     m = CREDITS[cf].get(os.path.basename(path))
     if not m:
         return None
+    if m.get("text"):
+        return m["text"]
     who = re.sub(r"\s+", " ", m.get("artist") or "Unknown")
     who = who.replace("Unknown authorUnknown author", "Unknown").split(" from ")[0][:40]
     lic = m.get("license") or "?"
@@ -230,7 +233,7 @@ def ts(x):
 ev = []
 for lid in ORDER:
     L = TL[lid]; words = LN[lid]["text"].replace("...", "… ").split()
-    wt = [len(re.sub(r"[^A-Za-z0-9]", "", w)) + 2 + (5 if w.endswith(("…", ".", ",", "?", "!")) else 0) for w in words]
+    wt = [len(re.sub(r"[^A-Za-z0-9]", "", say(w))) + 2 + (5 if w.endswith(("…", ".", ",", "?", "!")) else 0) for w in words]
     cum = np.concatenate([[0], np.cumsum(wt)]) / sum(wt) * (L["end"] - L["start"]) + L["start"]
     chunks, cur = [], []
     for i, w in enumerate(words):
