@@ -1,15 +1,51 @@
-{"name": "somerton",
+{
+ "name": "somerton",
  "caption": "A man found dead on a beach in 1948. No ID. Every label cut out of his clothes. A secret pocket with two words inside. It took 74 years to learn his name. What do you think he was? Comment SPY or NOT A SPY. #somertonman #tamamshud #unsolved #coldcase #mystery #creepy #truecrime",
  "title": "The man with no name",
  "ritual": "Comment SPY or NOT A SPY",
  "slides": [
-  {"text": "HE DIED ON A BEACH WITH NO NAME... FOR 74 YEARS", "cover": true, "img": "som/01.jpg", "focus": 0.3},
-  {"text": "December 1, 1948. Somerton beach, Adelaide, Australia. A well-dressed man is found dead against the sea wall.", "img": "som/04.jpg", "tint": "grey"},
-  {"text": "No wallet. No ID. Every label had been cut out of his clothes.", "img": "som/06.jpg", "tint": "grey"},
-  {"text": "Doctors couldn't say how he died. Possibly poison... but they never found one.", "img": "som/01.jpg", "zoom": 1.3, "focus": 0.3, "tint": "grey"},
-  {"text": "Then they found a secret pocket sewn into his trousers. Inside, a tiny scrap of paper with two words: Tamam Shud.", "img": "som/02.jpg"},
-  {"text": "It means 'it is ended.' It was torn from a book of Persian poems, the Rubaiyat of Omar Khayyam.", "img": "som/02.jpg", "zoom": 1.4, "tint": "dark"},
-  {"text": "When that exact book turned up, it had a code written in the back. Nobody has ever cracked it.", "img": "som/03.jpg", "tint": "grey"},
-  {"text": "Spy? Smuggler? Heartbroken lover? For decades, nobody even knew his name.", "img": "som/05.jpg", "tint": "grey"},
-  {"text": "In 2022, DNA finally named him: Carl 'Charles' Webb, an engineer from Melbourne. Why he died... is still a mystery.", "img": "som/01.jpg", "focus": 0.3, "tint": "dark"}
- ]}
+  {
+   "text": "HE DIED ON A BEACH WITH NO NAME... FOR 74 YEARS",
+   "cover": true,
+   "img": "som/f17.jpg"
+  },
+  {
+   "text": "December 1, 1948. Somerton beach, Adelaide, Australia. A well-dressed man is found dead against the sea wall.",
+   "img": "som/f12.jpg"
+  },
+  {
+   "text": "No wallet. No ID. Every label had been cut out of his clothes.",
+   "img": "som/f10.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "Doctors couldn't say how he died. Possibly poison... but they never found one.",
+   "img": "som/f11.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "Then they found a secret pocket sewn into his trousers. Inside, a tiny scrap of paper with two words: Tamam Shud.",
+   "img": "som/f16.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "It means 'it is ended.' It was torn from a book of Persian poems, the Rubaiyat of Omar Khayyam.",
+   "img": "som/f14.jpg"
+  },
+  {
+   "text": "When that exact book turned up, it had a code written in the back. Nobody has ever cracked it.",
+   "img": "som/f15.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "His suitcase turned up at Adelaide Railway Station. Spy? Smuggler? Heartbroken lover? For decades, nobody even knew his name.",
+   "img": "som/f19.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "In 2022, researchers used DNA to name him: Carl 'Charles' Webb, an engineer from Melbourne. Why he died... is still a mystery.",
+   "img": "som/f18.jpg",
+   "tint": "dark"
+  }
+ ]
+}

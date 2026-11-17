@@ -2,19 +2,138 @@
  "id": "04_JerseyDevil",
  "title_top": "THE JERSEY DEVIL",
  "speed": 0.86,
- "cover": {"img": "jd/01.jpg", "title": "1,000 people saw it in one week", "focus_y": 0.4},
+ "cover": {
+  "img": "jd/01.jpg",
+  "title": "1,000 people saw it in one week",
+  "focus_y": 0.4
+ },
  "comment": "COMMENT YOUR TOWN",
  "lines": [
-  {"id": "hook", "text": "There's a forest in New Jersey... where people have been seeing the same thing for almost three hundred years."},
-  {"id": "l1", "text": "The Pine Barrens. Over a million acres of pine forest in South Jersey.", "shots": [{"img": "jd/07.jpg", "mode": "in", "tint": "night"}, {"img": "jd/09.jpg", "mode": "out", "tint": "night"}]},
-  {"id": "l2", "text": "The legend starts in 1735, near Leeds Point. A woman known as Mother Leeds already had twelve children... and she was pregnant again.", "shots": [{"img": "jd/04.jpg", "mode": "in", "tint": "night"}]},
-  {"id": "l3", "text": "The story says she cried out... let this one be the devil.", "hit": true, "shots": [{"img": "jd/10.jpg", "mode": "in", "tint": "night"}]},
-  {"id": "l4", "text": "On a stormy night, the baby was born. Then it changed. Hooves. Wings. A tail. And it flew up the chimney... into the pines.", "shots": [{"img": "jd/08.jpg", "mode": "in", "tint": "night"}, {"img": "jd/11.jpg", "mode": "up", "tint": "night"}]},
-  {"id": "l5", "text": "For almost two hundred years, it was just a story people told in the woods.", "shots": [{"img": "jd/03.jpg", "mode": "out", "tint": "grey"}]},
-  {"id": "l6", "text": "Then came January, 1909.", "hit": true, "shots": [{"img": "jd/01.jpg", "mode": "in", "focus": 0.4}]},
-  {"id": "l7", "text": "For one week, newspapers printed hundreds of sightings. Hoof prints in the snow... across rooftops. Schools closed. Factories shut down. People stayed home.", "shots": [{"img": "jd/01.jpg", "mode": "face", "focus": 0.3}, {"img": "jd/07.jpg", "mode": "out", "tint": "night"}]},
-  {"id": "l8", "text": "On January eighteenth, it was reported in Camden.", "overlay": "CAMDEN, NJ\nJAN 18, 1909", "hit": true, "shots": [{"img": "jd/01.jpg", "mode": "out", "tint": "grey"}]},
-  {"id": "l9", "text": "Historians call it mass hysteria. But people in the Pines... still report it today.", "shots": [{"img": "jd/10.jpg", "mode": "in", "tint": "night"}]},
-  {"id": "end", "text": "If you grew up in South Jersey, you've heard about it. Comment your town... and sleep tight, partner."}
+  {
+   "id": "hook",
+   "text": "There's a forest in New Jersey... where people have been seeing the same thing for almost three hundred years."
+  },
+  {
+   "id": "l1",
+   "text": "The Pine Barrens. Over a million acres of pine forest in South Jersey.",
+   "shots": [
+    {
+     "img": "jd/f21.jpg",
+     "mode": "in",
+     "tint": "grey"
+    },
+    {
+     "img": "jd/f27.jpg",
+     "mode": "out",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "The legend starts in 1735, near Leeds Point. A woman known as Mother Leeds already had twelve children... and she was pregnant again.",
+   "shots": [
+    {
+     "img": "jd/f32.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "The story says she cried out... let this one be the devil.",
+   "hit": true,
+   "shots": [
+    {
+     "img": "jd/f29.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "On a stormy night, the baby was born. Then it changed. Hooves. Wings. A tail. And it flew up the chimney... into the pines.",
+   "shots": [
+    {
+     "img": "jd/f33.jpg",
+     "mode": "in",
+     "tint": "night"
+    },
+    {
+     "img": "jd/f20.jpg",
+     "mode": "up",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "For almost two hundred years, it was just a story people told in the woods.",
+   "shots": [
+    {
+     "img": "jd/f31.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "Then came January, 1909.",
+   "hit": true,
+   "shots": [
+    {
+     "img": "jd/01.jpg",
+     "mode": "in",
+     "focus": 0.4
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "text": "For one week, newspapers printed hundreds of sightings. Hoof prints in the snow... across rooftops. Schools closed. Factories shut down. People stayed home.",
+   "shots": [
+    {
+     "img": "jd/01.jpg",
+     "mode": "face",
+     "focus": 0.3
+    },
+    {
+     "img": "jd/f34.jpg",
+     "mode": "out",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "text": "On January eighteenth, it was reported in Camden.",
+   "overlay": "CAMDEN, NJ\nJAN 18, 1909",
+   "hit": true,
+   "shots": [
+    {
+     "img": "jd/f36.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l9",
+   "text": "Historians call it mass hysteria. But people in the Pines... still report it today.",
+   "shots": [
+    {
+     "img": "jd/f26.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "If you grew up in South Jersey, you've heard about it. Comment your town... and sleep tight, partner."
+  }
  ]
 }

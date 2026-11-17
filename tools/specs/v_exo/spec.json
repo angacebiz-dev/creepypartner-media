@@ -2,20 +2,137 @@
  "id": "05_ExorcistCurse",
  "title_top": "THE EXORCIST CURSE",
  "speed": 0.86,
- "cover": {"img": "exo/04.jpg", "title": "The Exorcist set was cursed?", "focus_y": 0.5},
+ "cover": {
+  "img": "exo/f12.jpg",
+  "title": "The Exorcist set was cursed?",
+  "focus_y": 0.5
+ },
  "comment": "COMMENT 'NOT ALONE' IF YOU WON'T WATCH IT ALONE",
  "lines": [
-  {"id": "hook", "text": "The scariest movie ever made... was based on a real exorcism. And then the set started burning."},
-  {"id": "l1", "text": "1949. A fourteen year old boy from Maryland, known only as Roland Doe.", "shots": [{"img": "exo/04.jpg", "mode": "in", "tint": "night"}]},
-  {"id": "l2", "text": "His family said it started after he played with a Ouija board. Scratching inside the walls. A bed that shook on its own.", "hit": true, "shots": [{"img": "exo/03.jpg", "mode": "in", "tint": "grey"}]},
-  {"id": "l3", "text": "Jesuit priests took him to St. Louis, to the Alexian Brothers Hospital. Reports say they performed dozens of exorcisms on him.", "overlay": "ST. LOUIS, 1949", "shots": [{"img": "exo/02.jpg", "mode": "in", "tint": "grey"}, {"img": "exo/05.jpg", "mode": "out", "tint": "grey"}]},
-  {"id": "l4", "text": "A Georgetown student named William Peter Blatty heard the story. Twenty years later, he turned it into a novel.", "shots": [{"img": "exo/01.jpg", "mode": "up"}]},
-  {"id": "l5", "text": "In 1973 it became The Exorcist. And during filming... things started going wrong.", "hit": true, "shots": [{"img": "exo/06.jpg", "mode": "in", "tint": "night"}]},
-  {"id": "l6", "text": "A fire destroyed most of the set. Crew members said the one room left untouched... was the possessed girl's bedroom.", "shots": [{"img": "exo/04.jpg", "mode": "face", "tint": "night", "focus": 0.4}]},
-  {"id": "l7", "text": "A priest was brought in to bless the set.", "shots": [{"img": "exo/01.jpg", "mode": "out", "tint": "grey"}]},
-  {"id": "l8", "text": "Actor Jack MacGowran, whose character dies in the film, died before it was released. So did Vasiliki Maliaros, who played the priest's mother.", "hit": true, "shots": [{"img": "exo/03.jpg", "mode": "out", "tint": "night"}]},
-  {"id": "l9", "text": "A documentary later claimed nine deaths were connected to the production.", "overlay": "9 DEATHS?", "shots": [{"img": "exo/06.jpg", "mode": "out", "tint": "grey"}]},
-  {"id": "l10", "text": "Skeptics say long, dangerous shoots always have accidents. But the cast still talks about that set.", "shots": [{"img": "exo/05.jpg", "mode": "in", "tint": "night"}]},
-  {"id": "end", "text": "Would you watch it alone tonight? Sleep tight, partner."}
+  {
+   "id": "hook",
+   "text": "The scariest movie ever made... was inspired by a real exorcism. And then the set started burning."
+  },
+  {
+   "id": "l1",
+   "text": "1949. A fourteen year old boy from Maryland, known only as Roland Doe.",
+   "shots": [
+    {
+     "img": "exo/f22.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "His family said it started after he played with a Ouija board. Scratching inside the walls. A bed that shook on its own.",
+   "hit": true,
+   "shots": [
+    {
+     "img": "exo/f19.jpg",
+     "mode": "up",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "Jesuit priests took him to St. Louis, to the Alexian Brothers Hospital. Reports say they performed dozens of exorcisms on him.",
+   "overlay": "ST. LOUIS, 1949",
+   "shots": [
+    {
+     "img": "exo/f20.jpg",
+     "mode": "in",
+     "tint": "grey"
+    },
+    {
+     "img": "exo/f21.jpg",
+     "mode": "up",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "A Georgetown student named William Peter Blatty heard the story. Twenty years later, he turned it into a novel.",
+   "shots": [
+    {
+     "img": "exo/f17.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "In 1973 it became The Exorcist. And during filming... things started going wrong.",
+   "hit": true,
+   "shots": [
+    {
+     "img": "exo/f14.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "A fire destroyed most of the set. Crew members said the one room left untouched... was the possessed girl's bedroom.",
+   "shots": [
+    {
+     "img": "exo/f13.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "text": "A priest was brought in to bless the set.",
+   "shots": [
+    {
+     "img": "exo/f15.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "text": "Actor Jack MacGowran, whose character dies in the film, died before it was released. So did Vasiliki Maliaros, who played the priest's mother.",
+   "hit": true,
+   "shots": [
+    {
+     "img": "exo/f12.jpg",
+     "mode": "up"
+    }
+   ]
+  },
+  {
+   "id": "l9",
+   "text": "Some reports later linked nine deaths to the production.",
+   "overlay": "9 DEATHS?",
+   "shots": [
+    {
+     "img": "exo/f10.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "l10",
+   "text": "Skeptics say long, dangerous shoots always have accidents. But the cast still talks about that set.",
+   "shots": [
+    {
+     "img": "exo/f16.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Would you watch it alone tonight? Sleep tight, partner."
+  }
  ]
 }
