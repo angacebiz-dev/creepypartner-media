@@ -11,7 +11,7 @@
  "lines": [
   {
    "id": "hook",
-   "text": "In the late 1960s, a killer in California mailed letters to the newspapers... daring the police to catch him. They never did."
+   "text": "He taunted the police. They never caught him."
   },
   {
    "id": "l1",
@@ -37,12 +37,16 @@
   },
   {
    "id": "l3",
-   "text": "Then the letters arrive. He calls himself the Zodiac. He sends coded messages and dares anyone to crack them.",
+   "text": "Then the letters arrive. He calls himself the Zodiac. He mails coded messages to the San Francisco Chronicle... and dares anyone to crack them.",
    "shots": [
     {
      "img": "zod/f20.jpg",
      "mode": "out",
      "tint": "grey"
+    },
+    {
+     "img": "zod/L9849.jpg",
+     "mode": "up"
     }
    ],
    "hit": true
@@ -72,20 +76,44 @@
   },
   {
    "id": "l6",
-   "text": "Police confirmed five killed. In his letters, he claimed thirty seven.",
+   "text": "Police confirmed five killed. In his letters, he claimed thirty seven. He even mailed a Halloween card to the Chronicle's crime reporter, Paul Avery.",
    "shots": [
     {
      "img": "zod/f17.jpg",
      "mode": "out",
      "tint": "grey"
+    },
+    {
+     "img": "zod/L9848.jpg",
+     "mode": "in",
+     "focus": 0.4
+    },
+    {
+     "img": "zod/L9850.jpg",
+     "mode": "up"
     }
    ],
    "hit": true
   },
   {
    "id": "l7",
-   "text": "For decades, detectives chased suspect after suspect. No one was ever charged.",
+   "text": "For decades, detectives like Inspector Dave Toschi chased suspect after suspect. A Chronicle cartoonist, Robert Graysmith, spent years on it and wrote a book. No one was ever charged.",
    "shots": [
+    {
+     "img": "zod/L9845.jpg",
+     "mode": "in",
+     "focus": 0.45
+    },
+    {
+     "img": "zod/L9846.jpg",
+     "mode": "in",
+     "focus": 0.4
+    },
+    {
+     "img": "zod/L9847.jpg",
+     "mode": "in",
+     "focus": 0.4
+    },
     {
      "img": "zod/f21.jpg",
      "mode": "in",

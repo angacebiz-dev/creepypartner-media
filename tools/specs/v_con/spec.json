@@ -11,7 +11,7 @@
  "lines": [
   {
    "id": "hook",
-   "text": "Hollywood shot a movie in the desert... and years later, almost half the people who made it had cancer."
+   "text": "Almost half of this movie's crew got cancer."
   },
   {
    "id": "l1",
@@ -20,6 +20,11 @@
     {
      "img": "con/f16.jpg",
      "mode": "in"
+    },
+    {
+     "img": "con/L9832.jpg",
+     "mode": "in",
+     "focus": 0.35
     }
    ]
   },
@@ -30,6 +35,11 @@
     {
      "img": "con/f17.jpg",
      "mode": "in"
+    },
+    {
+     "img": "con/L9829.jpg",
+     "mode": "in",
+     "tint": "sepia"
     },
     {
      "img": "con/f20.jpg",
@@ -69,6 +79,11 @@
    "text": "Cast and crew spent weeks in that dust. The studio even shipped tons of the dirt back to Hollywood for reshoots.",
    "shots": [
     {
+     "img": "con/L9828.jpg",
+     "mode": "in",
+     "tint": "sepia"
+    },
+    {
      "img": "con/f15.jpg",
      "mode": "in",
      "tint": "grey"
@@ -91,6 +106,11 @@
    "text": "John Wayne. Susan Hayward. Agnes Moorehead. The director, Dick Powell. Wayne was also a heavy smoker, and scientists still argue about the link.",
    "shots": [
     {
+     "img": "con/L9830.jpg",
+     "mode": "in",
+     "focus": 0.35
+    },
+    {
      "img": "con/f14.jpg",
      "mode": "out",
      "tint": "grey"
@@ -101,6 +121,11 @@
    "id": "l8",
    "text": "Hughes reportedly felt so guilty, he bought up every copy of the film and kept it off TV for years.",
    "shots": [
+    {
+     "img": "con/L9835.jpg",
+     "mode": "in",
+     "focus": 0.35
+    },
     {
      "img": "con/f21.jpg",
      "mode": "in",

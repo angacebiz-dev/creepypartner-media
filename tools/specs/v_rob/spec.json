@@ -11,7 +11,7 @@
  "lines": [
   {
    "id": "hook",
-   "text": "This doll gets letters every year... from people begging him to forgive them."
+   "text": "This doll gets apology letters. Every year."
   },
   {
    "id": "l1",
@@ -56,6 +56,11 @@
    "text": "Gene grew up to be an artist. He kept Robert his whole life, in the house on Eaton Street.",
    "shots": [
     {
+     "img": "rob/L9853.jpg",
+     "mode": "in",
+     "focus": 0.45
+    },
+    {
      "img": "rob/f31.jpg",
      "mode": "out",
      "tint": "grey"
@@ -66,6 +71,10 @@
    "id": "l5",
    "text": "Gene died in 1974. The next owner of the house claimed the doll moved on its own... and that she heard footsteps in the attic.",
    "shots": [
+    {
+     "img": "rob/L9854.jpg",
+     "mode": "up"
+    },
     {
      "img": "rob/f19.jpg",
      "mode": "in",

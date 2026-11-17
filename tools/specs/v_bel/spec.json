@@ -11,7 +11,7 @@
  "lines": [
   {
    "id": "hook",
-   "text": "There's a legend in Tennessee about a spirit that tormented a family for years... and then took the blame for killing the father."
+   "text": "This spirit bragged that it killed a man."
   },
   {
    "id": "l1",
@@ -66,6 +66,11 @@
      "img": "bel/f20.jpg",
      "mode": "out",
      "tint": "grey"
+    },
+    {
+     "img": "bel/L9859.jpg",
+     "mode": "in",
+     "focus": 0.4
     }
    ]
   },

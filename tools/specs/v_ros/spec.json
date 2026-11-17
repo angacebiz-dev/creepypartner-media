@@ -11,7 +11,7 @@
  "lines": [
   {
    "id": "hook",
-   "text": "In 1947, the United States Army announced it had captured a flying saucer. The next day... it took it back."
+   "text": "The Army caught a saucer. Then took it back."
   },
   {
    "id": "l1",
@@ -21,6 +21,11 @@
      "img": "ros/f17.jpg",
      "mode": "in",
      "tint": "grey"
+    },
+    {
+     "img": "ros/L9842.jpg",
+     "mode": "in",
+     "focus": 0.4
     },
     {
      "img": "ros/f16.jpg",
@@ -37,6 +42,11 @@
      "img": "ros/f13.jpg",
      "mode": "in",
      "tint": "grey"
+    },
+    {
+     "img": "ros/L9836.jpg",
+     "mode": "in",
+     "focus": 0.55
     }
    ]
   },
@@ -67,6 +77,16 @@
    "id": "l5",
    "text": "Within hours, the Army changes its story. It was just a weather balloon.",
    "shots": [
+    {
+     "img": "ros/L9841.jpg",
+     "mode": "in",
+     "focus": 0.5
+    },
+    {
+     "img": "ros/L9840.jpg",
+     "mode": "in",
+     "focus": 0.5
+    },
     {
      "img": "ros/f22.jpg",
      "mode": "out",
