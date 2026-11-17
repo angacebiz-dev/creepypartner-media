@@ -260,36 +260,41 @@ if not os.path.exists("frames.mp4") or "--rerender" in sys.argv or PREVIEW:
         sh.save("preview.jpg"); print("preview.jpg"); sys.exit()
     ff.stdin.close(); ff.wait()
 
-# ---------------- bed (long, slowly evolving) ----------------
-SR = 44100; n = int(SR * TOTAL); t = np.arange(n) / SR; rng = np.random.default_rng(5)
-lp = lambda x, hi: sosfilt(butter(4, hi, btype="low", fs=SR, output="sos"), x)
-def env_at(s, a, d):
-    e = np.zeros(n); i0 = int(s * SR); seg = np.concatenate([np.linspace(0, 1, max(int(a * SR), 1)), np.exp(-np.linspace(0, 6, int(d * SR)))])
-    if i0 < n: e[i0:i0 + len(seg)] = seg[:n - i0]
-    return e
-lfo = 0.6 + 0.4 * np.sin(2 * np.pi * 0.045 * t)
-root = 36.7 * (1 + 0.03 * np.sin(2 * np.pi * t / 140))
-ph = 2 * np.pi * np.cumsum(root) / SR
-drone = (np.sin(ph) + 0.7 * np.sin(ph * 1.016) + 0.45 * np.sin(ph * 1.5) + 0.2 * np.sin(ph * 3 + np.sin(2 * np.pi * 0.15 * t))) * lfo
-drone += 0.6 * lp(rng.standard_normal(n), 110); drone /= np.abs(drone).max()
-mb = np.zeros(n); sets = [[440, 523.25, 659.25, 493.88, 415.3, 523.25, 440, 392], [392, 466.16, 587.33, 440, 369.99, 466.16, 392, 349.23]]
-i1 = next((x for x in ORDER if LN[x].get("shots")), ORDER[0])
-for kk, s0 in enumerate(np.arange(TL[i1]["start"], TOTAL - 6, 1.9)):
-    notes = sets[int(s0 // 90) % 2]
-    if int(s0 // 45) % 3 == 2:  # breathe: leave gaps in the music box
-        continue
-    f = notes[kk % len(notes)] * 0.985
-    mb += env_at(s0, 0.003, 1.5) * (np.sin(2 * np.pi * f * t) + 0.3 * np.sin(2 * np.pi * 2 * f * t))
-mb /= np.abs(mb).max() + 1e-9
-hits = np.zeros(n)
-for lid in [L["id"] for L in spec["lines"] if L.get("hit") or L.get("chapter")]:
-    s0 = TL[lid]["start"] - (1.3 if LN[lid].get("chapter") else 0.15); e = env_at(s0, 0.008, 2.6)
-    hits += e * np.sin(2 * np.pi * np.cumsum(np.interp(t, [s0, s0 + 2.0], [85, 30])) / SR)
-hits /= np.abs(hits).max() + 1e-9
-bed = 0.26 * drone + 0.06 * mb + 0.45 * hits
-bed *= np.clip(t / 1.5, 0, 1) * np.clip((TOTAL - t) / 2.5, 0, 1)
-bed = bed / np.abs(bed).max() * 0.6
-wavfile.write("bed.wav", SR, np.stack([bed, bed], 1).astype(np.float32))
+# ---------------- bed (long, slowly evolving; memory-light) ----------------
+if not os.path.exists("bed.wav") or "--rebed" in sys.argv:
+    SR = 44100; n = int(SR * TOTAL); rng = np.random.default_rng(5)
+    t = (np.arange(n, dtype=np.float32) / SR)
+    lp = lambda x, hi: sosfilt(butter(4, hi, btype="low", fs=SR, output="sos"), x).astype(np.float32)
+    def add_note(buf, s0, a_, d_, fn):
+        i0 = int(s0 * SR); L = int((a_ + d_) * SR)
+        if i0 >= n: return
+        L = min(L, n - i0); tt = np.arange(L, dtype=np.float32) / SR
+        e = np.concatenate([np.linspace(0, 1, max(int(a_ * SR), 1), dtype=np.float32), np.exp(-np.linspace(0, 6, int(d_ * SR), dtype=np.float32))])[:L]
+        buf[i0:i0 + L] += e * fn(tt, s0)
+    lfo = (0.6 + 0.4 * np.sin(2 * np.pi * 0.045 * t)).astype(np.float32)
+    ph = (2 * np.pi * np.cumsum(36.7 * (1 + 0.03 * np.sin(2 * np.pi * t / 140))) / SR).astype(np.float32)
+    drone = (np.sin(ph) + 0.7 * np.sin(ph * 1.016) + 0.45 * np.sin(ph * 1.5) + 0.2 * np.sin(ph * 3 + np.sin(2 * np.pi * 0.15 * t))) * lfo
+    del ph, lfo
+    drone += 0.6 * lp(rng.standard_normal(n).astype(np.float32), 110); drone /= np.abs(drone).max()
+    mb = np.zeros(n, np.float32); sets = [[440, 523.25, 659.25, 493.88, 415.3, 523.25, 440, 392], [392, 466.16, 587.33, 440, 369.99, 466.16, 392, 349.23]]
+    i1 = next((x for x in ORDER if LN[x].get("shots")), ORDER[0])
+    for kk, s0 in enumerate(np.arange(TL[i1]["start"], TOTAL - 6, 1.9)):
+        if int(s0 // 45) % 3 == 2:
+            continue
+        f = sets[int(s0 // 90) % 2][kk % 8] * 0.985
+        add_note(mb, s0, 0.003, 1.5, lambda tt, s0, f=f: np.sin(2 * np.pi * f * tt) + 0.3 * np.sin(4 * np.pi * f * tt))
+    mb /= np.abs(mb).max() + 1e-9
+    hits = np.zeros(n, np.float32)
+    for lid in [L["id"] for L in spec["lines"] if L.get("hit") or L.get("chapter")]:
+        s0 = TL[lid]["start"] - (1.3 if LN[lid].get("chapter") else 0.15)
+        add_note(hits, s0, 0.008, 2.6, lambda tt, s0: np.sin(2 * np.pi * np.cumsum(np.interp(tt, [0, 2.0], [85, 30])) / SR))
+    hits /= np.abs(hits).max() + 1e-9
+    bed = 0.26 * drone + 0.06 * mb + 0.45 * hits
+    del drone, mb, hits
+    bed *= np.clip(t / 1.5, 0, 1) * np.clip((TOTAL - t) / 2.5, 0, 1)
+    bed = (bed / np.abs(bed).max() * 0.6).astype(np.float32)
+    wavfile.write("bed.wav", SR, np.stack([bed, bed], 1))
+    del bed, t
 
 # ---------------- captions (lower third) ----------------
 def ts(x):
@@ -326,7 +331,8 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """ + "\n".join(ev) + "\n")
 
 # ---------------- mix + two-pass encode under 95 MB ----------------
-subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", "voice.wav", "-i", "bed.wav", "-filter_complex",
+if not os.path.exists("mix.wav") or "--rebed" in sys.argv:
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", "voice.wav", "-i", "bed.wav", "-filter_complex",
                 f"[0:a]aresample=44100,apad=whole_dur={TOTAL}[vo];[1:a]volume=0.5[bd];"
                 "[vo][bd]amix=inputs=2:duration=longest:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]",
                 "-map", "[a]", "-t", str(TOTAL), "-ar", "48000", "mix.wav"], check=True)

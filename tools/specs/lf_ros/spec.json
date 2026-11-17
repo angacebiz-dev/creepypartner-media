@@ -1,0 +1,830 @@
+{
+ "id": "Roswell1947",
+ "title_top": "ROSWELL\n1947",
+ "speed": 0.86,
+ "lines": [
+  {
+   "id": "hook",
+   "text": "July eighth, 1947. The United States Army told the world it had captured a flying saucer. One day later... it took it back. Almost eighty years on, people still can't agree on what fell out of the sky over New Mexico. Tonight... let's open the file."
+  },
+  {
+   "id": "p1",
+   "text": "June 1947. The war is over. America has the atomic bomb... and the Soviets are racing to build their own.",
+   "shots": [
+    {
+     "img": "lfr/r42.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ],
+   "chapter": "PART ONE|THE RANCH"
+  },
+  {
+   "id": "p2",
+   "text": "On June twenty fourth, a private pilot named Kenneth Arnold reports nine shining objects racing past Mount Rainier, faster than any plane he'd ever seen.",
+   "shots": [
+    {
+     "img": "lfr/r36.jpg",
+     "mode": "in",
+     "tint": null
+    },
+    {
+     "img": "lfr/r37.jpg",
+     "mode": "pan",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "text": "He said they moved like a saucer skipping across water. The newspapers boiled it down to two words. Flying saucers.",
+   "shots": [
+    {
+     "img": "lfr/r28.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "p4",
+   "text": "Within weeks, people all over the country are reporting strange lights in the sky.",
+   "shots": [
+    {
+     "img": "lfr/r60.jpg",
+     "mode": "in",
+     "tint": null
+    }
+   ]
+  },
+  {
+   "id": "p5",
+   "text": "Meanwhile, out in the high desert of New Mexico, on a remote sheep ranch near the town of Corona, a ranch foreman named Mac Brazel had already found something in his pasture.",
+   "shots": [
+    {
+     "img": "lfr/r52.jpg",
+     "mode": "in",
+     "tint": null
+    },
+    {
+     "img": "ros/L9842.jpg",
+     "mode": "in",
+     "tint": null
+    }
+   ]
+  },
+  {
+   "id": "p6",
+   "text": "A field of debris, scattered across the ground. Rubber strips. Shiny foil. Tough paper. Thin wooden sticks... and tape with strange markings on it.",
+   "shots": [
+    {
+     "img": "ros/f16e.jpg",
+     "mode": "in",
+     "tint": "grey"
+    },
+    {
+     "img": "lfr/r53.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "p7",
+   "text": "Out there, Brazel had no phone. No electricity. At first, he didn't think much of it.",
+   "shots": [
+    {
+     "img": "lfr/r51.jpg",
+     "mode": "up",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "p8",
+   "text": "But then he heard about the flying saucers... and he started to wonder.",
+   "shots": [
+    {
+     "img": "lfr/r14.jpg",
+     "mode": "in",
+     "tint": "sepia"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "p9",
+   "text": "On Sunday, July sixth, he drives into Roswell and walks into the office of Chaves County Sheriff George Wilcox, with a box of the material.",
+   "shots": [
+    {
+     "img": "ros/f17.jpg",
+     "mode": "in",
+     "tint": "sepia"
+    },
+    {
+     "img": "ros/f13.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "p10",
+   "text": "The sheriff calls the nearest military base. Roswell Army Air Field. Home of the five hundred and ninth Bomb Group.",
+   "shots": [
+    {
+     "img": "ros/f22.jpg",
+     "mode": "in",
+     "tint": null
+    },
+    {
+     "img": "ros/f23.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "p11",
+   "text": "At the time, it was the only unit in the world that had ever dropped an atomic bomb in war.",
+   "shots": [
+    {
+     "img": "lfr/r34.jpg",
+     "mode": "face",
+     "tint": "dark"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "p12",
+   "text": "The base sends its intelligence officer, Major Jesse Marcel, and a counterintelligence officer, Captain Sheridan Cavitt, back out to the ranch with Brazel.",
+   "shots": [
+    {
+     "img": "ros/f20e.jpg",
+     "mode": "in",
+     "tint": "grey"
+    },
+    {
+     "img": "ros/L9836.jpg",
+     "mode": "in",
+     "tint": null
+    }
+   ]
+  },
+  {
+   "id": "p13",
+   "text": "They gather up what they can... and bring it back to the base.",
+   "shots": [
+    {
+     "img": "ros/f21e.jpg",
+     "mode": "out",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "q1",
+   "text": "July eighth, 1947. The base commander, Colonel William Blanchard, has his public information officer, Lieutenant Walter Haut, send out a press release.",
+   "shots": [
+    {
+     "img": "lfr/r33.jpg",
+     "mode": "in",
+     "tint": "grey"
+    },
+    {
+     "img": "lfr/af10.jpg",
+     "mode": "in",
+     "tint": null
+    }
+   ],
+   "chapter": "PART TWO|THE PRESS RELEASE"
+  },
+  {
+   "id": "q2",
+   "text": "It says the five hundred and ninth has come into possession of a flying disc... recovered on a ranch near Roswell.",
+   "shots": [
+    {
+     "img": "lfr/r39.jpg",
+     "mode": "face",
+     "tint": "dark"
+    }
+   ],
+   "hit": true,
+   "overlay": "FLYING DISC\nJULY 8, 1947"
+  },
+  {
+   "id": "q3",
+   "text": "That afternoon, the Roswell Daily Record runs it across the front page. R A A F captures flying saucer on ranch in Roswell region.",
+   "shots": [
+    {
+     "img": "ros/f10.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "ros/L9844.jpg",
+     "mode": "up"
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "text": "The story hits the wire services. Within hours, newspapers and radio stations around the world are calling Roswell.",
+   "shots": [
+    {
+     "img": "ros/f15.jpg",
+     "mode": "in",
+     "tint": "sepia"
+    }
+   ]
+  },
+  {
+   "id": "q5",
+   "text": "Then the debris is flown to Fort Worth, Texas... to the headquarters of General Roger Ramey.",
+   "shots": [
+    {
+     "img": "lfr/r58.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "q6",
+   "text": "Ramey invites the press in. The debris is spread out on his office floor for the cameras.",
+   "shots": [
+    {
+     "img": "ros/L9840.jpg",
+     "mode": "in",
+     "tint": null
+    }
+   ]
+  },
+  {
+   "id": "q7",
+   "text": "And a weather officer identifies it. Not a flying disc. A weather balloon, with a radar target made of foil and balsa wood.",
+   "shots": [
+    {
+     "img": "ros/L9841.jpg",
+     "mode": "in",
+     "tint": null
+    },
+    {
+     "img": "lfr/r11.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "q8",
+   "text": "The pictures go out on the wire. And by the next morning, the flying disc is old news.",
+   "shots": [
+    {
+     "img": "ros/L9839.jpg",
+     "mode": "out",
+     "tint": null
+    }
+   ]
+  },
+  {
+   "id": "q9",
+   "text": "On July ninth, the Roswell paper runs a new headline. Harassed rancher who located saucer sorry he told about it.",
+   "shots": [
+    {
+     "img": "lfr/af15.jpg",
+     "mode": "in",
+     "tint": null
+    }
+   ]
+  },
+  {
+   "id": "q10",
+   "text": "Brazel told the paper he had found weather balloons twice before... and this didn't look like either of them. He also said, if he ever found anything again, short of a bomb, they'd have a hard time getting him to say a word.",
+   "shots": [
+    {
+     "img": "lfr/r12.jpg",
+     "mode": "out",
+     "tint": "grey"
+    },
+    {
+     "img": "lfr/r13.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "q11",
+   "text": "And then... silence.",
+   "shots": [
+    {
+     "img": "lfr/r43.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ],
+   "hit": true,
+   "pause": 1.0
+  },
+  {
+   "id": "s1",
+   "text": "For more than thirty years, Roswell was a footnote. A false alarm from the summer of the saucers.",
+   "shots": [
+    {
+     "img": "ros/f14.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ],
+   "chapter": "PART THREE|THIRTY YEARS OF SILENCE"
+  },
+  {
+   "id": "s2",
+   "text": "Then in 1978, a nuclear physicist turned UFO researcher named Stanton Friedman tracked down Jesse Marcel.",
+   "shots": [
+    {
+     "img": "lfr/r59.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "text": "Marcel was retired by then. And he said something that changed everything.",
+   "shots": [
+    {
+     "img": "lfr/r60.jpg",
+     "mode": "face",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "text": "He said the material he picked up on that ranch... was not from this earth.",
+   "shots": [
+    {
+     "img": "lfr/r39.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "s5",
+   "text": "He described foil that couldn't be dented, beams with strange symbols, and material that wouldn't burn. Later, he said the debris in the famous photos wasn't what he found on the ranch.",
+   "shots": [
+    {
+     "img": "ros/L9836.jpg",
+     "mode": "face",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "text": "In 1980, a book called The Roswell Incident made the story famous. More witnesses came forward. And the stories grew.",
+   "shots": [
+    {
+     "img": "lfr/r21.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "text": "A second crash site. A craft. And bodies.",
+   "shots": [
+    {
+     "img": "lfr/r25.jpg",
+     "mode": "face",
+     "tint": "dark"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "s8",
+   "text": "In 1989, a Roswell funeral director named Glenn Dennis said that in July 1947, the base called him asking about small, hermetically sealed coffins.",
+   "shots": [
+    {
+     "img": "ros/f12.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "text": "He said a nurse at the base hospital told him she had seen strange bodies. He drew sketches of what she described.",
+   "shots": [
+    {
+     "img": "lfr/r38.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "text": "But no record of a nurse by that name was ever found.",
+   "shots": [
+    {
+     "img": "lfr/r15.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "s11",
+   "text": "Still, by the nineties, millions of people believed the government was hiding a crashed spaceship.",
+   "shots": [
+    {
+     "img": "lfr/r23.jpg",
+     "mode": "in",
+     "tint": null
+    },
+    {
+     "img": "lfr/r24.jpg",
+     "mode": "out",
+     "tint": null
+    }
+   ]
+  },
+  {
+   "id": "t1",
+   "text": "In 1994, a New Mexico congressman, Steven Schiff, asked the General Accounting Office to find the records.",
+   "shots": [
+    {
+     "img": "lfr/r58.jpg",
+     "mode": "out",
+     "tint": null
+    }
+   ],
+   "chapter": "PART FOUR|THE AIR FORCE ANSWERS"
+  },
+  {
+   "id": "t2",
+   "text": "The answer came back strange. Roswell Army Air Field's outgoing messages... and its administrative records from those years... had been destroyed. And no one could find the paperwork saying who destroyed them, or why.",
+   "shots": [
+    {
+     "img": "lfr/af14.jpg",
+     "mode": "in",
+     "tint": null
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "t3",
+   "text": "That same year, the Air Force released its own report. It said Brazel had found the remains of a top secret program called Project Mogul.",
+   "shots": [
+    {
+     "img": "lfr/af09.jpg",
+     "mode": "in",
+     "tint": null
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "text": "Mogul sent long trains of balloons, hundreds of feet tall, into the upper atmosphere, carrying microphones to listen for the shock waves of Soviet nuclear tests.",
+   "shots": [
+    {
+     "img": "lfr/af13.jpg",
+     "mode": "up",
+     "tint": null
+    },
+    {
+     "img": "lfr/r10.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "t5",
+   "text": "They were launched from Alamogordo, New Mexico. And one of them, flight number four, went up on June fourth, 1947... and was lost.",
+   "shots": [
+    {
+     "img": "lfr/r43.jpg",
+     "mode": "pan",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "t6",
+   "text": "Balloons. Foil radar targets. Balsa sticks. And tape. The Air Force said some of that tape came from a toy company... printed with little flower patterns.",
+   "shots": [
+    {
+     "img": "lfr/r11.jpg",
+     "mode": "face",
+     "tint": "grey"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "t7",
+   "text": "Strange symbols, said the believers. Flowers, said the Air Force.",
+   "shots": [
+    {
+     "img": "lfr/af06.jpg",
+     "mode": "in",
+     "tint": null
+    }
+   ]
+  },
+  {
+   "id": "t8",
+   "text": "But that didn't explain the bodies. So in 1997, the Air Force released a second report. They called it... Case Closed.",
+   "shots": [
+    {
+     "img": "lfr/af01.jpg",
+     "mode": "in",
+     "tint": null
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "t9",
+   "text": "It said the alien bodies people remembered were most likely test dummies.",
+   "shots": [
+    {
+     "img": "lfr/af02.jpg",
+     "mode": "in",
+     "tint": null
+    }
+   ]
+  },
+  {
+   "id": "t10",
+   "text": "In the nineteen fifties, the Air Force dropped human sized dummies from high altitude balloons over New Mexico, to test parachutes for pilots.",
+   "shots": [
+    {
+     "img": "lfr/af05.jpg",
+     "mode": "in",
+     "tint": null
+    },
+    {
+     "img": "lfr/af03.jpg",
+     "mode": "in",
+     "tint": null
+    }
+   ]
+  },
+  {
+   "id": "t11",
+   "text": "Plain faces. No hair. Crews in uniforms would race out to recover them... sometimes carrying them off on stretchers.",
+   "shots": [
+    {
+     "img": "lfr/af04.jpg",
+     "mode": "in",
+     "tint": null
+    },
+    {
+     "img": "lfr/af07.jpg",
+     "mode": "out",
+     "tint": null
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "t12",
+   "text": "The report said witnesses had blended memories from different years together. A recovery from the fifties, remembered as the summer of 1947.",
+   "shots": [
+    {
+     "img": "lfr/af08.jpg",
+     "mode": "pan",
+     "tint": null
+    },
+    {
+     "img": "lfr/af11.jpg",
+     "mode": "in",
+     "tint": null
+    }
+   ]
+  },
+  {
+   "id": "t13",
+   "text": "The problem? The dummy drops didn't start until 1953. Six years after Roswell. Critics laughed... and believers said it only proved the cover up was still going.",
+   "shots": [
+    {
+     "img": "lfr/af12.jpg",
+     "mode": "in",
+     "tint": null
+    }
+   ]
+  },
+  {
+   "id": "u1",
+   "text": "Then, in 1995, something appeared that seemed to settle it.",
+   "shots": [
+    {
+     "img": "lfr/r38.jpg",
+     "mode": "face",
+     "tint": "dark"
+    }
+   ],
+   "chapter": "PART FIVE|THE ALIEN AUTOPSY"
+  },
+  {
+   "id": "u2",
+   "text": "A British businessman named Ray Santilli released grainy black and white film... of what looked like doctors cutting open an alien.",
+   "shots": [
+    {
+     "img": "ros/f12.jpg",
+     "mode": "face",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "u3",
+   "text": "He said a retired military cameraman had sold him the footage. Shot, he said, in 1947.",
+   "shots": [
+    {
+     "img": "lfr/r15.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "u4",
+   "text": "It aired on television in dozens of countries. Millions of people watched.",
+   "shots": [
+    {
+     "img": "lfr/r25.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "u5",
+   "text": "In 2006, Santilli admitted it was a reconstruction. Filmed in a London apartment, with a dummy built by a sculptor... stuffed with sheep brains, chicken guts, and knuckle joints.",
+   "shots": [
+    {
+     "img": "lfr/r39.jpg",
+     "mode": "face",
+     "tint": "grey"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "u6",
+   "text": "He still insists he once saw real footage... that had rotted away before anyone else could see it.",
+   "shots": [
+    {
+     "img": "lfr/r60.jpg",
+     "mode": "out",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "v1",
+   "text": "Walter Haut, the man who wrote that first press release, helped found the International UFO Museum in Roswell in 1991.",
+   "shots": [
+    {
+     "img": "ros/f18.jpg",
+     "mode": "in",
+     "tint": null
+    },
+    {
+     "img": "lfr/r21.jpg",
+     "mode": "out",
+     "tint": null
+    }
+   ],
+   "chapter": "PART SIX|STILL WATCHING THE SKIES"
+  },
+  {
+   "id": "v2",
+   "text": "For decades, he said he only knew what was in the press release.",
+   "shots": [
+    {
+     "img": "ros/f13.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "text": "He died in 2005. Two years later, a book published a sealed statement he had signed in 2002.",
+   "shots": [
+    {
+     "img": "lfr/r53.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "v4",
+   "text": "In it, he claimed he had seen the craft... and the bodies.",
+   "shots": [
+    {
+     "img": "lfr/r25.jpg",
+     "mode": "face",
+     "tint": "night"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "v5",
+   "text": "Skeptics point out that Haut didn't write that statement himself. It was put together from things he had said over the years... and he signed it at eighty.",
+   "shots": [
+    {
+     "img": "lfr/r28.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "text": "Then, in 2023, a former intelligence officer named David Grusch told Congress, under oath, that the government has recovered crashed craft... and what he called non human biologics.",
+   "shots": [
+    {
+     "img": "lfr/r59.jpg",
+     "mode": "out",
+     "tint": null
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "v7",
+   "text": "He said others had told him. He couldn't show the proof in public.",
+   "shots": [
+    {
+     "img": "lfr/r58.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "v8",
+   "text": "A year later, the Pentagon's UFO office said it had found no evidence of any of it. And that Roswell... was Project Mogul. Just like the Air Force said in 1994.",
+   "shots": [
+    {
+     "img": "lfr/af09.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "v9",
+   "text": "Today, Roswell has alien street lights, a UFO shaped McDonald's, and a UFO festival every July.",
+   "shots": [
+    {
+     "img": "ros/f14.jpg",
+     "mode": "out",
+     "tint": null
+    },
+    {
+     "img": "lfr/r26.jpg",
+     "mode": "in",
+     "tint": null
+    }
+   ]
+  },
+  {
+   "id": "v10",
+   "text": "Thousands of people come every year... to stand near the place where it all began.",
+   "shots": [
+    {
+     "img": "lfr/r24.jpg",
+     "mode": "in",
+     "tint": null
+    },
+    {
+     "img": "ros/f20e.jpg",
+     "mode": "out",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "So what really fell in the desert in 1947? A secret balloon... or something that was never supposed to be here? Tell me in the comments. Balloon... or not of this earth. And if you want more files like this one, subscribe. I'll be waiting, partner."
+  }
+ ]
+}
