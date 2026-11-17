@@ -1,0 +1,15 @@
+{"name": "hope",
+ "caption": "The most famous diamond in the world was mailed to the Smithsonian... in a plain brown package. Legend says it's cursed. Would you wear it? Comment 'NOT FOR A BILLION' or 'GIVE IT HERE' #hopediamond #cursedobjects #curse #smithsonian #mystery #creepy #history",
+ "title": "The cursed diamond in a museum",
+ "ritual": "Comment 'NOT FOR A BILLION' or 'GIVE IT HERE'",
+ "slides": [
+  {"text": "THIS DIAMOND IS SAID TO CURSE ITS OWNERS", "cover": true, "img": "hope/02.jpg"},
+  {"text": "The Hope Diamond. 45.52 carats. Deep blue. Worth an estimated quarter billion dollars or more.", "img": "hope/01.jpg"},
+  {"text": "Legend says it was stolen from the eye of a statue in India. That part was probably invented... but the story stuck.", "img": "hope/02.jpg", "zoom": 1.4, "tint": "dark"},
+  {"text": "It belonged to French royalty. Louis XVI and Marie Antoinette both lost their heads to the guillotine.", "img": "hope/03.jpg", "tint": "grey"},
+  {"text": "In 1792, during the French Revolution, the crown jewels were stolen. The diamond vanished.", "img": "hope/03.jpg", "zoom": 1.3, "tint": "dark"},
+  {"text": "It resurfaced in London, recut, and ended up with the Hope family. They went broke and had to sell it.", "img": "hope/04.jpg", "tint": "grey"},
+  {"text": "Its next famous owner, Evalyn Walsh McLean, lost her son in an accident, her daughter to an overdose, and her husband to a mental hospital.", "img": "hope/01.jpg", "zoom": 1.3, "tint": "dark"},
+  {"text": "In 1958, jeweler Harry Winston gave it to the Smithsonian. He sent it by registered mail, in a plain brown package.", "img": "hope/04.jpg"},
+  {"text": "The mailman who delivered it? Legend says he had a run of bad luck right after. It's still on display in Washington, D.C.", "img": "hope/02.jpg", "zoom": 1.2}
+ ]}

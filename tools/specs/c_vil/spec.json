@@ -1,0 +1,15 @@
+{"name": "villisca",
+ "caption": "8 people were killed in this house in 1912. The killer was never caught. Today you can sleep there. Would you? Comment 'NOT A CHANCE' or 'I'D STAY' #villisca #unsolved #truecrimehistory #coldcase #hauntedhouse #creepy #iowa",
+ "title": "You can sleep in this house",
+ "ritual": "Comment 'NOT A CHANCE' or 'I'D STAY'",
+ "slides": [
+  {"text": "8 PEOPLE DIED IN THIS HOUSE. YOU CAN SLEEP IN IT.", "cover": true, "img": "vil/01.jpg"},
+  {"text": "June 9, 1912. Villisca, Iowa. The Moore family walks home from a church program with two young guests.", "img": "vil/04.jpg", "tint": "grey"},
+  {"text": "Josiah and Sara Moore, their four children, and two sisters staying the night: Lena and Ina Stillinger, ages 12 and 8.", "img": "vil/04.jpg", "zoom": 1.3, "tint": "grey"},
+  {"text": "The next morning, the house was silent. A neighbor noticed no one had come out to do the chores.", "img": "vil/01.jpg", "zoom": 1.3, "tint": "dark"},
+  {"text": "All eight had been killed in their sleep. The killer was never caught.", "img": "vil/02.jpg", "tint": "grey"},
+  {"text": "Suspects came and went. One man was tried twice: a hung jury, then an acquittal.", "img": "vil/02.jpg", "zoom": 1.5, "focus": 0.3, "tint": "grey"},
+  {"text": "More than 110 years later, it's still one of America's most infamous unsolved crimes.", "img": "vil/03.jpg", "tint": "dark"},
+  {"text": "The house still stands at 508 E. 2nd Street. Restored to how it looked in 1912.", "img": "vil/01.jpg"},
+  {"text": "It's open for tours... and you can stay the night. Visitors report footsteps and children's voices.", "img": "vil/01.jpg", "zoom": 1.6, "focus": 0.4, "tint": "dark"}
+ ]}
