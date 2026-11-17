@@ -84,20 +84,20 @@
      "tint": "grey"
     },
     {
+     "img": "zod/L9850.jpg",
+     "mode": "up"
+    },
+    {
      "img": "zod/L9848.jpg",
      "mode": "in",
      "focus": 0.4
-    },
-    {
-     "img": "zod/L9850.jpg",
-     "mode": "up"
     }
    ],
    "hit": true
   },
   {
    "id": "l7",
-   "text": "For decades, detectives like Inspector Dave Toschi chased suspect after suspect. A Chronicle cartoonist, Robert Graysmith, spent years on it and wrote a book. No one was ever charged.",
+   "text": "For decades, detectives like Inspector Dave Toschi chased suspect after suspect.",
    "shots": [
     {
      "img": "zod/L9845.jpg",
@@ -108,7 +108,13 @@
      "img": "zod/L9846.jpg",
      "mode": "in",
      "focus": 0.4
-    },
+    }
+   ]
+  },
+  {
+   "id": "l7b",
+   "text": "A Chronicle cartoonist, Robert Graysmith, spent years on it and wrote a book. No one was ever charged.",
+   "shots": [
     {
      "img": "zod/L9847.jpg",
      "mode": "in",
