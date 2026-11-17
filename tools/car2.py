@@ -26,8 +26,11 @@ def credit(path):
     return f"Photo: {who} / {m.get('license', '?')} / {m.get('src', 'Wikimedia Commons')}"
 
 
-def bg_photo(path, focus=0.45, zoom=1.0, tint=None):
+def bg_photo(path, focus=0.45, zoom=1.0, tint=None, cover=False):
     im = Image.open(WK + path).convert("RGB")
+    if not cover and im.width / im.height <= 0.8:  # tall photo on a text slide: frame it so the text stays readable
+        ch = int(im.width / 0.82); top = int((im.height - ch) * focus)
+        im = im.crop((0, max(0, top), im.width, max(0, top) + ch))
     if im.width / im.height > 0.8:
         bg = ImageOps.fit(im, (W, H)).filter(ImageFilter.GaussianBlur(28)); bg = ImageEnhance.Brightness(bg).enhance(0.35)
         fw = int(W * zoom); fg = im.resize((fw, int(im.height * fw / im.width)), Image.LANCZOS)
@@ -96,7 +99,7 @@ def build(spec_path, video=False):
     name = S["name"]; slides = S["slides"]; n = len(slides) + 1
     files = []
     for i, s in enumerate(slides):
-        a = bg_photo(s["img"], s.get("focus", 0.45), s.get("zoom", 1.0), s.get("tint")) if s.get("img") else np.zeros((H, W, 3), np.float32) + 10
+        a = bg_photo(s["img"], s.get("focus", 0.45), s.get("zoom", 1.0), s.get("tint"), bool(s.get("cover"))) if s.get("img") else np.zeros((H, W, 3), np.float32) + 10
         im = render(a, s, i, n, s.get("img"))
         fn = f"{out}/{name}_{i + 1:02d}.jpg"; im.save(fn, quality=88); files.append(fn)
     pa = np.asarray(Image.open("/home/claude/partner/THE_PARTNER_vertical_1080x1920.png").convert("RGB")).astype(np.float32) * 0.55

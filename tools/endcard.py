@@ -39,6 +39,25 @@ wavfile.write("endcard_bed.wav", SR, np.stack([bed, bed], 1))
 ff = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
                        "-i", "-", "-f", "wav", "-i", "endcard_bed.wav", "-c:v", "libx264", "-preset", "medium", "-b:v", "6M",
                        "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-shortest", out], stdin=subprocess.PIPE)
+def _fit(txt, start=88, minsz=66):
+    _d = ImageDraw.Draw(Image.new("RGB", (10, 10)))
+    sz = start
+    while _d.textlength(txt, font=A(sz)) > 1000 and sz > minsz:
+        sz -= 4
+    return sz, _d.textlength(txt, font=A(sz)) <= 1000
+_sz, _ok = _fit(comment)
+if _ok:
+    CLINES = [(900, comment, A(_sz))]
+else:  # two lines
+    w = comment.split(" "); best = None
+    for k in range(1, len(w)):
+        a, b = " ".join(w[:k]), " ".join(w[k:]); m = max(len(a), len(b))
+        if best is None or m < best[0]: best = (m, a, b)
+    a, b = best[1], best[2]
+    _d = ImageDraw.Draw(Image.new("RGB", (10, 10))); sz = 84
+    while max(_d.textlength(a, font=A(sz)), _d.textlength(b, font=A(sz))) > 1000 and sz > 50:
+        sz -= 4
+    CLINES = [(872, a, A(sz)), (872 + int(sz * 1.08), b, A(sz))]
 for i in range(int(DUR * FPS)):
     tt = i / FPS; p = min(tt / 0.35, 1.0)
     fr = bg.copy(); d = ImageDraw.Draw(fr)
@@ -46,7 +65,8 @@ for i in range(int(DUR * FPS)):
     fc = face.resize((int(560*z), int(560*z)), Image.LANCZOS); mm = m.resize(fc.size)
     fr.paste(fc, ((W - fc.width)//2, 260 - (fc.height - 560)//2), mm)
     d.ellipse(((W-560)//2 - 6, 254, (W+560)//2 + 6, 826), outline=(220, 30, 30), width=8)
-    centered(d, 900, comment, A(88), (255, 214, 0))
+    for _y, _t, _f in CLINES:
+        centered(d, _y, _t, _f, (255, 214, 0))
     centered(d, 1080, "FOLLOW", A(80), (255, 255, 255))
     centered(d, 1180, "CREEPY PARTNER", A(118), (255, 255, 255), 8)
     if tt > 0.25:
