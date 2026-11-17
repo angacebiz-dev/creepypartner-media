@@ -1,0 +1,175 @@
+{
+ "id": "13_IslandDolls",
+ "title_top": "ISLAND OF THE DOLLS",
+ "speed": 0.86,
+ "cover": {
+  "img": "dol/f19.jpg",
+  "title": "He hung them for her. For 50 years.",
+  "focus_y": 0.35
+ },
+ "comment": "COMMENT 'I'D GO' OR 'NOT A CHANCE'",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "He hung dolls for fifty years. For a dead girl."
+  },
+  {
+   "id": "l1",
+   "text": "Xochimilco, Mexico City. A maze of old canals and floating gardens, south of the city.",
+   "shots": [
+    {
+     "img": "dol/f21.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "dol/f23.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "On one tiny island lived a man named Don Julián Santana. Alone, for decades.",
+   "shots": [
+    {
+     "img": "dol/f39.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "He told people that a young girl drowned in the canal right by his island.",
+   "shots": [
+    {
+     "img": "dol/f14.jpg",
+     "mode": "in",
+     "tint": "dark",
+     "focus": 0.6
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "And soon after... he found a doll, floating in the water.",
+   "hit": true,
+   "shots": [
+    {
+     "img": "dol/f19.jpg",
+     "mode": "face",
+     "tint": "dark",
+     "focus": 0.35
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "He hung it in a tree, to honor her. Then he hung another. And another.",
+   "shots": [
+    {
+     "img": "dol/f11.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "dol/f12b.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "For about fifty years, he pulled dolls out of the trash and out of the canals. Hundreds of them.",
+   "shots": [
+    {
+     "img": "dol/f10.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "dol/f37.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "text": "On trees. On fences. Hanging from the roof of his shack. Some say he believed they kept her spirit at peace.",
+   "shots": [
+    {
+     "img": "dol/f18.jpg",
+     "mode": "up",
+     "tint": "dark"
+    },
+    {
+     "img": "dol/f33.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "text": "Then, in April 2001, his nephew found Don Julián face down in the canal. Dead.",
+   "hit": true,
+   "shots": [
+    {
+     "img": "dol/f13.jpg",
+     "mode": "face",
+     "tint": "dark",
+     "focus": 0.3
+    }
+   ]
+  },
+  {
+   "id": "l9",
+   "text": "Reports say he was found in the same spot where he said the girl had died.",
+   "shots": [
+    {
+     "img": "dol/f22.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l10",
+   "text": "No record of the girl has ever been found. But his family kept the island... and the dolls.",
+   "shots": [
+    {
+     "img": "dol/f41.jpg",
+     "mode": "in",
+     "tint": "grey"
+    },
+    {
+     "img": "dol/f30.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "l11",
+   "text": "Today, boats take tourists there. The dolls are still hanging. Rotting in the sun and the rain.",
+   "shots": [
+    {
+     "img": "dol/f40.jpg",
+     "mode": "in",
+     "tint": "grey"
+    },
+    {
+     "img": "dol/f34.jpg",
+     "mode": "face",
+     "tint": "dark",
+     "focus": 0.4
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Would you spend a night there? Comment I'd go, or not a chance. Sleep tight, partner."
+  }
+ ]
+}
