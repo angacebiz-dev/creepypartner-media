@@ -7,7 +7,7 @@
   "title": "The Exorcist set was cursed?",
   "focus_y": 0.5
  },
- "comment": "COMMENT 'NOT ALONE' IF YOU WON'T WATCH IT ALONE",
+ "comment": "COMMENT 'NOT ALONE'",
  "lines": [
   {
    "id": "hook",
@@ -18,9 +18,9 @@
    "text": "1949. A fourteen year old boy from Maryland, known only as Roland Doe.",
    "shots": [
     {
-     "img": "exo/f22.jpg",
+     "img": "exo/f16.jpg",
      "mode": "in",
-     "tint": "grey"
+     "tint": "night"
     }
    ]
   },

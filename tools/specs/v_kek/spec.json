@@ -1,0 +1,20 @@
+{
+ "id": "07_Kecksburg",
+ "title_top": "THE KECKSBURG CRASH",
+ "speed": 0.86,
+ "cover": {"img": "kek/f12.jpg", "title": "Something fell. NASA lost the file.", "focus_y": 0.45},
+ "comment": "COMMENT 'METEOR' OR 'COVER-UP'",
+ "lines": [
+  {"id": "hook", "text": "In 1965, something fell out of the sky over Pennsylvania... and the government files about it went missing."},
+  {"id": "l1", "text": "December ninth, 1965. Just before dark, a huge fireball streaks across the sky.", "shots": [{"img": "kek/f16.jpg", "mode": "in"}]},
+  {"id": "l2", "text": "People report it in at least six states and in Canada.", "shots": [{"img": "kek/f19.jpg", "mode": "out", "tint": "night"}]},
+  {"id": "l3", "text": "Then, in a tiny village called Kecksburg, Pennsylvania, people say something came down in the woods.", "hit": true, "shots": [{"img": "kek/f10.jpg", "mode": "in", "tint": "night"}]},
+  {"id": "l4", "text": "Some witnesses described a metal object shaped like a giant acorn... with strange writing around the base, almost like hieroglyphics.", "shots": [{"img": "kek/f10.jpg", "mode": "face", "tint": "night", "focus": 0.6}]},
+  {"id": "l5", "text": "They said soldiers sealed off the woods... and a flatbed truck hauled something away under a tarp.", "shots": [{"img": "kek/f18.jpg", "mode": "in", "tint": "night"}]},
+  {"id": "l6", "text": "The official answer? An Air Force memo said the searchers could not find anything. It was called a meteor.", "shots": [{"img": "kek/f16.jpg", "mode": "out", "tint": "grey"}]},
+  {"id": "l7", "text": "Decades later, a reporter named Leslie Kean sued NASA for its records. NASA said important files had been lost.", "hit": true, "shots": [{"img": "kek/f19.jpg", "mode": "in", "tint": "grey"}]},
+  {"id": "l8", "text": "In 2007, NASA agreed in court to search again. The mystery was never solved.", "shots": [{"img": "kek/f10.jpg", "mode": "out", "tint": "grey"}]},
+  {"id": "l9", "text": "Today there's a giant acorn by the Kecksburg fire hall. It's a replica, built for the TV show Unsolved Mysteries... and the town still throws a UFO festival.", "shots": [{"img": "kek/f11.jpg", "mode": "in"}, {"img": "kek/f14.jpg", "mode": "out"}]},
+  {"id": "end", "text": "So what fell in those woods? A meteor... or a cover-up? Comment... and sleep tight, partner."}
+ ]
+}

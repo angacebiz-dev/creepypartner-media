@@ -1,0 +1,116 @@
+{
+ "id": "11_TheConqueror",
+ "title_top": "THE CONQUEROR",
+ "speed": 0.86,
+ "cover": {
+  "img": "con/f12.jpg",
+  "title": "They filmed downwind of the bomb",
+  "focus_y": 0.45
+ },
+ "comment": "COMMENT 'NOT WORTH IT'",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Hollywood shot a movie in the desert... and years later, almost half the people who made it had cancer."
+  },
+  {
+   "id": "l1",
+   "text": "1954. Howard Hughes' studio is filming The Conqueror, a big budget epic starring John Wayne.",
+   "shots": [
+    {
+     "img": "con/f16.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "They shoot near St. George, Utah, in a red rock canyon called Snow Canyon.",
+   "shots": [
+    {
+     "img": "con/f17.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "con/f20.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "About a hundred and forty miles away is the Nevada Test Site. Where the United States was setting off atomic bombs in the open air.",
+   "shots": [
+    {
+     "img": "con/f10.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "l4",
+   "text": "The year before, a test nicknamed Dirty Harry sent a cloud of fallout drifting over southern Utah.",
+   "shots": [
+    {
+     "img": "con/f11.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "con/f13.jpg",
+     "mode": "out"
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "Cast and crew spent weeks in that dust. The studio even shipped tons of the dirt back to Hollywood for reshoots.",
+   "shots": [
+    {
+     "img": "con/f15.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "By 1980, a magazine counted ninety one of the two hundred and twenty people who worked on the film with cancer. Forty six had died of it.",
+   "shots": [
+    {
+     "img": "con/f12.jpg",
+     "mode": "face"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "l7",
+   "text": "John Wayne. Susan Hayward. Agnes Moorehead. The director, Dick Powell. Wayne was also a heavy smoker, and scientists still argue about the link.",
+   "shots": [
+    {
+     "img": "con/f14.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "text": "Hughes reportedly felt so guilty, he bought up every copy of the film and kept it off TV for years.",
+   "shots": [
+    {
+     "img": "con/f21.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Would you have taken the job? Comment not worth it... and sleep tight, partner."
+  }
+ ]
+}

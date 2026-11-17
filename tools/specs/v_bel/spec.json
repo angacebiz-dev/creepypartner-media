@@ -1,0 +1,115 @@
+{
+ "id": "12_BellWitch",
+ "title_top": "THE BELL WITCH",
+ "speed": 0.86,
+ "cover": {
+  "img": "bel/f11.jpg",
+  "title": "The ghost that was blamed for a death",
+  "focus_y": 0.45
+ },
+ "comment": "COMMENT 'NOT THE CAVE'",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "There's a legend in Tennessee about a spirit that tormented a family for years... and then took the blame for killing the father."
+  },
+  {
+   "id": "l1",
+   "text": "1817. Adams, Tennessee. A farmer named John Bell sees a strange animal in his cornfield. He shoots at it. It vanishes.",
+   "shots": [
+    {
+     "img": "bel/f15.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "Then the knocking starts. On the walls. On the doors. Night after night.",
+   "shots": [
+    {
+     "img": "bel/f12.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "l3",
+   "text": "The family said invisible hands pulled their hair and slapped their faces. Especially his daughter, Betsy.",
+   "shots": [
+    {
+     "img": "bel/f13.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "Then came a voice. It sang hymns. It repeated sermons word for word. And it swore it would kill John Bell.",
+   "shots": [
+    {
+     "img": "bel/f14.jpg",
+     "mode": "up",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "People came from all over to hear it. The legend says even Andrew Jackson rode out to see it... and left by morning.",
+   "shots": [
+    {
+     "img": "bel/f20.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "December 1820. John Bell dies. A strange little bottle is found by his bed. The voice takes the credit.",
+   "shots": [
+    {
+     "img": "bel/f11.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "l7",
+   "text": "Historians can't find records from the time. The story was written down decades later. But in Adams, people still believe it.",
+   "shots": [
+    {
+     "img": "bel/f21.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "text": "There's a cave on the old Bell farm. Today it's open for tours... and visitors say they've heard knocking. And voices.",
+   "shots": [
+    {
+     "img": "bel/f10.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "bel/f22.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Would you go in? Comment not the cave... and sleep tight, partner."
+  }
+ ]
+}

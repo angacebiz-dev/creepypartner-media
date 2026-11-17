@@ -1,0 +1,117 @@
+{
+ "id": "09_RobertDoll",
+ "title_top": "ROBERT THE DOLL",
+ "speed": 0.86,
+ "cover": {
+  "img": "rob/f13.jpg",
+  "title": "Never take his picture without asking",
+  "focus_y": 0.4
+ },
+ "comment": "COMMENT 'SORRY ROBERT'",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "This doll gets letters every year... from people begging him to forgive them."
+  },
+  {
+   "id": "l1",
+   "text": "Key West, Florida. Early nineteen hundreds. A little boy named Gene Otto is given a doll almost as big as he is.",
+   "shots": [
+    {
+     "img": "rob/f21.jpg",
+     "mode": "in",
+     "tint": "grey"
+    },
+    {
+     "img": "rob/f34.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "Gene names the doll Robert. His own first name. He even dresses it in his own sailor suit.",
+   "shots": [
+    {
+     "img": "rob/f12.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "When things went wrong in the house, Gene always had the same answer. Robert did it.",
+   "shots": [
+    {
+     "img": "rob/f15.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "l4",
+   "text": "Gene grew up to be an artist. He kept Robert his whole life, in the house on Eaton Street.",
+   "shots": [
+    {
+     "img": "rob/f31.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "Gene died in 1974. The next owner of the house claimed the doll moved on its own... and that she heard footsteps in the attic.",
+   "shots": [
+    {
+     "img": "rob/f19.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "In 1994, Robert was donated to the Fort East Martello Museum.",
+   "shots": [
+    {
+     "img": "rob/f16.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "text": "Today he sits behind glass, holding a toy lion. Visitors are told one rule: ask his permission before you take his picture.",
+   "shots": [
+    {
+     "img": "rob/f10.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "rob/f13.jpg",
+     "mode": "face"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "l8",
+   "text": "People who didn't ask blame him for car wrecks, breakups, lost jobs. And the museum keeps getting letters, apologizing to Robert.",
+   "shots": [
+    {
+     "img": "rob/f20.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Would you ask him first? Comment sorry Robert... just in case. Sleep tight, partner."
+  }
+ ]
+}

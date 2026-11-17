@@ -1,0 +1,50 @@
+{
+ "name": "centralia",
+ "caption": "In 1962 a fire was lit at the town dump in Centralia, Pennsylvania. It reached the coal underground... and it's still burning. Would you visit? Comment 'I'D GO' or 'NOPE' #centralia #pennsylvania #ghosttown #silenthill #abandoned #creepy #unexplained",
+ "title": "This town has been on fire since 1962",
+ "ritual": "Comment 'I'D GO' or 'NOPE'",
+ "slides": [
+  {
+   "text": "THIS TOWN HAS BEEN ON FIRE SINCE 1962",
+   "img": "cen/f12.jpg",
+   "cover": true
+  },
+  {
+   "text": "Centralia, Pennsylvania. A coal mining town of more than 1,000 people.",
+   "img": "cen/f14.jpg"
+  },
+  {
+   "text": "May 1962. A fire is lit at the town dump, inside an old strip mine pit. It reaches a coal seam underground.",
+   "img": "cen/f15.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "They tried to put it out. It kept spreading through the old mines under the town.",
+   "img": "cen/f10.jpg"
+  },
+  {
+   "text": "Smoke poured out of cracks in the ground. Gas levels in some basements became dangerous.",
+   "img": "cen/f11.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "In 1981, the ground opened under a 12-year-old boy's feet. He grabbed a tree root and was pulled out alive.",
+   "img": "cen/f20.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "The government paid people to leave. Most houses were torn down. In 1992 the state took over the town.",
+   "img": "cen/f25.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "The old highway cracked open from the heat. The town is said to have inspired the movie Silent Hill.",
+   "img": "cen/f21.jpg"
+  },
+  {
+   "text": "Only a handful of residents remain. Experts say the fire could burn for another 250 years.",
+   "img": "cen/f23.jpg",
+   "tint": "dark"
+  }
+ ]
+}

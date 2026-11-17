@@ -2,7 +2,7 @@
  "name": "dybbuk",
  "caption": "It was sold on eBay in 2003. Every owner since has a story. Would you open it? Type 'I'LL NEVER OPEN IT' if you want to sleep tonight. #dybbukbox #hauntedobjects #cursedobjects #creepy #scary #hauntedmuseum #paranormal",
  "title": "This box was sold on eBay",
- "ritual": "Type 'I'll never open it' if you want to sleep tonight",
+ "ritual": "Type 'I'LL NEVER OPEN IT'",
  "slides": [
   {
    "text": "THIS BOX WAS SOLD ON EBAY... AND NOBODY KEEPS IT",
@@ -16,7 +16,7 @@
   },
   {
    "text": "His listing says it came from an estate sale... and that it held a dybbuk, a restless spirit from Jewish folklore.",
-   "img": "dyb/front.jpg",
+   "img": "dyb/box2.jpg",
    "tint": "grey"
   },
   {
@@ -36,7 +36,7 @@
   },
   {
    "text": "Its story inspired the 2012 horror movie The Possession.",
-   "img": "dyb/front.jpg",
+   "img": "dyb/box2.jpg",
    "tint": "dark",
    "zoom": 1.3
   },
@@ -45,10 +45,8 @@
    "img": "dyb/f23.jpg"
   },
   {
-   "text": "The twist: in 2021, Kevin Mannis told a reporter he made the whole story up. People still won't touch it.",
-   "img": "dyb/box.jpg",
-   "tint": "grey",
-   "zoom": 1.25
+   "text": "The twist: in 2021, Kevin Mannis told a reporter he made the whole story up. He'd already hinted at it online in 2015. People still won't touch it.",
+   "img": "dyb/mannis.jpg"
   }
  ]
 }

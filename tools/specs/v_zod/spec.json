@@ -1,0 +1,112 @@
+{
+ "id": "08_Zodiac",
+ "title_top": "THE ZODIAC KILLER",
+ "speed": 0.86,
+ "cover": {
+  "img": "zod/f15.jpg",
+  "title": "He was never caught",
+  "focus_y": 0.4
+ },
+ "comment": "COMMENT 'CASE STILL OPEN'",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "In the late 1960s, a killer in California mailed letters to the newspapers... daring the police to catch him. They never did."
+  },
+  {
+   "id": "l1",
+   "text": "Northern California. December 1968. A young couple is shot on a quiet road outside Vallejo.",
+   "shots": [
+    {
+     "img": "zod/f13.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "Six months later, another couple is attacked at a parking lot called Blue Rock Springs.",
+   "shots": [
+    {
+     "img": "zod/f14.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "Then the letters arrive. He calls himself the Zodiac. He sends coded messages and dares anyone to crack them.",
+   "shots": [
+    {
+     "img": "zod/f20.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "l4",
+   "text": "September 1969. Lake Berryessa. Two people are attacked by a man in a black hood. Only one survives.",
+   "shots": [
+    {
+     "img": "zod/f12.jpg",
+     "mode": "up",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "October 1969. San Francisco. A cab driver is shot in the Presidio Heights neighborhood. The killer walks away into the night.",
+   "shots": [
+    {
+     "img": "zod/f15.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ],
+   "overlay": "PRESIDIO HEIGHTS\nOCT 11, 1969"
+  },
+  {
+   "id": "l6",
+   "text": "Police confirmed five killed. In his letters, he claimed thirty seven.",
+   "shots": [
+    {
+     "img": "zod/f17.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "l7",
+   "text": "For decades, detectives chased suspect after suspect. No one was ever charged.",
+   "shots": [
+    {
+     "img": "zod/f21.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "text": "In 2020, three amateur codebreakers finally cracked one of his ciphers. Fifty one years later. It still didn't give his name.",
+   "shots": [
+    {
+     "img": "zod/f22.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "The case is still open. Comment case still open... and sleep tight, partner."
+  }
+ ]
+}

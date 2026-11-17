@@ -1,0 +1,20 @@
+{
+ "id": "06_Mothman",
+ "title_top": "THE MOTHMAN",
+ "speed": 0.86,
+ "cover": {"img": "moth/f10.jpg", "title": "13 months later, the bridge fell", "focus_y": 0.35},
+ "comment": "COMMENT 'OMEN' OR 'JUST AN OWL'",
+ "lines": [
+  {"id": "hook", "text": "In 1966, a town in West Virginia started seeing something with red eyes... and a year later, forty six people were dead."},
+  {"id": "l1", "text": "Point Pleasant, West Virginia. A small river town on the Ohio.", "shots": [{"img": "moth/f12.jpg", "mode": "in"}, {"img": "moth/f20.jpg", "mode": "out", "tint": "grey"}]},
+  {"id": "l2", "text": "November fifteenth, 1966. Two young couples are driving near an old World War Two explosives plant the locals call the TNT area.", "shots": [{"img": "moth/f16.jpg", "mode": "in", "tint": "night"}, {"img": "moth/f17.jpg", "mode": "in", "tint": "night"}]},
+  {"id": "l3", "text": "In their headlights, they say they saw a gray figure, taller than a man... with huge wings and glowing red eyes.", "hit": true, "shots": [{"img": "moth/f17.jpg", "mode": "face", "tint": "night", "focus": 0.4}]},
+  {"id": "l4", "text": "They floored it. They told the sheriff it kept up with their car... even at a hundred miles an hour.", "shots": [{"img": "moth/f16.jpg", "mode": "out", "tint": "night"}]},
+  {"id": "l5", "text": "The newspapers gave it a name. Mothman. And over the next year, dozens more people reported seeing it.", "shots": [{"img": "moth/f18.jpg", "mode": "in", "tint": "grey"}]},
+  {"id": "l6", "text": "Then came December fifteenth, 1967.", "hit": true, "shots": [{"img": "moth/f21.jpg", "mode": "up", "tint": "grey"}]},
+  {"id": "l7", "text": "At rush hour, the Silver Bridge over the Ohio River collapsed. Thirty one vehicles fell into the water. Forty six people died.", "overlay": "SILVER BRIDGE\nDEC 15, 1967", "shots": [{"img": "moth/f13.jpg", "mode": "in", "tint": "grey"}, {"img": "moth/f14.jpg", "mode": "out", "tint": "grey"}]},
+  {"id": "l8", "text": "Investigators traced it to one cracked steel link. But in town, people noticed something else. After the bridge fell... the sightings mostly stopped.", "shots": [{"img": "moth/f15.jpg", "mode": "in", "tint": "grey"}]},
+  {"id": "l9", "text": "Skeptics say it was a large owl or a sandhill crane. Believers call it an omen. Today a steel Mothman statue stands downtown... and thousands come every September for the Mothman Festival.", "shots": [{"img": "moth/f11.jpg", "mode": "up"}, {"img": "moth/f22.jpg", "mode": "in"}]},
+  {"id": "end", "text": "So what did they see? Omen... or just an owl? Comment... and sleep tight, partner."}
+ ]
+}

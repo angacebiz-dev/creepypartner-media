@@ -1,0 +1,51 @@
+{
+ "name": "salem",
+ "caption": "1692. Two girls in Salem start having fits. Within months, 200+ people are accused of witchcraft and 20 are executed. This house belonged to one of the judges. Comment 'INNOCENT' for the 20 #salem #salemwitchtrials #witchhouse #massachusetts #history #truehorror #creepy",
+ "title": "The Salem witch trials",
+ "ritual": "Comment 'INNOCENT' for the 20",
+ "slides": [
+  {
+   "text": "20 PEOPLE WERE EXECUTED AS WITCHES. THIS WAS THE JUDGE'S HOUSE.",
+   "img": "sal/f14.jpg",
+   "cover": true
+  },
+  {
+   "text": "Salem, Massachusetts. Early 1692. Two young girls begin having fits: screaming, twisting, crawling under furniture.",
+   "img": "sal/f11.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "A doctor blamed witchcraft. The girls named three women. Then more names came.",
+   "img": "sal/f13.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "Within months, more than 200 people were accused.",
+   "img": "sal/f22.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "Nineteen were hanged at Proctor's Ledge. One man, Giles Corey, was pressed to death under heavy stones for refusing to enter a plea.",
+   "img": "sal/f24.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "This house belonged to Judge Jonathan Corwin. It's the only building still standing with direct ties to the trials.",
+   "img": "sal/f16.jpg"
+  },
+  {
+   "text": "By 1693 it was over. Years later, a judge and 12 jurors publicly apologized.",
+   "img": "sal/f23.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "In 1992, Salem dedicated this memorial: a stone bench for each person executed.",
+   "img": "sal/f10.jpg"
+  },
+  {
+   "text": "Every October, huge crowds come to Salem. The Witch House is open for tours.",
+   "img": "sal/f15.jpg",
+   "tint": "dark"
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "id": "10_Roswell",
+ "title_top": "ROSWELL, 1947",
+ "speed": 0.86,
+ "cover": {
+  "img": "ros/f10.jpg",
+  "title": "The Army said 'flying disc.' Then took it back.",
+  "focus_y": 0.3
+ },
+ "comment": "COMMENT 'BALLOON' OR 'ALIENS'",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "In 1947, the United States Army announced it had captured a flying saucer. The next day... it took it back."
+  },
+  {
+   "id": "l1",
+   "text": "June 1947. A rancher named Mac Brazel finds strange debris scattered across a ranch outside Roswell, New Mexico.",
+   "shots": [
+    {
+     "img": "ros/f17.jpg",
+     "mode": "in",
+     "tint": "grey"
+    },
+    {
+     "img": "ros/f16.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "Rubber strips. Tinfoil. Tough paper. Sticks. He brings some of it to the sheriff.",
+   "shots": [
+    {
+     "img": "ros/f13.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "July eighth. The Roswell Army Air Field puts out a press release. They have recovered a flying disc.",
+   "shots": [
+    {
+     "img": "ros/f20.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "l4",
+   "text": "The Roswell Daily Record runs it on the front page. R A A F captures flying saucer on ranch in Roswell region.",
+   "shots": [
+    {
+     "img": "ros/f10.jpg",
+     "mode": "face"
+    }
+   ],
+   "overlay": "ROSWELL DAILY RECORD\nJULY 8, 1947"
+  },
+  {
+   "id": "l5",
+   "text": "Within hours, the Army changes its story. It was just a weather balloon.",
+   "shots": [
+    {
+     "img": "ros/f22.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "l6",
+   "text": "For thirty years, almost nobody talked about it. Then, in the late seventies, people started coming forward with stories of bodies and a cover up.",
+   "shots": [
+    {
+     "img": "ros/f14.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "text": "In 1994, the Air Force said the debris came from Project Mogul. Secret balloons built to listen for Soviet nuclear tests.",
+   "shots": [
+    {
+     "img": "ros/f23.jpg",
+     "mode": "out",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l8",
+   "text": "Today, Roswell has a UFO museum, alien street lights, and a UFO festival every summer.",
+   "shots": [
+    {
+     "img": "ros/f18.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "ros/f15.jpg",
+     "mode": "out"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "So what crashed? A balloon... or something else? Comment balloon or aliens... and sleep tight, partner."
+  }
+ ]
+}

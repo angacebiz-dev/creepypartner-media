@@ -1,0 +1,50 @@
+{
+ "name": "stanley",
+ "caption": "Stephen King stayed one night in Room 217 at the Stanley Hotel in 1974. That night gave us The Shining. You can book the room today. Would you? Comment 'ROOM 217' if you'd stay #stanleyhotel #theshining #stephenking #hauntedhotel #colorado #creepy #horrormovies",
+ "title": "The hotel behind The Shining",
+ "ritual": "Comment 'ROOM 217' if you'd stay",
+ "slides": [
+  {
+   "text": "THIS HOTEL GAVE STEPHEN KING THE SHINING",
+   "img": "sta/f12.jpg",
+   "cover": true
+  },
+  {
+   "text": "Estes Park, Colorado. The Stanley Hotel opened in 1909, high in the Rocky Mountains.",
+   "img": "sta/f10.jpg"
+  },
+  {
+   "text": "It was built by F.O. Stanley, co-inventor of the Stanley Steamer car.",
+   "img": "sta/f15.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "October 1974. Stephen King and his wife check in... the night before the hotel shuts down for winter.",
+   "img": "sta/f13.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "They were almost the only guests. Empty halls. Chairs stacked on tables. They stayed in Room 217.",
+   "img": "sta/f22.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "King said he had a nightmare that night about his young son being chased through the halls.",
+   "img": "sta/f14.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "By morning, he had the idea for The Shining.",
+   "img": "sta/f11.jpg"
+  },
+  {
+   "text": "For decades staff and guests have reported strange things: footsteps, voices, a piano playing by itself.",
+   "img": "sta/f20.jpg"
+  },
+  {
+   "text": "Room 217 is now one of the most requested rooms in the hotel. You can book it tonight.",
+   "img": "sta/f21.jpg",
+   "tint": "dark"
+  }
+ ]
+}
