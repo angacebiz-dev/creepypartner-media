@@ -1,0 +1,150 @@
+{
+ "id": "TAPES_LockedInside",
+ "header": "THE TAPES",
+ "total": 76.6,
+ "bed": 0.45,
+ "fiction": true,
+ "cover": {
+  "img": "tapes/img/f4.jpg",
+  "title": "SHE LOCKED\nTHE DOOR",
+  "focus_y": 0.5
+ },
+ "comment": "COMMENT \"RACHEL\" FOR PART 2",
+ "center": {
+  "img": "tapes/img/f4.jpg",
+  "cap1": "911 CALL \u00b7 BIRCH HOLLOW ROAD",
+  "cap2": "CALLER: RACHEL, 31",
+  "credit": "Photos: Ed Yourdon / Flickr (CC BY-NC-SA)  \u00b7  vmokry / Flickr (CC0)  \u00b7  slworking2 / Flickr (CC BY-NC-SA)  \u00b7  Sarah Ross photography / Flickr (CC BY-NC)  \u00b7  Bold Frontiers / Flickr (CC BY)"
+ },
+ "smalls": [
+  {
+   "img": "tapes/img/f2.jpg",
+   "label": "THE HOUSE",
+   "focus": 0.5
+  },
+  {
+   "img": "tapes/img/f5.jpg",
+   "label": "911",
+   "focus": 0.5
+  },
+  {
+   "img": "tapes/img2/chall_1.jpg",
+   "label": "UPSTAIRS HALL",
+   "focus": 0.5
+  },
+  {
+   "img": "tapes/img/f1.jpg",
+   "label": "DOWNSTAIRS",
+   "focus": 0.5
+  }
+ ],
+ "audio": "/home/claude/partner/wk/tapes/el/B_dialogue.wav",
+ "subs": [
+  {
+   "t0": 0.75,
+   "t1": 2.98,
+   "spk": "DISPATCH",
+   "text": "911, what's your emergency?"
+  },
+  {
+   "t0": 3.18,
+   "t1": 6.99,
+   "spk": "CALLER",
+   "text": "There's someone in my house! Please... please, he's inside!"
+  },
+  {
+   "t0": 7.19,
+   "t1": 9.41,
+   "spk": "DISPATCH",
+   "text": "Okay ma'am, I need your address."
+  },
+  {
+   "t0": 9.61,
+   "t1": 13.53,
+   "spk": "CALLER",
+   "text": "418 Birch Hollow Road. Please hurry!"
+  },
+  {
+   "t0": 13.73,
+   "t1": 16.69,
+   "spk": "DISPATCH",
+   "text": "Officers are on the way. Where are you right now?"
+  },
+  {
+   "t0": 16.89,
+   "t1": 20.85,
+   "spk": "CALLER",
+   "text": "Upstairs. In the bathroom. I locked the door."
+  },
+  {
+   "t0": 21.05,
+   "t1": 24.06,
+   "spk": "DISPATCH",
+   "text": "Good. Stay there. Do you know who it is?"
+  },
+  {
+   "t0": 24.26,
+   "t1": 29.92,
+   "spk": "CALLER",
+   "text": "No! There's been a truck parked across the street all week. I called you guys on Monday!"
+  },
+  {
+   "t0": 30.12,
+   "t1": 34.19,
+   "spk": "DISPATCH",
+   "text": "Okay. Stay as quiet as you can for me. Can you hear him?"
+  },
+  {
+   "t0": 34.39,
+   "t1": 38.94,
+   "spk": "CALLER",
+   "text": "He's on the stairs... oh my God, he's coming up the stairs..."
+  },
+  {
+   "t0": 46.54,
+   "t1": 49.29,
+   "spk": "UNKNOWN",
+   "text": "Rachel... I know you're in there."
+  },
+  {
+   "t0": 49.94,
+   "t1": 53.64,
+   "spk": "CALLER",
+   "text": "He knows my name. How does he know my name?"
+  },
+  {
+   "t0": 53.84,
+   "t1": 57.8,
+   "spk": "DISPATCH",
+   "text": "Ma'am, they're two minutes out. Stay on the line with me. Ma'am?"
+  },
+  {
+   "t0": 59.65,
+   "t1": 61.98,
+   "spk": "CALLER",
+   "text": "No! No, please!"
+  }
+ ],
+ "cards": [
+  {
+   "t0": 65.33,
+   "t1": 67.93,
+   "text": "OFFICERS ARRIVED\\N2 MINUTES LATER"
+  },
+  {
+   "t0": 68.08,
+   "t1": 70.68,
+   "text": "THE BATHROOM DOOR\\NWAS STILL LOCKED"
+  },
+  {
+   "t0": 70.83,
+   "t1": 73.43,
+   "text": "FROM THE INSIDE"
+  },
+  {
+   "t0": 73.58,
+   "t1": 76.18,
+   "text": "RACHEL WAS GONE"
+  }
+ ]
+}

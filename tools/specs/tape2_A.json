@@ -1,0 +1,175 @@
+{
+ "id": "TAPES_JAL1628",
+ "header": "THE TAPES",
+ "total": 82.1,
+ "bed": 0.45,
+ "fiction": false,
+ "cover": {
+  "img": "tapes/img2/ajal_1.jpg",
+  "title": "JAPAN AIR 1628:\nTHE UFO TAPE",
+  "focus_y": 0.5
+ },
+ "comment": "COMMENT \"UNKNOWN TO US\" IF YOU'D DEVIATE TOO",
+ "center": {
+  "img": "tapes/img2/ajal_0.jpg",
+  "cap1": "JAPAN AIR LINES 1628 \u00b7 BOEING 747 CARGO",
+  "cap2": "NOV. 17, 1986 \u00b7 OVER ALASKA",
+  "credit": "Photos: FAA public record \u00b7 plane: a JAL 747, not the actual one  \u00b7  \u00d3glaigh na h\u00c9ireann / Flickr (CC BY)  \u00b7  frostnip907 / Flickr (CC BY-NC-SA)  \u00b7  allenthepostman / Flickr (CC BY-SA)"
+ },
+ "smalls": [
+  {
+   "img": "tapes/jal/memo.jpg",
+   "label": "FAA MEMO, 1987",
+   "focus": 0.3
+  },
+  {
+   "img": "tapes/jal/p22-02c.jpg",
+   "label": "FAA RADAR REPLAY",
+   "focus": 0.5
+  },
+  {
+   "img": "tapes/img2/acock_1.jpg",
+   "label": "747 COCKPIT AT NIGHT",
+   "focus": 0.5
+  },
+  {
+   "img": "tapes/img2/asky_0.jpg",
+   "label": "NIGHT SKY",
+   "focus": 0.5
+  }
+ ],
+ "audio": "/home/claude/partner/wk/tapes/el/A_dialogue.wav",
+ "subs": [
+  {
+   "t0": 0.75,
+   "t1": 3.83,
+   "spk": "JAL 1628",
+   "text": "Ah... do you have any traffic in front of us?"
+  },
+  {
+   "t0": 4.18,
+   "t1": 7.27,
+   "spk": "ANCHORAGE CENTER",
+   "text": "Japan Air 1628 heavy, negative."
+  },
+  {
+   "t0": 7.62,
+   "t1": 14.53,
+   "spk": "JAL 1628",
+   "text": "Japan Air 1628, roger. And ah, we in sight, ah, two traffic, ah, in front of us. One mile."
+  },
+  {
+   "t0": 14.88,
+   "t1": 19.13,
+   "spk": "ANCHORAGE CENTER",
+   "text": "Japan Air 1628, roger. Can you identify the aircraft?"
+  },
+  {
+   "t0": 19.48,
+   "t1": 23.39,
+   "spk": "JAL 1628",
+   "text": "Ah, we are not sure, but ah, we have traffic in sight now."
+  },
+  {
+   "t0": 23.74,
+   "t1": 27.71,
+   "spk": "ANCHORAGE CENTER",
+   "text": "Did you get another target up there, by that 1550 code?"
+  },
+  {
+   "t0": 28.06,
+   "t1": 35.92,
+   "spk": "MILITARY RADAR",
+   "text": "Okay, I've got your squawk. It looks like I am getting some primary return. I don't know if it's erroneous or whatever, but..."
+  },
+  {
+   "t0": 36.27,
+   "t1": 38.65,
+   "spk": "ANCHORAGE CENTER",
+   "text": "Negative. It's not erroneous."
+  },
+  {
+   "t0": 39.0,
+   "t1": 43.29,
+   "spk": "MILITARY RADAR",
+   "text": "That is affirm. We do not have anybody up there right now."
+  },
+  {
+   "t0": 43.64,
+   "t1": 45.56,
+   "spk": "ANCHORAGE CENTER",
+   "text": "That is unknown to us."
+  },
+  {
+   "t0": 45.91,
+   "t1": 47.17,
+   "spk": "MILITARY RADAR",
+   "text": "It is what?"
+  },
+  {
+   "t0": 47.52,
+   "t1": 49.96,
+   "spk": "ANCHORAGE CENTER",
+   "text": "It is... unknown to us."
+  },
+  {
+   "t0": 51.36,
+   "t1": 54.87,
+   "spk": "JAL 1628",
+   "text": "Request, ah, deviate, ah... from object."
+  },
+  {
+   "t0": 55.22,
+   "t1": 57.64,
+   "spk": "JAL 1628",
+   "text": "It's, ah... quite big."
+  },
+  {
+   "t0": 58.24,
+   "t1": 62.19,
+   "spk": "ANCHORAGE CENTER",
+   "text": "Japan Air 1628 heavy, you're broken. Say again."
+  },
+  {
+   "t0": 62.54,
+   "t1": 67.66,
+   "spk": "JAL 1628",
+   "text": "It's, ah... I think, ah... very quite big... plane."
+  },
+  {
+   "t0": 68.86,
+   "t1": 72.69,
+   "spk": "ANCHORAGE CENTER",
+   "text": "Japan Air 1628 heavy, do you still have your traffic?"
+  },
+  {
+   "t0": 73.04,
+   "t1": 75.01,
+   "spk": "JAL 1628",
+   "text": "Still... formation."
+  }
+ ],
+ "cards": [
+  {
+   "t0": 0,
+   "t1": 1.6,
+   "text": "REAL FAA\\NTRANSCRIPT"
+  },
+  {
+   "t0": 76.31,
+   "t1": 78.91,
+   "text": "THE CAPTAIN SAID\\NONE WAS TWICE\\NTHE SIZE OF AN\\NAIRCRAFT CARRIER"
+  },
+  {
+   "t0": 79.06,
+   "t1": 81.66,
+   "text": "THE FAA'S ANSWER:\\NA \"SPLIT RADAR\\NRETURN\" OF HIS\\NOWN PLANE"
+  }
+ ],
+ "tag": "REAL FAA TRANSCRIPT  \u00b7  VOICES RECREATED",
+ "tag_color": [
+  25,
+  70,
+  150
+ ]
+}

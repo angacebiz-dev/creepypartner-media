@@ -1,0 +1,126 @@
+{
+ "id": "TAPES_InterviewRoom2",
+ "header": "THE TAPES",
+ "total": 56.9,
+ "bed": 0.45,
+ "fiction": true,
+ "cover": {
+  "img": "tapes/img2/gmine_0.jpg",
+  "title": "HE SET THE\nTABLE FOR SIX",
+  "focus_y": 0.5
+ },
+ "comment": "COMMENT \"SEVEN\" FOR PART 2",
+ "center": {
+  "img": "tapes/img2/gtape_0.jpg",
+  "cap1": "INTERVIEW ROOM 2 \u00b7 TAPE 1",
+  "cap2": "SUBJECT: JOHN DOE",
+  "credit": "Photos: Laenulfean / Flickr (CC BY-SA)  \u00b7  Thomas Shahan 3 / Flickr (CC BY-NC)  \u00b7  PeterThoeny / Flickr (CC BY-NC-SA)  \u00b7  VinothChandar / Flickr (CC BY)  \u00b7  Leo Reynolds / Flickr (CC BY-NC-SA)"
+ },
+ "smalls": [
+  {
+   "img": "tapes/img2/gwood_0.jpg",
+   "label": "PELL WOODS",
+   "focus": 0.5
+  },
+  {
+   "img": "tapes/img2/gmine_0.jpg",
+   "label": "THE HILLSIDE",
+   "focus": 0.5
+  },
+  {
+   "img": "tapes/img2/gmine_2.jpg",
+   "label": "THE DOOR",
+   "focus": 0.5
+  },
+  {
+   "img": "tapes/img2/gwood_1.jpg",
+   "label": "1 A.M.",
+   "focus": 0.5
+  }
+ ],
+ "audio": "/home/claude/partner/wk/tapes/el/G_dialogue.wav",
+ "subs": [
+  {
+   "t0": 0.75,
+   "t1": 8.39,
+   "spk": "DET. COLE",
+   "text": "This is Detective Cole, interview room two. Subject was found walking out of Pell Woods at 1 A.M. State your name, please."
+  },
+  {
+   "t0": 8.59,
+   "t1": 10.6,
+   "spk": "JOHN DOE",
+   "text": "I don't remember my name."
+  },
+  {
+   "t0": 10.8,
+   "t1": 14.74,
+   "spk": "DET. COLE",
+   "text": "You had a hiking permit for six people. Where are the other five?"
+  },
+  {
+   "t0": 15.59,
+   "t1": 17.33,
+   "spk": "JOHN DOE",
+   "text": "They're still down there."
+  },
+  {
+   "t0": 17.53,
+   "t1": 18.45,
+   "spk": "DET. COLE",
+   "text": "Down where?"
+  },
+  {
+   "t0": 19.2,
+   "t1": 24.5,
+   "spk": "JOHN DOE",
+   "text": "Under the hill. There's a door in the hill. We thought it was an old mine."
+  },
+  {
+   "t0": 24.7,
+   "t1": 26.49,
+   "spk": "DET. COLE",
+   "text": "And what happened in the mine?"
+  },
+  {
+   "t0": 27.34,
+   "t1": 34.28,
+   "spk": "JOHN DOE",
+   "text": "It wasn't a mine. It was a house. Someone lives down there. He set the table for six."
+  },
+  {
+   "t0": 34.48,
+   "t1": 36.93,
+   "spk": "DET. COLE",
+   "text": "So why did he let you leave?"
+  },
+  {
+   "t0": 38.38,
+   "t1": 44.03,
+   "spk": "JOHN DOE",
+   "text": "He said you'd come looking. He told me to tell you... he's setting the table for seven."
+  }
+ ],
+ "cards": [
+  {
+   "t0": 45.58,
+   "t1": 48.18,
+   "text": "SEARCH TEAMS FOUND\\NA DOOR IN THE HILL"
+  },
+  {
+   "t0": 48.33,
+   "t1": 50.93,
+   "text": "BEHIND IT:\\NSTAIRS GOING DOWN"
+  },
+  {
+   "t0": 51.08,
+   "t1": 53.68,
+   "text": "DETECTIVE COLE\\NWENT IN FIRST"
+  },
+  {
+   "t0": 53.83,
+   "t1": 56.43,
+   "text": "HE NEVER\\NCAME BACK UP"
+  }
+ ]
+}

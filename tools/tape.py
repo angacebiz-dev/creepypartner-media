@@ -43,6 +43,10 @@ SW, SH = 300, 300
 pos = [(150, 190), (630, 190), (150, 1240), (630, 1240)]
 for (x, y), s in zip(pos, spec["smalls"]):
     lay.paste(framed(s["img"], SW, SH, 6, s.get("focus", 0.5)), (x - 6, y - 6))
+    if s.get("label"):
+        fl = F("Anton-Regular.ttf", 26); lt = s["label"]; lw = d.textlength(lt, font=fl)
+        d.rectangle((x, y + SH - 38, x + SW, y + SH), fill=(0, 0, 0))
+        d.text((x + (SW - lw) / 2, y + SH - 37), lt, font=fl, fill=(235, 235, 235))
     if s.get("bar"):
         d.polygon([(x + 40, y + 200), (x + 70, y + 230), (x + 260, y + 80), (x + 230, y + 50)], fill=(0, 0, 0))
 CX, CY, CW, CH = 205, 540, 670, 560
@@ -61,10 +65,11 @@ for k, t in enumerate([c.get("cap1", ""), c.get("cap2", "")]):
 fa = F("Anton-Regular.ttf", 54)
 hd = spec.get("header", "THE TAPES")
 d.text(((W - d.textlength(hd, font=fa)) / 2, 70), hd, font=fa, fill=(230, 230, 235))
-if spec.get("fiction"):
-    ft = "FICTION  ·  A CREEPY PARTNER ORIGINAL"; f2 = F("Anton-Regular.ttf", 34)
-    tw = d.textlength(ft, font=f2); d.rectangle(((W - tw) / 2 - 16, 140, (W + tw) / 2 + 16, 182), fill=(170, 20, 20))
-    d.text(((W - tw) / 2, 141), ft, font=f2, fill=(255, 255, 255))
+tag = spec.get("tag") or ("FICTION  ·  A CREEPY PARTNER ORIGINAL" if spec.get("fiction") else None)
+if tag:
+    f2 = F("Anton-Regular.ttf", 32); col = tuple(spec.get("tag_color", [170, 20, 20]))
+    tw = d.textlength(tag, font=f2); d.rectangle(((W - tw) / 2 - 16, 138, (W + tw) / 2 + 16, 178), fill=col)
+    d.text(((W - tw) / 2, 139), tag, font=f2, fill=(255, 255, 255))
 # credits
 cr = "  ·  ".join(x for x in [c.get("credit")] + [s.get("credit") for s in spec["smalls"]] if x)
 fc = F("SpecialElite.ttf", 21)
@@ -75,8 +80,9 @@ for wds in words:
     else: cur = t
 lines.append(cur)
 for k, t in enumerate(lines[:3]):
-    d.text(((W - d.textlength(t, font=fc)) / 2, 1580 + 26 * k), t, font=fc, fill=(120, 125, 150))
+    d.text(((W - d.textlength(t, font=fc)) / 2, 1838 + 26 * k), t, font=fc, fill=(120, 125, 150))
 lay.save("layout.png")
+if os.environ.get("LAYOUT_ONLY"): sys.exit(0)
 
 # ---------------- VHS overlay (alpha loop) ----------------
 if not os.path.exists("vhs.mov"):
@@ -119,7 +125,7 @@ def ts(x):
 ass = ["[Script Info]", "ScriptType: v4.00+", f"PlayResX: {W}", f"PlayResY: {H}", "WrapStyle: 0", "",
        "[V4+ Styles]",
        "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding",
-       "Style: S,Special Elite,50,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,0,0,0,0,100,100,0,0,1,3,1,8,80,80,1688,1",
+       "Style: S,Special Elite,50,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,0,0,0,0,100,100,0,0,1,3,1,8,80,80,1565,1",
        "Style: C,Anton,74,&H00FFFFFF,&H00FFFFFF,&H00000000,&HC0000000,0,0,0,0,100,100,1,0,3,18,0,5,90,90,0,1",
        "", "[Events]", "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"]
 for s in spec["subs"]:

@@ -1,0 +1,138 @@
+{
+ "id": "TAPES_WelfareCheck",
+ "header": "THE TAPES",
+ "total": 77.8,
+ "bed": 0.45,
+ "fiction": true,
+ "cover": {
+  "img": "tapes/img2/estair_0.jpg",
+  "title": "UNIT 12 NEVER\nCAME BACK",
+  "focus_y": 0.5
+ },
+ "comment": "COMMENT \"DON'T UNCOVER THEM\" FOR PART 2",
+ "center": {
+  "img": "tapes/img2/epol_0.jpg",
+  "cap1": "POLICE RADIO \u00b7 UNIT 12",
+  "cap2": "WELFARE CHECK \u00b7 61 HOLLIS ROAD",
+  "credit": "Photos: Alex E. Proimos / Flickr (CC BY-NC)  \u00b7  kewl / Flickr (CC BY)  \u00b7  anvosa / Flickr (CC BY-NC-SA)  \u00b7  Still Burning / Flickr (CC BY-NC)  \u00b7  appleswitch / Flickr (CC BY-NC-SA)"
+ },
+ "smalls": [
+  {
+   "img": "tapes/img2/epol_1.jpg",
+   "label": "UNIT 12",
+   "focus": 0.5
+  },
+  {
+   "img": "tapes/img2/ekit_1.jpg",
+   "label": "THE KITCHEN",
+   "focus": 0.5
+  },
+  {
+   "img": "tapes/img2/estair_0.jpg",
+   "label": "THE STAIRS",
+   "focus": 0.5
+  },
+  {
+   "img": "tapes/img2/ekit_0.jpg",
+   "label": "THE HOUSE",
+   "focus": 0.5
+  }
+ ],
+ "audio": "/home/claude/partner/wk/tapes/el/E_dialogue.wav",
+ "subs": [
+  {
+   "t0": 0.75,
+   "t1": 11.65,
+   "spk": "DISPATCH",
+   "text": "Unit 12, welfare check, 61 Hollis Road. Neighbor says the resident hasn't been seen in two weeks, but the lights come on every night."
+  },
+  {
+   "t0": 12.0,
+   "t1": 14.21,
+   "spk": "UNIT 12",
+   "text": "12, copy. En route."
+  },
+  {
+   "t0": 15.81,
+   "t1": 19.85,
+   "spk": "UNIT 12",
+   "text": "12, on scene. Front door's wide open. Going in."
+  },
+  {
+   "t0": 20.2,
+   "t1": 27.31,
+   "spk": "UNIT 12",
+   "text": "Dispatch, every mirror in this house is covered. Sheets, towels, tape. Every single one."
+  },
+  {
+   "t0": 27.66,
+   "t1": 31.12,
+   "spk": "DISPATCH",
+   "text": "Copy, 12. Any sign of the resident?"
+  },
+  {
+   "t0": 31.47,
+   "t1": 36.04,
+   "spk": "UNIT 12",
+   "text": "Negative. There's a plate on the kitchen table. The food's still warm."
+  },
+  {
+   "t0": 36.39,
+   "t1": 40.54,
+   "spk": "DISPATCH",
+   "text": "12, be advised, neighbor says he lived alone."
+  },
+  {
+   "t0": 41.54,
+   "t1": 44.54,
+   "spk": "UNIT 12",
+   "text": "Dispatch... I hear someone walking upstairs."
+  },
+  {
+   "t0": 44.89,
+   "t1": 48.94,
+   "spk": "DISPATCH",
+   "text": "12, backup is six minutes out. Hold your position."
+  },
+  {
+   "t0": 49.29,
+   "t1": 53.83,
+   "spk": "UNIT 12",
+   "text": "There's a note taped to the stairs. It says... don't uncover them."
+  },
+  {
+   "t0": 54.23,
+   "t1": 57.25,
+   "spk": "UNIT 12",
+   "text": "Hey! Police! Don't move! Don't move!"
+  },
+  {
+   "t0": 60.65,
+   "t1": 65.17,
+   "spk": "DISPATCH",
+   "text": "12? Unit 12, status? ... 12, respond."
+  }
+ ],
+ "cards": [
+  {
+   "t0": 66.47,
+   "t1": 69.07,
+   "text": "BACKUP FOUND HIS\\NCRUISER RUNNING"
+  },
+  {
+   "t0": 69.22,
+   "t1": 71.82,
+   "text": "EVERY MIRROR IN\\NTHE HOUSE..."
+  },
+  {
+   "t0": 71.97,
+   "t1": 74.57,
+   "text": "WAS UNCOVERED"
+  },
+  {
+   "t0": 74.72,
+   "t1": 77.32,
+   "text": "UNIT 12 WAS\\NNEVER FOUND"
+  }
+ ]
+}

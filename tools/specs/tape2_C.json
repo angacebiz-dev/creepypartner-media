@@ -1,0 +1,144 @@
+{
+ "id": "TAPES_BabyMonitor",
+ "header": "THE TAPES",
+ "total": 68.9,
+ "bed": 0.45,
+ "fiction": true,
+ "cover": {
+  "img": "tapes/img2/cmon_2.jpg",
+  "title": "THE BABY\nMONITOR CALL",
+  "focus_y": 0.5
+ },
+ "comment": "COMMENT \"LILY\" FOR PART 2",
+ "center": {
+  "img": "tapes/img2/cmon_2.jpg",
+  "cap1": "911 CALL \u00b7 22 CARVER LANE",
+  "cap2": "CALLER: THE BABYSITTER",
+  "credit": "Photos: benjaflynn / Flickr (CC BY)  \u00b7  fsse8info / Flickr (CC BY-SA)  \u00b7  ANBerlin [Ondr\u00e9] / Flickr (CC BY-NC-SA)  \u00b7  ricardodiaz11 / Flickr (CC BY)  \u00b7  DaGoaty / Flickr (CC BY)"
+ },
+ "smalls": [
+  {
+   "img": "tapes/img/f3.jpg",
+   "label": "THE HOUSE",
+   "focus": 0.5
+  },
+  {
+   "img": "tapes/img2/cmon_0.jpg",
+   "label": "THE MONITOR",
+   "focus": 0.5
+  },
+  {
+   "img": "tapes/img2/estair_1.jpg",
+   "label": "THE STAIRS",
+   "focus": 0.5
+  },
+  {
+   "img": "tapes/img2/chall_0.jpg",
+   "label": "THE NURSERY HALL",
+   "focus": 0.5
+  }
+ ],
+ "audio": "/home/claude/partner/wk/tapes/el/C_dialogue.wav",
+ "subs": [
+  {
+   "t0": 0.75,
+   "t1": 3.73,
+   "spk": "DISPATCH",
+   "text": "911, what's the address of your emergency?"
+  },
+  {
+   "t0": 3.93,
+   "t1": 10.24,
+   "spk": "CALLER",
+   "text": "Um, hi, I'm babysitting at 22 Carver Lane. I think someone's in the baby's room."
+  },
+  {
+   "t0": 10.44,
+   "t1": 12.58,
+   "spk": "DISPATCH",
+   "text": "Okay. Did you see someone?"
+  },
+  {
+   "t0": 12.78,
+   "t1": 18.94,
+   "spk": "CALLER",
+   "text": "No, I heard him. On the baby monitor. Some man is talking to the baby. He's singing to her."
+  },
+  {
+   "t0": 19.14,
+   "t1": 20.67,
+   "spk": "DISPATCH",
+   "text": "Where are you right now?"
+  },
+  {
+   "t0": 20.87,
+   "t1": 25.57,
+   "spk": "CALLER",
+   "text": "Downstairs. The nursery's right at the top of the stairs."
+  },
+  {
+   "t0": 25.77,
+   "t1": 28.8,
+   "spk": "DISPATCH",
+   "text": "Don't go up there. Is anyone else in the house?"
+  },
+  {
+   "t0": 29.0,
+   "t1": 33.98,
+   "spk": "CALLER",
+   "text": "No! The parents are at a wedding. It's just me and Lily."
+  },
+  {
+   "t0": 36.65,
+   "t1": 40.29,
+   "spk": "MONITOR",
+   "text": "Shhh... don't cry. She can't hear us."
+  },
+  {
+   "t0": 40.49,
+   "t1": 44.29,
+   "spk": "CALLER",
+   "text": "Oh my God, he's talking again. Can you hear that?"
+  },
+  {
+   "t0": 44.49,
+   "t1": 48.9,
+   "spk": "DISPATCH",
+   "text": "I hear it. Officers are almost there. Stay right where you are."
+  },
+  {
+   "t0": 50.15,
+   "t1": 51.84,
+   "spk": "MONITOR",
+   "text": "I can hear you too."
+  },
+  {
+   "t0": 52.04,
+   "t1": 54.25,
+   "spk": "CALLER",
+   "text": "He knows I'm listening..."
+  }
+ ],
+ "cards": [
+  {
+   "t0": 57.6,
+   "t1": 60.2,
+   "text": "THE BABY WAS SAFE\\NIN HER CRIB"
+  },
+  {
+   "t0": 60.35,
+   "t1": 62.95,
+   "text": "NO ONE ELSE WAS\\NIN THE HOUSE"
+  },
+  {
+   "t0": 63.1,
+   "t1": 65.7,
+   "text": "BUT THE MONITOR\\NIN THE NURSERY..."
+  },
+  {
+   "t0": 65.85,
+   "t1": 68.45,
+   "text": "WAS GONE"
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "id": "TAPES_LastVoicemails",
+ "header": "THE TAPES",
+ "total": 73.8,
+ "bed": 0.45,
+ "fiction": true,
+ "cover": {
+  "img": "tapes/img2/dcar_2.jpg",
+  "title": "HER LAST\nVOICEMAILS",
+  "focus_y": 0.5
+ },
+ "comment": "COMMENT \"CALL HER BACK\" FOR PART 2",
+ "center": {
+  "img": "tapes/img2/droad_0.jpg",
+  "cap1": "4 VOICEMAILS \u00b7 ROUTE 9",
+  "cap2": "FROM: MEGAN  \u00b7  TO: JESS",
+  "credit": "Photos: confidence, comely. / Flickr (CC BY-NC)  \u00b7  Curtis Gregory Perry / Flickr (CC BY-NC-SA)  \u00b7  eioua / Flickr (CC BY)  \u00b7  Photo Cindy / Flickr (CC BY)  \u00b7  eVo photo / Flickr (CC BY-SA)"
+ },
+ "smalls": [
+  {
+   "img": "tapes/img2/dphone_2.jpg",
+   "label": "HER PHONE",
+   "focus": 0.5
+  },
+  {
+   "img": "tapes/img2/dtruck_1.jpg",
+   "label": "THE TRUCK",
+   "focus": 0.5
+  },
+  {
+   "img": "tapes/img2/dcar_1.jpg",
+   "label": "ROUTE 9",
+   "focus": 0.5
+  },
+  {
+   "img": "tapes/img2/dphone_0.jpg",
+   "label": "12:34 A.M.",
+   "focus": 0.5
+  }
+ ],
+ "audio": "/home/claude/partner/wk/tapes/el/D_dialogue.wav",
+ "subs": [
+  {
+   "t0": 0.7,
+   "t1": 5.34,
+   "spk": "VOICEMAIL",
+   "text": "First saved message. Friday. 11:42 P.M."
+  },
+  {
+   "t0": 6.14,
+   "t1": 13.57,
+   "spk": "MEGAN",
+   "text": "Hey Jess, it's me. My car just died on Route 9, like, in the middle of nowhere. I barely have signal. Call me back, okay?"
+  },
+  {
+   "t0": 14.32,
+   "t1": 17.37,
+   "spk": "VOICEMAIL",
+   "text": "Next message. 11:58 P.M."
+  },
+  {
+   "t0": 18.17,
+   "t1": 28.59,
+   "spk": "MEGAN",
+   "text": "Okay, some guy pulled over. He has jumper cables. He's nice, I guess. He keeps asking if I'm alone. I'll call you when I'm moving."
+  },
+  {
+   "t0": 29.34,
+   "t1": 32.42,
+   "spk": "VOICEMAIL",
+   "text": "Next message. 12:21 A.M."
+  },
+  {
+   "t0": 33.22,
+   "t1": 41.94,
+   "spk": "MEGAN",
+   "text": "Jess, his truck didn't leave. It's parked behind me with the lights off. He's just sitting there, watching. I locked the doors. Please call me."
+  },
+  {
+   "t0": 42.69,
+   "t1": 45.73,
+   "spk": "VOICEMAIL",
+   "text": "Next message. 12:34 A.M."
+  },
+  {
+   "t0": 46.53,
+   "t1": 54.83,
+   "spk": "MEGAN",
+   "text": "He's at my window. He's not saying anything. He's just smiling. Jess, he's trying the door. He's trying the door!"
+  },
+  {
+   "t0": 56.78,
+   "t1": 59.63,
+   "spk": "VOICEMAIL",
+   "text": "Next message. 3:15 A.M."
+  },
+  {
+   "t0": 60.43,
+   "t1": 63.11,
+   "spk": "UNKNOWN",
+   "text": "She says... call her back."
+  }
+ ],
+ "cards": [
+  {
+   "t0": 65.26,
+   "t1": 67.86,
+   "text": "HER CAR WAS FOUND\\NTHE NEXT MORNING"
+  },
+  {
+   "t0": 68.01,
+   "t1": 70.61,
+   "text": "DOORS STILL LOCKED.\\NKEYS IN THE IGNITION."
+  },
+  {
+   "t0": 70.76,
+   "t1": 73.36,
+   "text": "THE LAST MESSAGE\\NCAME FROM\\NHER PHONE"
+  }
+ ]
+}
