@@ -1,0 +1,658 @@
+{
+ "id": "HauntedStays",
+ "title_top": "7 HAUNTED\nSTAYS",
+ "speed": 0.86,
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Seven places where something terrible happened. And every one of them will rent you a bed for the night. Tonight, partner, we're checking in."
+  },
+  {
+   "id": "q1",
+   "text": "Long Beach, California. A ship that will never sail again.",
+   "shots": [
+    {
+     "img": "qm/f10.jpg",
+     "mode": "pan"
+    },
+    {
+     "img": "qm/f24.jpg",
+     "mode": "in"
+    }
+   ],
+   "chapter": "NUMBER SEVEN|THE QUEEN MARY"
+  },
+  {
+   "id": "q2",
+   "text": "The Queen Mary made her first voyage in 1936. In the Second World War, she was painted grey and carried soldiers across the Atlantic. They called her the Grey Ghost.",
+   "shots": [
+    {
+     "img": "qm/f11.jpg",
+     "mode": "up",
+     "tint": "grey"
+    },
+    {
+     "img": "qm/f22.jpg",
+     "mode": "pan",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "q3",
+   "text": "Since 1967, she's been docked here as a hotel. And the stories started almost right away.",
+   "shots": [
+    {
+     "img": "qm/f14.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "qm/f23.jpg",
+     "mode": "pan",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "q4",
+   "text": "In 1966, an eighteen year old crewman named John Pedder was crushed by a watertight door in the engine room. Door number thirteen. Workers say they still hear knocking near it.",
+   "shots": [
+    {
+     "img": "qm/f21.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "q5",
+   "text": "Swimmers in the old first class pool have been reported long after it was drained... wet footprints, and a little girl's voice.",
+   "shots": [
+    {
+     "img": "qm/f20.jpg",
+     "mode": "up",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "q5b",
+   "text": "Crew and guests talk about a little girl they call Jackie, heard laughing near the pool. The ship now rents a room named after her. B three twenty six. Jackie's Room.",
+   "shots": [
+    {
+     "img": "qm/f21.jpg",
+     "mode": "pan",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "q6",
+   "text": "And then there's stateroom B340. For years, the ship simply stopped renting it. Too many complaints. Taps turning on by themselves. Sheets pulled off the bed.",
+   "shots": [
+    {
+     "img": "lhp/q1.jpg",
+     "mode": "in",
+     "tint": "dark"
+    },
+    {
+     "img": "qm/f13.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "q7",
+   "text": "Today it's back. They call it the Paranormal Suite. And you can book it tonight.",
+   "hit": true
+  },
+  {
+   "id": "d1",
+   "text": "Coronado, California. A grand white hotel on the beach, opened in 1888.",
+   "shots": [
+    {
+     "img": "lhp/d1.jpg",
+     "mode": "pan"
+    },
+    {
+     "img": "lhp/d5.jpg",
+     "mode": "in"
+    }
+   ],
+   "chapter": "NUMBER SIX|HOTEL DEL CORONADO"
+  },
+  {
+   "id": "d2",
+   "text": "On Thanksgiving Day, 1892, a young woman checked in alone. She signed the register as Lottie A. Bernard, of Detroit.",
+   "shots": [
+    {
+     "img": "lhp/d3.jpg",
+     "mode": "up",
+     "tint": "sepia"
+    },
+    {
+     "img": "lhp/d6.jpg",
+     "mode": "in",
+     "tint": "sepia"
+    }
+   ]
+  },
+  {
+   "id": "d3",
+   "text": "For five days, she waited. Staff said she seemed unwell, and that she was expecting a man who never came.",
+   "shots": [
+    {
+     "img": "lhp/d7.jpg",
+     "mode": "down",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "d4",
+   "text": "On the fifth morning, she was found dead on the stairs that lead down to the beach. The coroner called it suicide. The newspapers called her the Beautiful Stranger.",
+   "shots": [
+    {
+     "img": "lhp/d4.jpg",
+     "mode": "pan",
+     "tint": "grey"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "d5",
+   "text": "Weeks later, she was identified as Kate Morgan, twenty four years old."
+  },
+  {
+   "id": "d6",
+   "text": "Her room was number three oh two. Today it's room thirty three twenty seven. Guests report lights flickering, a TV turning itself on, and a woman in a black dress walking the halls.",
+   "shots": [
+    {
+     "img": "lhp/d5.jpg",
+     "mode": "in",
+     "tint": "night",
+     "focus": 0.4
+    }
+   ]
+  },
+  {
+   "id": "d6b",
+   "text": "Another room, five oh two, has its own story. The hotel gives tours of it. Its door even has a special peephole, so visitors can look inside.",
+   "shots": [
+    {
+     "img": "lhp/d7.jpg",
+     "mode": "up",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "d7",
+   "text": "It's one of the most requested rooms in the hotel.",
+   "shots": [
+    {
+     "img": "lhp/d1.jpg",
+     "mode": "out",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "m1",
+   "text": "Saint Francisville, Louisiana. The Myrtles, built in 1796, and often called one of the most haunted homes in America.",
+   "shots": [
+    {
+     "img": "lhp/m1.jpg",
+     "mode": "pan"
+    },
+    {
+     "img": "lhp/m3.jpg",
+     "mode": "in"
+    }
+   ],
+   "chapter": "NUMBER FIVE|THE MYRTLES"
+  },
+  {
+   "id": "m2",
+   "text": "Its most famous ghost story is about an enslaved woman named Chloe. Tour guides have told it for decades: a cruel punishment, a poisoned cake, two little girls who died, and a woman hanged for it.",
+   "shots": [
+    {
+     "img": "lhp/m4.jpg",
+     "mode": "up",
+     "tint": "sepia"
+    },
+    {
+     "img": "lhp/m2.jpg",
+     "mode": "down",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "text": "But historians who went through the records found no sign of a Chloe at all. And the daughters in the story died of yellow fever.",
+   "shots": [
+    {
+     "img": "lhp/m5.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "m4",
+   "text": "The real history underneath is darker than any ghost. The Myrtles was a working plantation, built on the labor of enslaved people whose names were mostly never written down."
+  },
+  {
+   "id": "m5",
+   "text": "Inside, there's an old mirror. Guests say handprints show up in the glass... and that some of them come back, no matter how many times it's cleaned.",
+   "shots": [
+    {
+     "img": "lhp/m6.jpg",
+     "mode": "in",
+     "tint": "dark",
+     "focus": 0.4
+    }
+   ]
+  },
+  {
+   "id": "m5b",
+   "text": "One story says that when someone in the house died, the mirrors should have been covered. This one wasn't. And whatever it caught, it kept.",
+   "shots": [
+    {
+     "img": "lhp/m6.jpg",
+     "mode": "down",
+     "tint": "night",
+     "focus": 0.3
+    }
+   ]
+  },
+  {
+   "id": "m6",
+   "text": "The Myrtles still takes overnight guests.",
+   "shots": [
+    {
+     "img": "lhp/m5.jpg",
+     "mode": "out",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "c1",
+   "text": "Eureka Springs, Arkansas. The Crescent Hotel opened on a mountaintop in 1886, as a luxury resort for people coming to bathe in the healing springs.",
+   "shots": [
+    {
+     "img": "lhp/c2.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "lhp/c5.jpg",
+     "mode": "pan",
+     "tint": "sepia"
+    }
+   ],
+   "chapter": "NUMBER FOUR|THE CRESCENT HOTEL"
+  },
+  {
+   "id": "c1b",
+   "text": "Legend says a stonemason named Michael fell to his death while it was being built... and that he never left room two eighteen.",
+   "shots": [
+    {
+     "img": "lhp/c4.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "text": "In 1937, a man named Norman Baker bought it. He had no medical training. He had been a vaudeville performer, and a radio man.",
+   "shots": [
+    {
+     "img": "lhp/c6.jpg",
+     "mode": "up",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "text": "He turned the hotel into Baker's Cancer Curing Hospital, and promised desperate patients a cure.",
+   "shots": [
+    {
+     "img": "lhp/c7.jpg",
+     "mode": "up",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "text": "There was no cure. In 1940, Baker was arrested for mail fraud and sent to Leavenworth. One investigator estimated he took about four million dollars from his patients.",
+   "shots": [
+    {
+     "img": "lhp/c13.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "c5",
+   "text": "The basement still has the morgue. Workers have dug up old glass bottles buried on the grounds, believed to date back to Baker's years.",
+   "shots": [
+    {
+     "img": "lhp/c12.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "c5b",
+   "text": "In room four nineteen, guests describe a woman named Theodora, said to be one of Baker's patients. She introduces herself... and then she's gone.",
+   "shots": [
+    {
+     "img": "lhp/c11.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "text": "Today it bills itself as America's most haunted hotel. The ghost tour ends... in the morgue.",
+   "shots": [
+    {
+     "img": "lhp/c3.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "s1",
+   "text": "Estes Park, Colorado. The Stanley Hotel, opened in 1909.",
+   "shots": [
+    {
+     "img": "sta/f12.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "sta/L9873.jpg",
+     "mode": "pan"
+    }
+   ],
+   "chapter": "NUMBER THREE|THE STANLEY HOTEL"
+  },
+  {
+   "id": "s2",
+   "text": "In 1911, a gas leak caused an explosion in room two seventeen. A chambermaid named Elizabeth Wilson was badly hurt. She survived. But the legend says she never really left.",
+   "shots": [
+    {
+     "img": "lhp/s1.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "text": "In the fall of 1974, a young writer and his wife pulled in for one night. The hotel was about to close for the winter. They were almost the only guests.",
+   "shots": [
+    {
+     "img": "lhp/L_king_clip.jpg",
+     "mode": "up"
+    },
+    {
+     "img": "sta/L9870.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "text": "His name was Stephen King. And they were given room two seventeen.",
+   "shots": [
+    {
+     "img": "lhp/L_king1.jpg",
+     "mode": "in"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "s5",
+   "text": "That night, he dreamed of his young son running through the empty hallways, screaming. He woke up, lit a cigarette, and by the time he finished it, he had the bones of a book.",
+   "shots": [
+    {
+     "img": "lhp/s2.jpg",
+     "mode": "in",
+     "tint": "dark"
+    },
+    {
+     "img": "lhp/s3.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "text": "That book was The Shining.",
+   "shots": [
+    {
+     "img": "lhp/L_king_books.jpg",
+     "mode": "in"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "s7",
+   "text": "Room two seventeen is now called the Stephen King Suite. It's the most requested room in the hotel.",
+   "shots": [
+    {
+     "img": "sta/L9871.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "sta/f13.jpg",
+     "mode": "pan",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "s7b",
+   "text": "Staff also say the piano in the music room plays late at night, with nobody sitting at it. They blame Flora Stanley, the founder's wife. She loved to play for the guests.",
+   "shots": [
+    {
+     "img": "sta/L9874.jpg",
+     "mode": "in",
+     "tint": "dark"
+    },
+    {
+     "img": "sta/f22.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "b1",
+   "text": "Fall River, Massachusetts. August fourth, 1892.",
+   "shots": [
+    {
+     "img": "lhp/b7.jpg",
+     "mode": "in",
+     "tint": "sepia"
+    }
+   ],
+   "chapter": "NUMBER TWO|THE LIZZIE BORDEN HOUSE"
+  },
+  {
+   "id": "b2",
+   "text": "On a hot morning, Andrew Borden and his wife Abby were killed inside this house. Andrew in the sitting room. Abby upstairs, in the guest room.",
+   "shots": [
+    {
+     "img": "lhp/b1.jpg",
+     "mode": "in",
+     "tint": "grey"
+    },
+    {
+     "img": "lhp/b2.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "text": "Andrew's daughter, Lizzie, was thirty two. She was arrested, and stood trial the next summer.",
+   "shots": [
+    {
+     "img": "lhp/L_borden1.jpg",
+     "mode": "face",
+     "focus": 0.3
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "text": "The jury took about an hour and a half. Not guilty. Lizzie Borden lived in Fall River for the rest of her life. No one else was ever charged.",
+   "shots": [
+    {
+     "img": "lhp/L_borden2.jpg",
+     "mode": "in",
+     "focus": 0.3
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "b5",
+   "text": "Since 1996, the house has been a bed and breakfast. You can sleep in Lizzie's room... or in the guest room, where Abby was found.",
+   "shots": [
+    {
+     "img": "lhp/b4.jpg",
+     "mode": "pan"
+    },
+    {
+     "img": "lhp/b2.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "text": "Guests report footsteps on the stairs, a woman's voice, and the feeling of being watched.",
+   "shots": [
+    {
+     "img": "lhp/b3.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "v1",
+   "text": "Villisca, Iowa. A small white house on a quiet street.",
+   "shots": [
+    {
+     "img": "vil/f13.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "vil/f11.jpg",
+     "mode": "pan",
+     "tint": "grey"
+    }
+   ],
+   "chapter": "NUMBER ONE|THE VILLISCA AXE MURDER HOUSE"
+  },
+  {
+   "id": "v2",
+   "text": "On the night of June ninth, 1912, Josiah and Sarah Moore came home from a church program with their four children. Two young friends, Lena and Ina Stillinger, came home with them to spend the night.",
+   "shots": [
+    {
+     "img": "vil/f14.jpg",
+     "mode": "in",
+     "tint": "sepia"
+    },
+    {
+     "img": "vil/f03.jpg",
+     "mode": "in",
+     "tint": "sepia"
+    }
+   ]
+  },
+  {
+   "id": "v3",
+   "text": "The next morning, all eight of them were found dead in their beds.",
+   "shots": [
+    {
+     "img": "vil/f04.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "v4",
+   "text": "There were suspects. One man was tried twice. The first jury couldn't agree. The second acquitted him. No one was ever convicted.",
+   "shots": [
+    {
+     "img": "vil/f09.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "vil/f12.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "v5",
+   "text": "In the nineteen nineties, a local couple bought the house and restored it to look the way it did in 1912. People who stay the night report children's voices, footsteps upstairs, and doors that won't stay shut.",
+   "shots": [
+    {
+     "img": "vil/f10.jpg",
+     "mode": "in",
+     "tint": "dark"
+    },
+    {
+     "img": "vil/f02.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "v6",
+   "text": "You can rent a single room, or the whole house. And when the tour ends... they leave you alone in it.",
+   "shots": [
+    {
+     "img": "vil/f01.jpg",
+     "mode": "out",
+     "tint": "night"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "end",
+   "text": "Seven places. Seven beds. Which one could you actually sleep in... and which one would have you out the door by midnight? Tell me in the comments. Subscribe for more files. I'll be waiting, partner."
+  }
+ ]
+}

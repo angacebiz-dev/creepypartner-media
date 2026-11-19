@@ -42,7 +42,7 @@ def decade(n):  # 1960 -> nineteen sixties, 1900 -> nineteen hundreds
 
 # names espeak gets wrong -> respellings (checked with kokoro_onnx Tokenizer, en-us)
 PRON = {"Hokkaido": "Hoh kydoh", "Quesnel": "Kwuhnell", "Okiku": "Ohkeeku", "Eikichi": "Eh-kee-chee",
-        "Tavernier": "Tavernyay", "Bagans": "Baygans", "Toschi": "Toskee"}
+        "Tavernier": "Tavernyay", "Bagans": "Baygans", "Toschi": "Toskee", "Estes": "Esteez", "Ina": "Eyena", "Francisville": "Fransisville", "Villisca": "Vuh-Lisska"}
 
 def say(text):
     for k, v in PRON.items():
