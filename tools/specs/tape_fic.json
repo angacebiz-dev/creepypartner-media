@@ -1,0 +1,146 @@
+{
+ "id": "TAPES_Fiction911",
+ "header": "THE TAPES",
+ "fiction": true,
+ "total": 71.3,
+ "bed": 0.55,
+ "cover": {
+  "img": "tapes/img/f3.jpg",
+  "title": "SHE CALLED 911\nFROM THE CLOSET",
+  "focus_y": 0.5
+ },
+ "comment": "COMMENT \"HI HONEY\" FOR PART 2",
+ "center": {
+  "img": "tapes/img/f1.jpg",
+  "cap1": "CALL #0419 \u00b7 HARLOW COUNTY 911",
+  "cap2": "CALLER: NAME WITHHELD",
+  "credit": "Photo: Sarah Ross photography / Flickr (CC BY-NC)"
+ },
+ "smalls": [
+  {
+   "img": "tapes/img/f2.jpg",
+   "credit": "Photo: Ed Yourdon / Flickr (CC BY-NC-SA)"
+  },
+  {
+   "img": "tapes/img/f5.jpg",
+   "credit": "Photo: vmokry / Flickr (CC0)"
+  },
+  {
+   "img": "tapes/img/f3.jpg",
+   "credit": "Photo: benjaflynn / Flickr (CC BY)"
+  },
+  {
+   "img": "tapes/img/f4.jpg",
+   "credit": "Photo: Bold Frontiers / Flickr (CC BY)"
+  }
+ ],
+ "audio": "dlg_raw.wav",
+ "subs": [
+  {
+   "t0": 0.75,
+   "t1": 4.09,
+   "spk": "DISPATCH",
+   "text": "911, what's the address of your emergency?"
+  },
+  {
+   "t0": 4.29,
+   "t1": 9.68,
+   "spk": "CALLER",
+   "text": "Fourteen Alder Lane. Please... someone's in my house."
+  },
+  {
+   "t0": 9.73,
+   "t1": 12.49,
+   "spk": "DISPATCH",
+   "text": "Okay, ma'am. Are you somewhere safe right now?"
+  },
+  {
+   "t0": 12.59,
+   "t1": 17.41,
+   "spk": "CALLER",
+   "text": "I'm in the closet. Upstairs. He... he used a key."
+  },
+  {
+   "t0": 17.46,
+   "t1": 19.29,
+   "spk": "DISPATCH",
+   "text": "Who else has a key to your house?"
+  },
+  {
+   "t0": 19.49,
+   "t1": 21.25,
+   "spk": "CALLER",
+   "text": "Only my husband."
+  },
+  {
+   "t0": 21.3,
+   "t1": 23.23,
+   "spk": "DISPATCH",
+   "text": "Is your husband home with you tonight?"
+  },
+  {
+   "t0": 24.03,
+   "t1": 27.89,
+   "spk": "CALLER",
+   "text": "My husband went missing three years ago."
+  },
+  {
+   "t0": 31.19,
+   "t1": 39.89,
+   "spk": "CALLER",
+   "text": "Do you hear that? He's whistling. That's his song... he always whistled it when he came home."
+  },
+  {
+   "t0": 39.99,
+   "t1": 43.34,
+   "spk": "DISPATCH",
+   "text": "Ma'am, officers are on the way. Stay on the line with me."
+  },
+  {
+   "t0": 43.64,
+   "t1": 45.36,
+   "spk": "CALLER",
+   "text": "He's on the stairs."
+  },
+  {
+   "t0": 48.46,
+   "t1": 52.64,
+   "spk": "CALLER",
+   "text": "He stopped. He's right outside the door."
+  },
+  {
+   "t0": 52.94,
+   "t1": 54.63,
+   "spk": "DISPATCH",
+   "text": "Ma'am? Ma'am, can you hear me?"
+  },
+  {
+   "t0": 55.93,
+   "t1": 57.67,
+   "spk": "UNKNOWN",
+   "text": "Hi, honey."
+  }
+ ],
+ "cards": [
+  {
+   "t0": 58.3,
+   "t1": 61.3,
+   "text": "OFFICERS ARRIVED\\N9 MINUTES LATER"
+  },
+  {
+   "t0": 61.4,
+   "t1": 64.0,
+   "text": "THE HOUSE\\NWAS EMPTY"
+  },
+  {
+   "t0": 64.1,
+   "t1": 67.2,
+   "text": "THE CLOSET\\NDOOR WAS OPEN"
+  },
+  {
+   "t0": 67.3,
+   "t1": 71.1,
+   "text": "HIS KEY WAS\\NBACK ON THE HOOK\\NBY THE DOOR"
+  }
+ ]
+}

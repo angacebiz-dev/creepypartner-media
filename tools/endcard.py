@@ -51,8 +51,8 @@ if _ok:
 else:  # two lines
     w = comment.split(" "); best = None
     for k in range(1, len(w)):
-        a, b = " ".join(w[:k]), " ".join(w[k:]); m = max(len(a), len(b))
-        if best is None or m < best[0]: best = (m, a, b)
+        a, b = " ".join(w[:k]), " ".join(w[k:]); mx = max(len(a), len(b))
+        if best is None or mx < best[0]: best = (mx, a, b)
     a, b = best[1], best[2]
     _d = ImageDraw.Draw(Image.new("RGB", (10, 10))); sz = 84
     while max(_d.textlength(a, font=A(sz)), _d.textlength(b, font=A(sz))) > 1000 and sz > 50:
