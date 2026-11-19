@@ -39,7 +39,14 @@ def decade(n):  # 1960 -> nineteen sixties, 1900 -> nineteen hundreds
     return two(hi) + " " + PLURAL_TENS.get(w, w + "s")
 
 
+
+# names espeak gets wrong -> respellings (checked with kokoro_onnx Tokenizer, en-us)
+PRON = {"Hokkaido": "Hoh kydoh", "Quesnel": "Kwuhnell", "Okiku": "Ohkeeku", "Eikichi": "Eh-kee-chee",
+        "Tavernier": "Tavernyay", "Bagans": "Baygans", "Toschi": "Toskee"}
+
 def say(text):
+    for k, v in PRON.items():
+        text = re.sub(r"\b%s\b" % k, v, text)
     text = re.sub(r"\b(1[0-9]{2}|20[0-9])0s\b", lambda m: decade(int(m.group(1) + "0")), text)
     text = re.sub(r"\b(1[0-9]{3}|20[0-9]{2})(?!\d)", lambda m: year(int(m.group(1))), text)
     text = re.sub(r"[‘']([2-9])0s\b", lambda m: PLURAL_TENS[TENS[int(m.group(1))]], text)

@@ -1,0 +1,652 @@
+{
+ "id": "CursedObjects",
+ "title_top": "7 CURSED\nOBJECTS",
+ "speed": 0.86,
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Seven objects. Seven curses. And every one of them is somewhere you can still go and see it... including one that's sitting in Salem, Massachusetts, right now. Tonight, partner, we go visiting."
+  },
+  {
+   "id": "m1",
+   "text": "Quesnel, British Columbia. A small town museum. Old photos. Old tools. And a porcelain baby doll with a cracked face.",
+   "shots": [
+    {
+     "img": "lco/c31.jpg",
+     "mode": "pan"
+    },
+    {
+     "img": "lco/c41.jpg",
+     "mode": "in"
+    }
+   ],
+   "chapter": "NUMBER SEVEN|MANDY"
+  },
+  {
+   "id": "m2",
+   "text": "Her name is Mandy. She was made in Europe, somewhere around 1910 or 1920.",
+   "shots": [
+    {
+     "img": "lco/c40.jpg",
+     "mode": "face",
+     "focus": 0.3
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "text": "In 1991, a local woman brought her in. The doll had been her grandmother's, locked away in a trunk for years. She said it gave her a weird feeling.",
+   "shots": [
+    {
+     "img": "lco/c41.jpg",
+     "mode": "up",
+     "tint": "sepia"
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "text": "The museum photographed Mandy, and left her in the lab overnight. The next morning, staff said the lab was a mess... as though a small child had thrown a tantrum.",
+   "shots": [
+    {
+     "img": "lco/c40.jpg",
+     "mode": "in",
+     "tint": "dark",
+     "focus": 0.25
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "text": "Staff once put a stuffed lamb in with her, to keep her company. It was later found on the floor... outside her locked case.",
+   "shots": [
+    {
+     "img": "lco/c40.jpg",
+     "mode": "down",
+     "focus": 0.6
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "m6",
+   "text": "A reporter developing photos of her, alone in the basement, said he heard footsteps upstairs. Then his photos jammed in the machine.",
+   "shots": [
+    {
+     "img": "lco/c41.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "m6b",
+   "text": "In 1999, Mandy even made it onto a TV talk show, where a famous psychic claimed the doll had belonged to twins who died of polio... and that their mother's grief was trapped inside her.",
+   "shots": [
+    {
+     "img": "lco/c40.jpg",
+     "mode": "face",
+     "tint": "grey",
+     "focus": 0.25
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "text": "Today, Mandy sits in her own glass case. And the museum says visitors still come from all over the world, just to look her in the eye.",
+   "shots": [
+    {
+     "img": "lco/c41.jpg",
+     "mode": "out"
+    }
+   ]
+  },
+  {
+   "id": "b1",
+   "text": "North Yorkshire, England. 1702. A drunk and a thief named Thomas Busby murders his father in law, Daniel Auty.",
+   "shots": [
+    {
+     "img": "lco/c12.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ],
+   "chapter": "NUMBER SIX|THE DEAD MAN'S CHAIR"
+  },
+  {
+   "id": "b2",
+   "text": "Busby is hanged near the inn where he used to drink. And the story goes, before he died... he cursed his favorite chair. Anyone who sat in it would die.",
+   "shots": [
+    {
+     "img": "lco/c12.jpg",
+     "mode": "in"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "b2b",
+   "text": "His body was left hanging in chains at the crossroads, as a warning to others. For years, people said his ghost walked there.",
+   "shots": [
+    {
+     "img": "lco/c12.jpg",
+     "mode": "pan",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "text": "For centuries, the chair stayed at the inn. People dared each other to sit in it.",
+   "shots": [
+    {
+     "img": "lco/c10.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "text": "During World War Two, airmen from a nearby base drank there. The legend says the ones who sat in Busby's chair... never came home from their missions.",
+   "shots": [
+    {
+     "img": "lco/c12.jpg",
+     "mode": "out",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "text": "In the nineteen seventies, more deaths were blamed on it. Car crashes. Accidents. So in 1978, the landlord gave up, and gave the chair to the Thirsk Museum.",
+   "shots": [
+    {
+     "img": "lco/c42.jpg",
+     "mode": "up"
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "text": "The museum agreed to one condition. Nobody would ever sit in it again. So they hung it high on the wall.",
+   "shots": [
+    {
+     "img": "lco/c10.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "b7",
+   "text": "The twist? An expert later said the chair was made after 1840. More than a hundred years after Busby died. Which means... it may not even be his chair."
+  },
+  {
+   "id": "o1",
+   "text": "Hokkaido, Japan. 1918. A seventeen year old named Eikichi Suzuki buys a doll at an exposition in Sapporo, as a gift for his little sister, Okiku.",
+   "shots": [
+    {
+     "img": "lco/c47.jpg",
+     "mode": "pan",
+     "tint": "sepia",
+     "focus": 0.7
+    }
+   ],
+   "chapter": "NUMBER FIVE|OKIKU"
+  },
+  {
+   "id": "o2",
+   "text": "She loves it. She carries it everywhere. Then, still a small child, she gets sick... and dies.",
+   "hit": true
+  },
+  {
+   "id": "o3",
+   "text": "Her family keeps the doll on their altar, to remember her. And then they notice something."
+  },
+  {
+   "id": "o4",
+   "text": "The doll's hair, cut short in a bob when it was made... is getting longer.",
+   "hit": true
+  },
+  {
+   "id": "o5",
+   "text": "In 1938, the family moves away, and leaves the doll with the monks at Mannenji Temple, in the town of Iwamizawa.",
+   "shots": [
+    {
+     "img": "lco/c47.jpg",
+     "mode": "in",
+     "tint": "night",
+     "focus": 0.7
+    }
+   ]
+  },
+  {
+   "id": "o6",
+   "text": "More than eighty years later, she's still there. The temple says her hair has grown down past her shoulders... and it still has to be trimmed."
+  },
+  {
+   "id": "o6b",
+   "text": "Some reports even claim the hair has been tested... and that it's real human hair. A child's hair.",
+   "hit": true
+  },
+  {
+   "id": "h1",
+   "text": "Washington, D C. The most visited diamond on Earth. Forty five carats. Deep blue.",
+   "shots": [
+    {
+     "img": "lco/c28.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "hope/f15.jpg",
+     "mode": "face"
+    }
+   ],
+   "chapter": "NUMBER FOUR|THE HOPE DIAMOND"
+  },
+  {
+   "id": "h2",
+   "text": "Legend says it was stolen from the eye of a statue in India. That part was probably invented. But the story stuck.",
+   "shots": [
+    {
+     "img": "hope/f13.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "h2b",
+   "text": "What we do know: in 1668, a French gem trader named Jean Baptiste Tavernier sold a huge blue diamond to King Louis the fourteenth. It became known as the French Blue.",
+   "shots": [
+    {
+     "img": "hope/f22.jpg",
+     "mode": "in",
+     "tint": "sepia"
+    }
+   ]
+  },
+  {
+   "id": "h3",
+   "text": "It belonged to the kings of France. Louis the sixteenth and Marie Antoinette both lost their heads to the guillotine.",
+   "shots": [
+    {
+     "img": "hope/f23.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "h4",
+   "text": "In 1792, during the Revolution, the crown jewels were stolen. The blue diamond vanished... and resurfaced in London, cut down to a new shape.",
+   "shots": [
+    {
+     "img": "hope/f21.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "h5",
+   "text": "It was bought by the Hope family. They went broke and had to sell it.",
+   "shots": [
+    {
+     "img": "hope/f25.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "h6",
+   "text": "Then came Evalyn Walsh McLean. She lost her son in a car accident, her daughter to an overdose, and her husband to a mental hospital.",
+   "shots": [
+    {
+     "img": "hope/L9875.jpg",
+     "mode": "in",
+     "tint": null
+    },
+    {
+     "img": "hope/L9879.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "h7",
+   "text": "In 1958, the jeweler Harry Winston gave it to the Smithsonian. He sent it by registered mail, in a plain brown package.",
+   "shots": [
+    {
+     "img": "hope/f12.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "h8",
+   "text": "Today it sits behind glass, and millions walk past it. Nobody has owned it since.",
+   "shots": [
+    {
+     "img": "hope/f10.jpg",
+     "mode": "out"
+    }
+   ]
+  },
+  {
+   "id": "d1",
+   "text": "Las Vegas. A mansion turned museum, packed with haunted objects. And in the middle of it, a small wooden wine cabinet.",
+   "shots": [
+    {
+     "img": "dyb/f27.jpg",
+     "mode": "in",
+     "tint": "grey"
+    },
+    {
+     "img": "lco/c20.jpg",
+     "mode": "out"
+    }
+   ],
+   "chapter": "NUMBER THREE|THE DYBBUK BOX"
+  },
+  {
+   "id": "d2",
+   "text": "In 2003, a Portland furniture dealer named Kevin Mannis listed it on eBay. He said he'd bought it at a sale... and that it was cursed.",
+   "shots": [
+    {
+     "img": "dyb/mannis.jpg",
+     "mode": "up",
+     "tint": null
+    }
+   ]
+  },
+  {
+   "id": "d3",
+   "text": "His story: it once belonged to a Holocaust survivor, and it held a dybbuk. In Jewish folklore, a restless spirit.",
+   "shots": [
+    {
+     "img": "dyb/box.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "d4",
+   "text": "Owner after owner told stories of nightmares, strange smells, and bad luck. It inspired a Hollywood movie.",
+   "shots": [
+    {
+     "img": "dyb/box2.jpg",
+     "mode": "face",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "d4b",
+   "text": "A Missouri museum curator named Jason Haxton bought it, and wrote a whole book about what happened to him while he owned it.",
+   "shots": [
+    {
+     "img": "dyb/f12.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "d5",
+   "text": "Then ghost hunter Zak Bagans put it on display in his Las Vegas museum. In 2018, a famous rapper touched the case. Within a couple of months he'd been in a car wreck, and his private jet blew its tires on takeoff.",
+   "shots": [
+    {
+     "img": "lco/c22.jpg",
+     "mode": "in",
+     "tint": null
+    },
+    {
+     "img": "lco/c23.jpg",
+     "mode": "in",
+     "tint": null
+    }
+   ]
+  },
+  {
+   "id": "d6",
+   "text": "And in 2021, Kevin Mannis finally admitted it. The story was his own creation.",
+   "shots": [
+    {
+     "img": "dyb/f13.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "d7",
+   "text": "It doesn't seem to matter. It's still on display... and still billed as the most haunted object in the world.",
+   "shots": [
+    {
+     "img": "dyb/f24.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "r1",
+   "text": "Key West, Florida. Early nineteen hundreds. A little boy named Gene Otto is given a doll almost as big as he is.",
+   "shots": [
+    {
+     "img": "rob/f34.jpg",
+     "mode": "in",
+     "tint": "sepia"
+    }
+   ],
+   "chapter": "NUMBER TWO|ROBERT THE DOLL"
+  },
+  {
+   "id": "r2",
+   "text": "Gene names it Robert, his own first name, and dresses it in his own sailor suit. When anything went wrong in the house, Gene had one answer. Robert did it.",
+   "shots": [
+    {
+     "img": "rob/f12.jpg",
+     "mode": "face",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "r2b",
+   "text": "Robert is about three feet tall, likely made in Germany, and stuffed with straw. His face has worn down over the years... into something that doesn't quite look like a smile.",
+   "shots": [
+    {
+     "img": "rob/f13.jpg",
+     "mode": "face",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "r3",
+   "text": "Gene grew up to be an artist. He kept Robert his whole life, in the house on Eaton Street.",
+   "shots": [
+    {
+     "img": "rob/L9853.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "rob/f31.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "r4",
+   "text": "After Gene died in 1974, the next owner of the house said the doll moved on its own... and that she heard footsteps in the attic.",
+   "shots": [
+    {
+     "img": "rob/L9854.jpg",
+     "mode": "up"
+    },
+    {
+     "img": "rob/f15.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "r5",
+   "text": "In 1994, Robert was given to the Fort East Martello Museum.",
+   "shots": [
+    {
+     "img": "rob/f16.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "lco/c30.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "r6",
+   "text": "Visitors are told one rule. Ask his permission before you take his picture. People who didn't blame him for car wrecks, breakups, lost jobs... and they mail him letters, apologizing.",
+   "shots": [
+    {
+     "img": "rob/f14.jpg",
+     "mode": "up"
+    },
+    {
+     "img": "rob/f10.jpg",
+     "mode": "face",
+     "tint": "dark"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "a1",
+   "text": "And number one. The doll everybody knows... from the movies. But the real one doesn't look like the movies at all.",
+   "shots": [
+    {
+     "img": "lco/c16.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ],
+   "chapter": "NUMBER ONE|ANNABELLE"
+  },
+  {
+   "id": "a2",
+   "text": "She's a Raggedy Ann. Yarn hair. A stitched smile. In 1970, a mother gave her to her daughter, a nursing student, as a birthday present.",
+   "shots": [
+    {
+     "img": "lco/c16.jpg",
+     "mode": "face",
+     "tint": null,
+     "focus": 0.35
+    }
+   ]
+  },
+  {
+   "id": "a3",
+   "text": "The student and her roommate said the doll began moving. Turning up in different rooms. Then came little notes, in pencil, on parchment paper. Help us.",
+   "shots": [
+    {
+     "img": "lco/c16.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "a4",
+   "text": "A medium told them the doll held the spirit of a seven year old girl named Annabelle. Then a friend said he woke up to the doll at his feet... and claw marks across his chest.",
+   "shots": [
+    {
+     "img": "lco/c16.jpg",
+     "mode": "face",
+     "focus": 0.35
+    }
+   ]
+  },
+  {
+   "id": "a5",
+   "text": "They called in Ed and Lorraine Warren. The Warrens said it was no little girl. They said it was something that had never been human.",
+   "shots": [
+    {
+     "img": "lco/c18_b.jpg",
+     "mode": "pan"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "a6",
+   "text": "They took the doll home, and locked her in a case in their museum in Connecticut. A sign on the glass says, warning, positively do not open.",
+   "shots": [
+    {
+     "img": "lco/c18_b.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "a6b",
+   "text": "The Warrens told one more story. A young man visiting the museum laughed at Annabelle and banged on her case. They said he died in a motorcycle crash on the way home.",
+   "shots": [
+    {
+     "img": "lco/c18_b.jpg",
+     "mode": "face",
+     "tint": "night"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "a7",
+   "text": "In 2025, she went on tour. That July, Dan Rivera, an investigator who traveled with her, was found dead in a hotel room in Gettysburg."
+  },
+  {
+   "id": "a8",
+   "text": "The coroner said it was his heart, a known condition. And that Annabelle was not in the room."
+  },
+  {
+   "id": "a9",
+   "text": "A month later, the comedian Matt Rife and YouTuber Elton Castee took over the Warrens' collection. And this year... they opened the Haunted Warren Museum, on Essex Street in Salem, Massachusetts.",
+   "shots": [
+    {
+     "img": "lco/c25.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "a10",
+   "text": "Annabelle is there right now. Behind glass. Until December twenty third.",
+   "shots": [
+    {
+     "img": "lco/c16.jpg",
+     "mode": "out",
+     "tint": "night"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "end",
+   "text": "Seven objects. Seven places you can go. Which one would you visit... and which one would you never get near? Tell me in the comments. And if you want more files like this, subscribe. I'll be waiting, partner."
+  }
+ ]
+}
