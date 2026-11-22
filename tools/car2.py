@@ -6,6 +6,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps, ImageEnhance
 
 W, H = 1080, 1920
+VIDEO = False
 WK = "/home/claude/partner/wk/"; F = "/home/claude/partner/fonts/"
 fA = lambda s: ImageFont.truetype(F + "Anton-Regular.ttf", s)
 fT = lambda s: ImageFont.truetype(F + "SpecialElite.ttf", s)
@@ -69,11 +70,12 @@ def render(a, s, idx, n, path=None, end=False, ritual=""):
         f = fA(150); lines = textwrap.wrap(s["text"], 15)
         if len(lines) > 3:
             f = fA(124); lines = textwrap.wrap(s["text"], 17)
-        y = 1680 - len(lines) * int(f.size * 1.08)
+        y = 1560 - len(lines) * int(f.size * 1.08)
         for i, ln in enumerate(lines):
             center(d, y, ln, f, (255, 214, 0) if i == len(lines) - 1 else (255, 255, 255), 8); y += int(f.size * 1.08)
         center(d, 120, "PARTNER FILES", fA(52), (220, 30, 30), 4)
-        center(d, 1760, "SWIPE  >>", fA(48), (235, 235, 235), 4)
+        if not VIDEO:
+            center(d, 1640, "SWIPE  >>", fA(48), (235, 235, 235), 4)
     elif end:
         f = fA(96); lines = textwrap.wrap(ritual.upper(), 20); y = 1000
         for ln in lines:
@@ -85,7 +87,7 @@ def render(a, s, idx, n, path=None, end=False, ritual=""):
         f = fT(60); lines = textwrap.wrap(s["text"], 26)
         if len(lines) > 7:
             f = fT(52); lines = textwrap.wrap(s["text"], 30)
-        y = 1680 - len(lines) * int(f.size * 1.32)
+        y = max(1090, 1530 - len(lines) * int(f.size * 1.32))
         for ln in lines:
             center(d, y, ln, f, (245, 240, 230), 4); y += int(f.size * 1.32)
         d.text((W - 130, 110), f"{idx + 1}/{n}", font=fA(44), fill=(230, 230, 230), stroke_width=3, stroke_fill=(0, 0, 0))
@@ -117,7 +119,7 @@ def build(spec_path, video=False):
     return files
 
 
-def slideshow(files, out, per=3.4, first=2.6):
+def slideshow(files, out, per=6.5, first=3.5):
     """Slides as a video: slow push-in per slide, quick dark dip between slides, creepy drone + music box."""
     from scipy.io import wavfile
     FPS = 30; durs = [first] + [per] * (len(files) - 1); total = sum(durs)
@@ -126,7 +128,7 @@ def slideshow(files, out, per=3.4, first=2.6):
     for f, du in zip(files, durs):
         img = Image.open(f).convert("RGB"); nfr = int(du * FPS)
         for k in range(nfr):
-            z = 1.0 + 0.035 * k / nfr; cw, ch = int(W / z), int(H / z)
+            z = 1.0 + 0.012 * k / nfr; cw, ch = int(W / z), int(H / z)
             fr = img.crop(((W - cw) // 2, (H - ch) // 2, (W - cw) // 2 + cw, (H - ch) // 2 + ch)).resize((W, H), Image.BILINEAR)
             a = np.asarray(fr).astype(np.float32)
             if k < 4: a *= 0.25 + 0.75 * k / 4
@@ -164,4 +166,5 @@ def slideshow(files, out, per=3.4, first=2.6):
 
 
 if __name__ == "__main__":
+    VIDEO = "--video" in sys.argv
     build(sys.argv[1], video="--video" in sys.argv)
