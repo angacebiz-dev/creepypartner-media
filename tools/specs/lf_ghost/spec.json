@@ -1,0 +1,354 @@
+{
+ "id": "GhostTowns",
+ "title_top": "5 GHOST\nTOWNS",
+ "speed": 0.86,
+ "comment": "WHICH TOWN?",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Five towns. Thousands of people lived in each one. Then, one day, they all left... and never came back. Tonight, partner, we're walking empty streets."
+  },
+  {
+   "id": "r1",
+   "text": "Nevada, near Death Valley. In 1905, two prospectors struck gold in the hills.",
+   "shots": [
+    {
+     "img": "rhy/f08.jpg",
+     "mode": "pan"
+    }
+   ],
+   "chapter": "NUMBER FIVE|RHYOLITE, NEVADA"
+  },
+  {
+   "id": "r2",
+   "text": "Within two weeks, about twelve hundred people had moved in. By 1907 there were thousands. Three railroads. An opera house. Electric streetlights.",
+   "shots": [
+    {
+     "img": "rhy/f10.jpg",
+     "mode": "pan"
+    },
+    {
+     "img": "rhy/f02.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "r3",
+   "text": "The three story Cook Bank was finished in 1908. It cost more than ninety thousand dollars.",
+   "shots": [
+    {
+     "img": "rhy/f04.jpg",
+     "mode": "up",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "r4",
+   "text": "A miner named Tom Kelly built his house out of about fifty thousand bottles.",
+   "shots": [
+    {
+     "img": "rhy/f13.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "rhy/f11.jpg",
+     "mode": "pan"
+    }
+   ]
+  },
+  {
+   "id": "r5",
+   "text": "Then came the financial panic of 1907. The mines started closing. By 1910 the streetlights were switched off. In 1920, the census counted fourteen people.",
+   "shots": [
+    {
+     "img": "rhy/f07.jpg",
+     "mode": "in",
+     "tint": "grey"
+    },
+    {
+     "img": "rhy/f12.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "b1",
+   "text": "California, high in the hills east of Yosemite. Bodie.",
+   "shots": [
+    {
+     "img": "bod/f15.jpg",
+     "mode": "pan"
+    }
+   ],
+   "chapter": "NUMBER FOUR|BODIE, CALIFORNIA"
+  },
+  {
+   "id": "b2",
+   "text": "By 1879, thousands of people lived here, chasing gold, in around two thousand buildings.",
+   "shots": [
+    {
+     "img": "bod/f13.jpg",
+     "mode": "pan"
+    },
+    {
+     "img": "bod/f00.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "text": "The gold ran out. A fire in 1932 destroyed most of what was left. By the 1940s, the town was almost empty.",
+   "shots": [
+    {
+     "img": "bod/f03.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "text": "Since 1962 the state has kept Bodie just as it was found. Desks in the schoolhouse. Goods on the shelves. They call it arrested decay.",
+   "shots": [
+    {
+     "img": "bod/f07.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "bod/f14.jpg",
+     "mode": "up"
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "text": "And there's a rule. Don't take anything. The park still receives packages of nails, bottles and rocks, sent back with letters from people who say the town cursed them.",
+   "shots": [
+    {
+     "img": "bod/f12.jpg",
+     "mode": "in",
+     "tint": "dark"
+    },
+    {
+     "img": "bod/f05.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "k1",
+   "text": "Namibia, 1908. A railway worker named Zacharias Lewala was clearing sand from the tracks when he spotted a shiny stone.",
+   "shots": [
+    {
+     "img": "kol/f04.jpg",
+     "mode": "pan"
+    }
+   ],
+   "chapter": "NUMBER THREE|KOLMANSKOP, NAMIBIA"
+  },
+  {
+   "id": "k2",
+   "text": "It was a diamond. A German mining town rose out of the desert. Stone houses, a ballroom, a theatre, an ice factory, and a hospital with the first X-ray machine in the southern hemisphere.",
+   "shots": [
+    {
+     "img": "kol/f01.jpg",
+     "mode": "pan"
+    },
+    {
+     "img": "kol/f00.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "kol/f06.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "k3",
+   "text": "Then richer diamond fields were found to the south. People left, many leaving their things behind. By 1956, Kolmanskop was empty.",
+   "shots": [
+    {
+     "img": "kol/f11.jpg",
+     "mode": "pan",
+     "tint": "grey"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "k4",
+   "text": "And the desert came inside. Today, visitors walk through rooms filled to the windows with sand.",
+   "shots": [
+    {
+     "img": "kol/f02.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "kol/f05.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "kol/f08.jpg",
+     "mode": "up"
+    }
+   ]
+  },
+  {
+   "id": "h1",
+   "text": "Off the coast of Nagasaki, Japan, there's an island that looks like a battleship.",
+   "shots": [
+    {
+     "img": "has/f14.jpg",
+     "mode": "pan"
+    }
+   ],
+   "chapter": "NUMBER TWO|HASHIMA ISLAND, JAPAN"
+  },
+  {
+   "id": "h2",
+   "text": "Hashima. Mitsubishi bought it in 1890 to mine coal from under the sea, walled it in, and stacked concrete apartment blocks on top of it.",
+   "shots": [
+    {
+     "img": "has/f08.jpg",
+     "mode": "pan"
+    },
+    {
+     "img": "has/f11.jpg",
+     "mode": "up",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "h3",
+   "text": "In 1959, five thousand two hundred and fifty nine people lived on sixteen acres. One of the most crowded places ever recorded.",
+   "shots": [
+    {
+     "img": "has/f09.jpg",
+     "mode": "in"
+    }
+   ],
+   "overlay": "5,259 PEOPLE\n16 ACRES",
+   "hit": true
+  },
+  {
+   "id": "h4",
+   "text": "Before and during the Second World War, Korean and Chinese laborers were brought here and forced to work in the mines.",
+   "shots": [
+    {
+     "img": "has/f10.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "h5",
+   "text": "In 1974 the mine closed. Within months, everyone was gone. Today, tour boats circle it, and visitors may walk only a small part of the island.",
+   "shots": [
+    {
+     "img": "has/f12.jpg",
+     "mode": "in",
+     "tint": "dark"
+    },
+    {
+     "img": "has/f15.jpg",
+     "mode": "pan"
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "text": "Northern Ukraine. Pripyat, built in 1970 for the workers of the Chernobyl nuclear plant. Nearly fifty thousand people lived here.",
+   "shots": [
+    {
+     "img": "pri/f09.jpg",
+     "mode": "pan"
+    }
+   ],
+   "chapter": "NUMBER ONE|PRIPYAT, UKRAINE"
+  },
+  {
+   "id": "p2",
+   "text": "On April 26th, 1986, reactor number four exploded, about three kilometres away.",
+   "shots": [
+    {
+     "img": "pri/f08.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ],
+   "overlay": "APRIL 26, 1986",
+   "hit": true
+  },
+  {
+   "id": "p3",
+   "text": "For more than a day, life went on. Then, on the afternoon of April 27th, the buses came. Residents were told to pack for three days.",
+   "shots": [
+    {
+     "img": "pri/f13.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "pri/f03.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "p4",
+   "text": "They never came back.",
+   "shots": [
+    {
+     "img": "pri/f14.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "p5",
+   "text": "The Ferris wheel had been due to open on May first, for the holiday. It never officially turned. The bumper cars are still where they stopped.",
+   "shots": [
+    {
+     "img": "pri/f05.jpg",
+     "mode": "up"
+    },
+    {
+     "img": "pri/f12.jpg",
+     "mode": "in",
+     "tint": "dark"
+    },
+    {
+     "img": "pri/f06.jpg",
+     "mode": "pan"
+    }
+   ]
+  },
+  {
+   "id": "p6",
+   "text": "Today, Pripyat is still empty.",
+   "shots": [
+    {
+     "img": "pri/f15.jpg",
+     "mode": "out",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Five towns. Five ways a whole town can just... stop. Which one would you walk through alone? Tell me in the comments. Subscribe for more files. I'll be waiting, partner."
+  }
+ ]
+}
