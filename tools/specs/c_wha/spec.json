@@ -1,0 +1,38 @@
+{
+ "name": "whaley",
+ "ritual": "Comment 'I HEAR HIM' if you'd stay the night",
+ "slides": [
+  {
+   "text": "THEY BUILT THIS HOUSE ON THE GALLOWS",
+   "img": "wha/f00.jpg",
+   "cover": true
+  },
+  {
+   "text": "San Diego, 1852. A man called 'Yankee Jim' Robinson was hanged here for stealing a boat.",
+   "img": "wha/f04.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "Thomas Whaley watched the hanging. A few years later, he bought the land.",
+   "img": "wha/f03.jpg"
+  },
+  {
+   "text": "In 1857 he finished the city's first two-story brick house, right on the gallows site.",
+   "img": "wha/f01.jpg"
+  },
+  {
+   "text": "It became a store, a theater, even the county courthouse.",
+   "img": "wha/f06.jpg"
+  },
+  {
+   "text": "And the family heard heavy footsteps upstairs when no one was there. They decided it was Yankee Jim.",
+   "img": "wha/f08.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "Today it's a museum. Visitors still report footsteps.",
+   "img": "wha/f10.jpg",
+   "tint": "dark"
+  }
+ ]
+}

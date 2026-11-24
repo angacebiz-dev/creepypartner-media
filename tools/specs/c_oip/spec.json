@@ -1,0 +1,47 @@
+{
+ "name": "idahopen",
+ "ritual": "Comment 'LET ME OUT'",
+ "slides": [
+  {
+   "text": "PRISONERS BUILT THIS PRISON. THEN THEY BURNED IT.",
+   "img": "oip/f03.jpg",
+   "cover": true
+  },
+  {
+   "text": "Boise, Idaho. The Old Idaho Penitentiary took its first prisoners in 1872.",
+   "img": "oip/f00.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "Inmates quarried the sandstone and built its walls themselves.",
+   "img": "oip/f04.jpg"
+  },
+  {
+   "text": "Over 101 years, more than 13,000 people were locked up here, about 215 of them women.",
+   "img": "oip/f10.jpg"
+  },
+  {
+   "text": "Ten men were executed here.",
+   "img": "oip/f06.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "Its most notorious inmate, Harry Orchard, killed a former governor with a bomb. He died inside in 1954.",
+   "img": "oip/f13.jpg"
+  },
+  {
+   "text": "In 1971 and 1973, inmates rioted over conditions and set buildings on fire.",
+   "img": "oip/f08.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "It closed in December 1973. The burned walls are still standing.",
+   "img": "oip/f09.jpg"
+  },
+  {
+   "text": "Today it's a museum. Ghost-hunting shows have filmed inside.",
+   "img": "oip/f02.jpg",
+   "tint": "dark"
+  }
+ ]
+}

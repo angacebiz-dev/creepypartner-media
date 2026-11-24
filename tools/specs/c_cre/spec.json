@@ -1,0 +1,44 @@
+{
+ "name": "crescent",
+ "ritual": "Comment 'ROOM 218' if you'd book it",
+ "slides": [
+  {
+   "text": "A FAKE CANCER 'DOCTOR' TURNED THIS HOTEL INTO A HOSPITAL",
+   "img": "cre/f12.jpg",
+   "cover": true
+  },
+  {
+   "text": "Eureka Springs, Arkansas. The Crescent Hotel opened in 1886, a luxury resort in the Ozark mountains.",
+   "img": "cre/f01.jpg"
+  },
+  {
+   "text": "Legend says an Irish stonemason called 'Michael' fell to his death while it was being built.",
+   "img": "cre/f03.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "1937: Norman Baker bought it. He had no medical license. He opened the 'Baker Cancer Hospital'.",
+   "img": "cre/f07.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "He promised a cure without surgery. Desperate patients came from all over the country.",
+   "img": "cre/f02.jpg"
+  },
+  {
+   "text": "There was no cure. In 1940 Baker went to federal prison for mail fraud.",
+   "img": "cre/f13.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "The basement he used as a morgue is still there.",
+   "img": "cre/f04.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "Today it's a hotel again, with nightly ghost tours. Staff say Michael's favorite room is 218.",
+   "img": "cre/f15.jpg",
+   "tint": "dark"
+  }
+ ]
+}

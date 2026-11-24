@@ -1,0 +1,33 @@
+{
+ "name": "hallstatt",
+ "ritual": "Comment 'PAINT MINE' or 'NEVER'",
+ "slides": [
+  {
+   "text": "THIS VILLAGE PAINTS ITS DEAD",
+   "img": "hal/f01.jpg",
+   "cover": true
+  },
+  {
+   "text": "Hallstatt, Austria. Squeezed between a lake and a mountain, the graveyard can't grow.",
+   "img": "hal/f05.jpg"
+  },
+  {
+   "text": "So 10 to 15 years after a burial, the grave was opened again to make room.",
+   "img": "hal/f02.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "From around 1720, families bleached the skulls in the sun and painted them: flowers, crosses, names, dates.",
+   "img": "hal/f00.jpg"
+  },
+  {
+   "text": "About 1,200 skulls sit in the bone house. 610 are painted.",
+   "img": "hal/f04.jpg"
+  },
+  {
+   "text": "The newest arrived in 1995: a woman who asked, in her will, to be placed here.",
+   "img": "hal/f06.jpg",
+   "tint": "dark"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "name": "hoia",
+ "ritual": "Comment 'I'D GO IN' or 'NOT A CHANCE'",
+ "slides": [
+  {
+   "text": "THE 'BERMUDA TRIANGLE' OF TRANSYLVANIA",
+   "img": "hoi/f02.jpg",
+   "cover": true
+  },
+  {
+   "text": "Near Cluj-Napoca, Romania: the Hoia-Baciu forest.",
+   "img": "hoi/f00.jpg"
+  },
+  {
+   "text": "Legend says it's named after a shepherd who walked in with 200 sheep... and was never seen again.",
+   "img": "hoi/f10.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "The trees here grow twisted and bent.",
+   "img": "hoi/f09.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "In the middle there's a clearing, an almost perfect circle where the trees just stop.",
+   "img": "hoi/f14.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "In 1968, a military technician photographed what he said was a UFO over that clearing.",
+   "img": "hoi/f01.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "Visitors talk about strange lights, lost time, and the feeling of being watched.",
+   "img": "hoi/f13.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "Today you can book night tours. Locals have their own advice: don't go alone.",
+   "img": "hoi/f05.jpg",
+   "tint": "dark"
+  }
+ ]
+}
