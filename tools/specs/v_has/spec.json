@@ -1,0 +1,100 @@
+{
+ "id": "Hashima",
+ "title_top": "BATTLESHIP ISLAND",
+ "speed": 0.86,
+ "cover": {
+  "img": "has/f09.jpg",
+  "title": "The most crowded place on Earth. Now empty.",
+  "focus_y": 0.5
+ },
+ "comment": "COMMENT 'ONE NIGHT'",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "This island was once the most crowded place on Earth. Now, nobody lives here at all.",
+   "shots": [
+    {
+     "img": "has/f14.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "l1",
+   "text": "Hashima, off the coast of Nagasaki, Japan. In 1890, Mitsubishi bought it to mine coal from under the sea.",
+   "shots": [
+    {
+     "img": "has/f08.jpg",
+     "mode": "pan"
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "They walled it in and built concrete apartment blocks, the first in 1916. From a distance, the island looked like a battleship.",
+   "shots": [
+    {
+     "img": "has/f11.jpg",
+     "mode": "up",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "In 1959, five thousand two hundred and fifty nine people lived on sixteen acres.",
+   "overlay": "5,259 PEOPLE\n16 ACRES",
+   "hit": true,
+   "shots": [
+    {
+     "img": "has/f09.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "Before and during World War Two, Korean and Chinese laborers were brought here and forced to work in the mines.",
+   "shots": [
+    {
+     "img": "has/f10.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "In 1974, the mine closed. Within months, everyone was gone.",
+   "hit": true,
+   "shots": [
+    {
+     "img": "has/f12.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "Today tour boats circle it, and visitors may walk only a small part of the island.",
+   "shots": [
+    {
+     "img": "has/f15.jpg",
+     "mode": "pan"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Would you spend one night alone on Battleship Island? Comment one night.",
+   "shots": [
+    {
+     "img": "has/f14.jpg",
+     "mode": "out",
+     "tint": "night"
+    }
+   ]
+  }
+ ]
+}

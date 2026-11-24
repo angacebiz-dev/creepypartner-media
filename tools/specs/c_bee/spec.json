@@ -1,0 +1,47 @@
+{
+ "name": "beelitz",
+ "ritual": "Comment 'TREETOPS ONLY' or 'I'M GOING IN'",
+ "slides": [
+  {
+   "text": "60 HOSPITAL BUILDINGS, LEFT TO ROT",
+   "img": "bee/f06.jpg",
+   "cover": true
+  },
+  {
+   "text": "Near Berlin, 1898. Work began on Beelitz-Heilstatten, a sanatorium for tuberculosis patients.",
+   "img": "bee/f00.jpg"
+  },
+  {
+   "text": "It grew to about 60 buildings: one of the largest hospital complexes around Berlin.",
+   "img": "bee/f10.jpg"
+  },
+  {
+   "text": "In World War One it treated wounded soldiers. In 1916, one of them was a young corporal named Adolf Hitler.",
+   "img": "bee/f11.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "In 1945 the Soviet army took it over. It stayed a Soviet military hospital until 1994.",
+   "img": "bee/f01.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "In 1990, East Germany's fallen leader Erich Honecker stayed here, before he was flown to Moscow.",
+   "img": "bee/f05.jpg"
+  },
+  {
+   "text": "Then most of it was abandoned. Wards, stairwells, operating rooms... left to the forest.",
+   "img": "bee/f02.jpg"
+  },
+  {
+   "text": "Locals say it's haunted. Horror fans come from all over just to look at it.",
+   "img": "bee/f13.jpg"
+  },
+  {
+   "text": "Going inside the ruins is forbidden. But today a treetop walkway lets you look down on them.",
+   "img": "bee/f10.jpg",
+   "tint": "dark",
+   "zoom": 1.2
+  }
+ ]
+}

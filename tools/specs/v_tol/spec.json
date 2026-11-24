@@ -1,0 +1,103 @@
+{
+ "id": "TowerOfLondon",
+ "title_top": "TOWER OF LONDON",
+ "speed": 0.86,
+ "cover": {
+  "img": "tol/f04.jpg",
+  "title": "Even the guards here have seen things",
+  "focus_y": 0.5
+ },
+ "comment": "COMMENT 'NIGHT SHIFT'",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Even the guards here have seen things."
+  },
+  {
+   "id": "l1",
+   "text": "The Tower of London. A fortress on the River Thames for nearly a thousand years. A palace, a prison... and a place of execution.",
+   "shots": [
+    {
+     "img": "tol/f01.jpg",
+     "mode": "pan"
+    },
+    {
+     "img": "tol/f06.jpg",
+     "mode": "pan",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "In 1536, Queen Anne Boleyn was beheaded inside these walls. She's buried in the Tower's own chapel.",
+   "hit": true,
+   "shots": [
+    {
+     "img": "tol/f15.jpg",
+     "mode": "up",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "October 1817. The Keeper of the Crown Jewels, Edmund Swifte, sat down to supper with his family in the Jewel House.",
+   "shots": [
+    {
+     "img": "tol/f02.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "He later wrote that a glowing tube, like bubbling blue liquid, appeared above the table... and moved toward his wife.",
+   "hit": true,
+   "shots": [
+    {
+     "img": "tol/f12.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "1864. A soldier was found collapsed at his post. Charged with sleeping on duty, he said a white figure came at him... and his bayonet went straight through it.",
+   "shots": [
+    {
+     "img": "tol/f00.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "Other soldiers backed up his story. He was cleared.",
+   "shots": [
+    {
+     "img": "tol/f11.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "text": "And for centuries, people have claimed to see a woman walking near the place where Anne Boleyn died.",
+   "shots": [
+    {
+     "img": "tol/f06.jpg",
+     "mode": "out",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Would you take the night shift here? Comment night shift, partner."
+  }
+ ]
+}

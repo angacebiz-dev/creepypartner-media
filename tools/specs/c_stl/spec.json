@@ -1,0 +1,44 @@
+{
+ "name": "stlouis",
+ "ritual": "Comment 'XXX' and make your wish here instead",
+ "slides": [
+  {
+   "text": "PEOPLE STILL MARK HER TOMB TO MAKE A WISH",
+   "img": "stl/f07.jpg",
+   "cover": true
+  },
+  {
+   "text": "New Orleans. St. Louis Cemetery No. 1, founded in 1789: the oldest cemetery still standing in the city.",
+   "img": "stl/f04.jpg"
+  },
+  {
+   "text": "The dead here rest above ground, in tombs of brick and plaster.",
+   "img": "stl/f03.jpg"
+  },
+  {
+   "text": "One tomb is believed to hold Marie Laveau, the city's famous voodoo priestess. She died in 1881.",
+   "img": "stl/f05.jpg"
+  },
+  {
+   "text": "The legend: draw three X's on her tomb, make a wish... and she'll grant it.",
+   "img": "stl/f11.jpg"
+  },
+  {
+   "text": "Thousands did. Marker. Lipstick. Scratches in the stone.",
+   "img": "stl/f06.jpg"
+  },
+  {
+   "text": "People left coins, flowers and gifts in the cracks.",
+   "img": "stl/f13.jpg"
+  },
+  {
+   "text": "Then someone painted her whole tomb pink.",
+   "img": "stl/f14.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "Since 2015, you can only go inside with a registered tour guide.",
+   "img": "stl/f10.jpg"
+  }
+ ]
+}

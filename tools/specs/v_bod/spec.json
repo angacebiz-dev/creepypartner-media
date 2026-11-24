@@ -1,0 +1,116 @@
+{
+ "id": "BodieCurse",
+ "title_top": "THE CURSE OF BODIE",
+ "speed": 0.86,
+ "cover": {
+  "img": "bod/f03.jpg",
+  "title": "Don't take anything from this town",
+  "focus_y": 0.5
+ },
+ "comment": "COMMENT 'GIVE IT BACK'",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Go ahead. Walk through this town. Just don't take anything home."
+  },
+  {
+   "id": "l1",
+   "text": "You're in Bodie, California. In 1879, thousands of people lived here, chasing gold. Around two thousand buildings.",
+   "shots": [
+    {
+     "img": "bod/f06.jpg",
+     "mode": "pan"
+    },
+    {
+     "img": "bod/f08.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "Then the gold ran out. A fire in 1932 destroyed most of what was left. By the 1940s, almost everyone was gone.",
+   "shots": [
+    {
+     "img": "bod/f02.jpg",
+     "mode": "pan",
+     "tint": "sepia"
+    },
+    {
+     "img": "bod/f01.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "Since 1962, the state has kept it just as they left it. Desks in the schoolhouse. Dishes in the kitchens. They call it arrested decay.",
+   "shots": [
+    {
+     "img": "bod/f07.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "bod/f14.jpg",
+     "mode": "up"
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "Now you spot a nail on the ground. A bit of old glass. You slip it in your pocket.",
+   "shots": [
+    {
+     "img": "bod/f11.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "bod/f12.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "That's the curse of Bodie. Take something, and bad luck follows you... until you give it back.",
+   "hit": true,
+   "shots": [
+    {
+     "img": "bod/f09.jpg",
+     "mode": "in",
+     "tint": "dark"
+    },
+    {
+     "img": "bod/f10.jpg",
+     "mode": "pan",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "Packages still arrive at the park. Nails. Bottles. Rocks. With letters begging forgiveness.",
+   "shots": [
+    {
+     "img": "bod/f04.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "text": "Some say the rangers made the curse up, to stop people stealing. The letters keep coming anyway.",
+   "shots": [
+    {
+     "img": "bod/f05.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Ever taken something you shouldn't have? Comment give it back, partner."
+  }
+ ]
+}

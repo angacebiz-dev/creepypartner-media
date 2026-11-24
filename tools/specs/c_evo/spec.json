@@ -1,0 +1,46 @@
+{
+ "name": "evora",
+ "ritual": "Comment 'WE'RE WAITING'",
+ "slides": [
+  {
+   "text": "'WE BONES ARE WAITING FOR YOURS'",
+   "img": "evo/f00.jpg",
+   "cover": true
+  },
+  {
+   "text": "Evora, Portugal. The Church of Saint Francis.",
+   "img": "evo/f09.jpg"
+  },
+  {
+   "text": "Inside is a small chapel. Over its door, carved in stone, a message.",
+   "img": "evo/f02.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "'We bones that are here... are waiting for yours.'",
+   "img": "evo/f04.jpg"
+  },
+  {
+   "text": "Centuries ago, the city's cemeteries were overflowing. Franciscan friars dug up the dead.",
+   "img": "evo/f05.jpg"
+  },
+  {
+   "text": "Instead of hiding the bones away, they built them into the walls.",
+   "img": "evo/f10.jpg"
+  },
+  {
+   "text": "Around 5,000 people line this chapel.",
+   "img": "evo/f07.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "The friars wanted every visitor to stop and think about how short life is.",
+   "img": "evo/f06.jpg"
+  },
+  {
+   "text": "Nobody knows the names of the people in these walls.",
+   "img": "evo/f12.jpg",
+   "tint": "dark"
+  }
+ ]
+}

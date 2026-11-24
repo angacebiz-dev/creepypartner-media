@@ -1,0 +1,115 @@
+{
+ "id": "Pripyat",
+ "title_top": "PRIPYAT",
+ "speed": 0.86,
+ "cover": {
+  "img": "pri/f02.jpg",
+  "title": "They were told: pack for 3 days",
+  "focus_y": 0.5
+ },
+ "comment": "COMMENT WHAT YOU'D TAKE",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "A whole city... left in one afternoon."
+  },
+  {
+   "id": "l1",
+   "text": "Pripyat, Ukraine. Built in 1970 for the workers of the Chernobyl nuclear plant. Nearly fifty thousand people lived here.",
+   "shots": [
+    {
+     "img": "pri/f09.jpg",
+     "mode": "pan"
+    },
+    {
+     "img": "pri/f01.jpg",
+     "mode": "up"
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "April 26th, 1986. Reactor number four exploded, about three kilometres away.",
+   "overlay": "APRIL 26, 1986",
+   "hit": true,
+   "shots": [
+    {
+     "img": "pri/f08.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "For more than a day, life went on. Then, on the afternoon of April 27th, the buses came.",
+   "shots": [
+    {
+     "img": "pri/f13.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "pri/f03.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "Residents were told to pack for three days. They never came back.",
+   "hit": true,
+   "shots": [
+    {
+     "img": "pri/f14.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "The Ferris wheel was supposed to open on May first, for the holiday. It never officially turned.",
+   "shots": [
+    {
+     "img": "pri/f05.jpg",
+     "mode": "up"
+    },
+    {
+     "img": "pri/f10.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "The bumper cars are still where they stopped.",
+   "shots": [
+    {
+     "img": "pri/f12.jpg",
+     "mode": "in",
+     "tint": "dark"
+    },
+    {
+     "img": "pri/f06.jpg",
+     "mode": "pan"
+    }
+   ]
+  },
+  {
+   "id": "l7",
+   "text": "Today, Pripyat is still empty.",
+   "shots": [
+    {
+     "img": "pri/f15.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "If you had to pack for three days... and never came back... what would you take? Comment it, partner."
+  }
+ ]
+}

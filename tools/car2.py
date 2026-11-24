@@ -153,6 +153,10 @@ def slideshow(files, out, per=6.5, first=3.5):
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", out + ".v.mp4", "-i", out + ".a.wav", "-c:v", "libx264", "-preset", "medium",
                     "-b:v", "5M", "-maxrate", "7M", "-bufsize", "14M", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-ar", "48000",
                     "-shortest", "-movflags", "+faststart", out], check=True)
+    if os.environ.get("NOLIGHT", "1") == "1":
+        for p in [out + ".v.mp4", out + ".a.wav"]:
+            os.remove(p)
+        print("slideshow", out, round(total, 1), "s (no light copy)"); return
     dur = total; vb = int((2_780_000 * 8 / dur - 64000) / 1000); light = out.replace(".mp4", "_light.mp4")
     vf = "scale=720:1280:flags=lanczos"; pl = out + ".plog"
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", out, "-vf", vf, "-c:v", "libx264", "-preset", "slow", "-b:v", f"{vb}k",

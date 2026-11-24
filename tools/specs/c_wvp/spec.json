@@ -1,0 +1,49 @@
+{
+ "name": "moundsville",
+ "ritual": "Comment 'TOUR' or 'NO CHANCE'",
+ "slides": [
+  {
+   "text": "94 MEN WERE EXECUTED HERE",
+   "img": "wvp/f14.jpg",
+   "cover": true
+  },
+  {
+   "text": "Moundsville, West Virginia. A gothic fortress that opened in 1876. Some of its first prisoners helped build it.",
+   "img": "wvp/f12.jpg"
+  },
+  {
+   "text": "It sits right across the street from a 2,000-year-old burial mound.",
+   "img": "wvp/f02.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "It was built for about 1,000 men. It ended up holding more than twice that.",
+   "img": "wvp/f21.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "94 men were executed here. 85 were hanged. 9 died in the electric chair inmates called 'Old Sparky'.",
+   "img": "wvp/f16.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "36 men were murdered inside these walls.",
+   "img": "wvp/f15.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "Downstairs was the 'Sugar Shack': a rec room where gambling and fights happened out of the guards' sight.",
+   "img": "wvp/f19.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "It closed in 1995. The men left their words on the walls.",
+   "img": "wvp/f20.jpg"
+  },
+  {
+   "text": "Today it runs tours and ghost hunts. One longtime guide says his strangest moment here happened in the Sugar Shack.",
+   "img": "wvp/f09.jpg",
+   "tint": "dark"
+  }
+ ]
+}

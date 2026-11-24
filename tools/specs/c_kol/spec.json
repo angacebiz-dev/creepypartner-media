@@ -1,0 +1,44 @@
+{
+ "name": "kolmanskop",
+ "ritual": "Comment what you think is still buried in the sand",
+ "slides": [
+  {
+   "text": "THE DESERT SWALLOWED THIS TOWN",
+   "img": "kol/f05.jpg",
+   "cover": true
+  },
+  {
+   "text": "Namibia, 1908. A railway worker named Zacharias Lewala was clearing sand off the tracks when he spotted a shiny stone.",
+   "img": "kol/f04.jpg"
+  },
+  {
+   "text": "It was a diamond. Within a few years, a German mining town rose out of the desert: Kolmanskop.",
+   "img": "kol/f01.jpg"
+  },
+  {
+   "text": "Stone houses. A ballroom, a casino, a theatre, an ice factory... in the middle of the Namib Desert.",
+   "img": "kol/f00.jpg"
+  },
+  {
+   "text": "Its hospital had the first X-ray machine in the southern hemisphere. Some say it was used to check workers for swallowed diamonds.",
+   "img": "kol/f03.jpg"
+  },
+  {
+   "text": "Around 1910, it was one of the richest towns in Africa.",
+   "img": "kol/f06.jpg"
+  },
+  {
+   "text": "Then bigger diamonds were found further south. People packed up and left, many leaving their things behind.",
+   "img": "kol/f07.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "By 1956, Kolmanskop was empty. And the dunes moved in.",
+   "img": "kol/f02.jpg"
+  },
+  {
+   "text": "Today, visitors walk through houses filled to the windows with sand.",
+   "img": "kol/f08.jpg"
+  }
+ ]
+}

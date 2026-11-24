@@ -1,0 +1,117 @@
+{
+ "id": "HighgateVampire",
+ "title_top": "THE HIGHGATE VAMPIRE",
+ "speed": 0.86,
+ "cover": {
+  "img": "high/f09.jpg",
+  "title": "London hunted a vampire in 1970",
+  "focus_y": 0.5
+ },
+ "comment": "COMMENT 'STAKE' IF YOU'D JOIN THE HUNT",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "London, 1970. Hundreds of people broke into a cemetery at night... carrying wooden stakes.",
+   "shots": [
+    {
+     "img": "high/f00.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "l1",
+   "text": "Highgate Cemetery. A grand Victorian graveyard that, by the late nineteen sixties, was overgrown and crumbling.",
+   "shots": [
+    {
+     "img": "high/f13.jpg",
+     "mode": "pan",
+     "tint": "grey"
+    },
+    {
+     "img": "high/f11.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "Then the stories started. A tall grey figure, seen drifting between the tombs.",
+   "shots": [
+    {
+     "img": "high/f12.jpg",
+     "mode": "in",
+     "tint": "dark"
+    },
+    {
+     "img": "high/f10.jpg",
+     "mode": "up",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "The local paper began asking if something worse than a ghost was loose in Highgate.",
+   "shots": [
+    {
+     "img": "high/f01.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "Two rival occult investigators went on television. One said it wasn't a ghost at all. It was a vampire. And he announced a hunt.",
+   "hit": true,
+   "shots": [
+    {
+     "img": "high/f05.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "Friday the 13th of March, 1970. The report aired that evening. By nightfall, crowds were climbing the walls with stakes and crosses. Police couldn't hold them back.",
+   "overlay": "FRIDAY 13 MARCH\n1970",
+   "hit": true,
+   "shots": [
+    {
+     "img": "high/f15.jpg",
+     "mode": "in",
+     "tint": "night"
+    },
+    {
+     "img": "high/f03.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "No vampire was ever found. But the legend never left. Today Highgate is restored, and open for tours.",
+   "shots": [
+    {
+     "img": "high/f09.jpg",
+     "mode": "pan"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Would you walk Highgate after dark? Comment stake... if you'd join the hunt.",
+   "shots": [
+    {
+     "img": "high/f00.jpg",
+     "mode": "out",
+     "tint": "night"
+    }
+   ]
+  }
+ ]
+}

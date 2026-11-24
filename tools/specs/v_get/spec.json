@@ -1,0 +1,97 @@
+{
+ "id": "DevilsDen",
+ "title_top": "DEVIL'S DEN",
+ "speed": 0.86,
+ "cover": {
+  "img": "get/f06.jpg",
+  "title": "A soldier spoke to her. He died in 1863.",
+  "focus_y": 0.5
+ },
+ "comment": "COMMENT 'OVER THERE'",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "In July 1863, more than fifty thousand men were killed, wounded, captured or lost in just three days... and some visitors say a few of them never left."
+  },
+  {
+   "id": "l1",
+   "text": "Gettysburg, Pennsylvania. The bloodiest battle of the American Civil War.",
+   "shots": [
+    {
+     "img": "get/f05.jpg",
+     "mode": "pan",
+     "tint": "grey"
+    },
+    {
+     "img": "get/f13.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "l2",
+   "text": "On July second, Confederate troops fought their way into a maze of giant boulders called Devil's Den.",
+   "overlay": "DEVIL'S DEN\nJULY 2, 1863",
+   "hit": true,
+   "shots": [
+    {
+     "img": "get/f00.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "l3",
+   "text": "Days later, photographers arrived. One famous picture shows a dead Confederate sharpshooter between the rocks. Historians later found the body had been moved there, for the photo.",
+   "shots": [
+    {
+     "img": "get/f03.jpg",
+     "mode": "in",
+     "tint": "dark"
+    },
+    {
+     "img": "get/f04.jpg",
+     "mode": "pan",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "l4",
+   "text": "Today it's a national park. And the rangers tell a story about Devil's Den.",
+   "shots": [
+    {
+     "img": "get/f02.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "l5",
+   "text": "A visitor said a ragged man in a floppy hat, barefoot, walked up to her and said: what you're looking for is over there. Then he was gone.",
+   "hit": true,
+   "shots": [
+    {
+     "img": "get/f14.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "l6",
+   "text": "The rangers said she'd just described exactly what a Texas soldier looked like in 1863.",
+   "shots": [
+    {
+     "img": "get/f08.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "If a stranger told you it's over there... would you look? Comment over there, partner."
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "name": "seattle",
+ "ritual": "Comment 'UNDER MY FEET' if you'd take the tour",
+ "slides": [
+  {
+   "text": "THERE'S A BURIED CITY UNDER SEATTLE",
+   "img": "sea/f05.jpg",
+   "cover": true
+  },
+  {
+   "text": "June 6, 1889. A glue pot tipped over in a carpentry shop. The Great Seattle Fire burned the heart of the city.",
+   "img": "sea/f11.jpg",
+   "tint": "sepia"
+  },
+  {
+   "text": "Old Seattle sat on soggy tideflats. At high tide, toilets could erupt.",
+   "img": "sea/f08.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "So when they rebuilt, they raised the streets one to two stories higher.",
+   "img": "sea/f06.jpg"
+  },
+  {
+   "text": "The old storefronts and sidewalks were sealed in underneath.",
+   "img": "sea/f00.jpg"
+  },
+  {
+   "text": "Glass tiles in the new sidewalks let a little daylight down into the dark.",
+   "img": "sea/f02.jpg"
+  },
+  {
+   "text": "In 1907 the city condemned the underground, afraid of bubonic plague.",
+   "img": "sea/f14.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "For decades it was left to rot.",
+   "img": "sea/f09.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "In 1965 a local writer, Bill Speidel, started tours. You can still walk it today.",
+   "img": "sea/f10.jpg"
+  }
+ ]
+}

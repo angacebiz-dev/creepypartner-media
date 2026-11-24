@@ -1,0 +1,48 @@
+{
+ "name": "missouripen",
+ "ritual": "Comment 'LOCK ME IN' or 'LET ME OUT'",
+ "slides": [
+  {
+   "text": "WHY DID THEY CALL THIS 'THE BLOODIEST 47 ACRES IN AMERICA'?",
+   "img": "msp/f04.jpg",
+   "cover": true
+  },
+  {
+   "text": "Jefferson City. The Missouri State Penitentiary took its first prisoner in 1836, the same month the Alamo fell.",
+   "img": "msp/f00.jpg"
+  },
+  {
+   "text": "It ran for 168 years. When it closed in 2004, it was the oldest working prison west of the Mississippi.",
+   "img": "msp/f02.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "At its peak it held around 5,000 men.",
+   "img": "msp/f03.jpg"
+  },
+  {
+   "text": "1954: a riot tore through the prison. Inmates were killed. Buildings burned.",
+   "img": "msp/f06.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "In 1967, Time magazine gave it the name: 'the bloodiest 47 acres in America.'",
+   "img": "msp/f08.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "Sonny Liston learned to box here. About ten years later, he was heavyweight champion of the world.",
+   "img": "msp/f09.jpg"
+  },
+  {
+   "text": "In 1967 James Earl Ray escaped hidden in a bread box from the prison bakery. A year later, he killed Dr. Martin Luther King Jr.",
+   "img": "msp/f05.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "Today it runs tours and ghost hunts. Guides and guests report shapes in the cells and sounds nobody can explain.",
+   "img": "msp/f12.jpg",
+   "tint": "dark"
+  }
+ ]
+}

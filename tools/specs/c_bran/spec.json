@@ -1,0 +1,46 @@
+{
+ "name": "bran",
+ "ritual": "Comment 'TEAM VLAD' or 'TEAM MARIE'",
+ "slides": [
+  {
+   "text": "THE TRUTH ABOUT 'DRACULA'S CASTLE'",
+   "img": "bran/f07.jpg",
+   "cover": true
+  },
+  {
+   "text": "Transylvania, Romania. Bran Castle, built in the late 1300s on a rock above a mountain pass.",
+   "img": "bran/f01.jpg"
+  },
+  {
+   "text": "Every year, crowds of tourists come to see 'Dracula's Castle'.",
+   "img": "bran/f05.jpg"
+  },
+  {
+   "text": "But Bram Stoker, who wrote Dracula in 1897, never visited Transylvania. His book doesn't mention Bran.",
+   "img": "bran/f09.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "Vlad the Impaler, the real ruler linked to Dracula, never ruled this castle. Most historians say he never set foot inside.",
+   "img": "bran/f10.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "Bran's real story? From 1920, it belonged to Queen Marie of Romania.",
+   "img": "bran/f12.jpg"
+  },
+  {
+   "text": "Today it's a museum full of her furniture and art.",
+   "img": "bran/f11.jpg"
+  },
+  {
+   "text": "So why 'Dracula's Castle'? It sits on a cliff like the castle in the novel... and the legend sells tickets.",
+   "img": "bran/f04.jpg"
+  },
+  {
+   "text": "Dracula never lived here. That doesn't stop people coming to look for him.",
+   "img": "bran/f13.jpg",
+   "tint": "dark"
+  }
+ ]
+}

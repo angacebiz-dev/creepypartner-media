@@ -284,9 +284,10 @@ subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "concat", "-safe", "
 dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", final]))
 vb = int((2_780_000 * 8 / dur - 64000) / 1000)
 vf = "hqdn3d=6:5:8:8,scale=720:1280:flags=lanczos"
-subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", final, "-vf", vf, "-c:v", "libx264", "-preset", "slow", "-b:v", f"{vb}k",
+NOLIGHT = os.environ.get("NOLIGHT", "1") == "1"
+if not NOLIGHT: subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", final, "-vf", vf, "-c:v", "libx264", "-preset", "slow", "-b:v", f"{vb}k",
                 "-pass", "1", "-passlogfile", f"p_{ID}", "-an", "-f", "mp4", "/dev/null"], check=True)
-subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", final, "-vf", vf, "-c:v", "libx264", "-preset", "slow", "-b:v", f"{vb}k",
+if not NOLIGHT: subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", final, "-vf", vf, "-c:v", "libx264", "-preset", "slow", "-b:v", f"{vb}k",
                 "-maxrate", f"{int(vb * 1.4)}k", "-bufsize", f"{int(vb * 2.8)}k", "-pass", "2", "-passlogfile", f"p_{ID}",
                 "-c:a", "aac", "-b:a", "64k", "-ar", "48000", "-movflags", "+faststart", f"light_{ID}.mp4"], check=True)
 for tt in [0.2, 2.5, dur * 0.3, dur * 0.5, dur * 0.7, dur * 0.88, dur - 1.5]:
@@ -296,4 +297,4 @@ sheet = Image.new("RGB", (270 * len(cks), 480))
 for i, p in enumerate(cks):
     sheet.paste(Image.open(p), (i * 270, 0)); os.remove(p)
 sheet.save("sheet.png")
-print("DONE", final, round(dur, 1), "s", os.path.getsize(final), "light", os.path.getsize(f"light_{ID}.mp4"))
+print("DONE", final, round(dur, 1), "s", os.path.getsize(final))

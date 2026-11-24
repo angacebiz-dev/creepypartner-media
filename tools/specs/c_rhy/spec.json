@@ -1,0 +1,46 @@
+{
+ "name": "rhyolite",
+ "ritual": "Comment 'GOLD' if you'd still have moved here",
+ "slides": [
+  {
+   "text": "THIS GOLD RUSH CITY DIED IN 15 YEARS",
+   "img": "rhy/f03.jpg",
+   "cover": true
+  },
+  {
+   "text": "Nevada, near Death Valley. 1905: prospectors struck gold. Within two weeks, about 1,200 people had moved in.",
+   "img": "rhy/f08.jpg"
+  },
+  {
+   "text": "By 1907, thousands lived here. Three railroads. An opera house. Electric streetlights.",
+   "img": "rhy/f10.jpg"
+  },
+  {
+   "text": "The three-story Cook Bank cost more than $90,000 to build in 1908.",
+   "img": "rhy/f04.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "A miner named Tom Kelly built his house out of about 50,000 bottles.",
+   "img": "rhy/f09.jpg"
+  },
+  {
+   "text": "Then the money dried up. After the Panic of 1907, the mines started closing.",
+   "img": "rhy/f07.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "By 1910, the streetlights were switched off.",
+   "img": "rhy/f12.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "In 1920, the census counted 14 people.",
+   "img": "rhy/f05.jpg"
+  },
+  {
+   "text": "Today the ruins stand alone in the desert, open to anyone who drives out.",
+   "img": "rhy/f15.jpg"
+  }
+ ]
+}

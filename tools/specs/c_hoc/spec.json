@@ -1,0 +1,47 @@
+{
+ "name": "crosses",
+ "ritual": "Comment 'IT CAME BACK'",
+ "slides": [
+  {
+   "text": "THE SOVIETS BULLDOZED THIS HILL. IT CAME BACK.",
+   "img": "hoc/f12.jpg",
+   "cover": true
+  },
+  {
+   "text": "Northern Lithuania. A small hill in the middle of farmland.",
+   "img": "hoc/f02.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "For generations, people have carried crosses here: for the missing, the dead, the sick.",
+   "img": "hoc/f15.jpg"
+  },
+  {
+   "text": "Under Soviet rule, religion was suppressed. The hill became a quiet act of defiance.",
+   "img": "hoc/f06.jpg",
+   "tint": "grey"
+  },
+  {
+   "text": "In 1961, the authorities bulldozed it. About 5,000 crosses were burned or melted down.",
+   "img": "hoc/f07.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "People came back, often at night, and planted new ones.",
+   "img": "hoc/f08.jpg",
+   "tint": "dark"
+  },
+  {
+   "text": "In the 1970s the Soviets tore it down again. The crosses came back again.",
+   "img": "hoc/f05.jpg"
+  },
+  {
+   "text": "In 1993, Pope John Paul II came to pray here.",
+   "img": "hoc/f03.jpg"
+  },
+  {
+   "text": "Today there are well over 100,000 crosses. No one knows the exact number.",
+   "img": "hoc/f13.jpg"
+  }
+ ]
+}
