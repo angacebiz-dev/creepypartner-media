@@ -1,0 +1,18 @@
+{
+ "id": "EasternState",
+ "title_top": "EASTERN STATE",
+ "speed": 0.86,
+ "cover": {"img": "esp/f06.jpg", "title": "Al Capone said something was in his cell", "focus_y": 0.5},
+ "comment": "COMMENT 'LEAVE HIM ALONE'",
+ "lines": [
+  {"id": "hook", "text": "In 1929, the most feared gangster in America was locked inside this prison... and the story goes, something followed him into his cell."},
+  {"id": "l1", "text": "Philadelphia. Eastern State Penitentiary. It opened in 1829, built like a castle, with cell blocks spreading out like the spokes of a wheel.", "shots": [{"img": "esp/f07.jpg", "mode": "in"}, {"img": "esp/f01.jpg", "mode": "in", "tint": "dark"}]},
+  {"id": "l2", "text": "The idea was total solitude. Prisoners lived alone, ate alone, and worked alone... for years.", "shots": [{"img": "esp/f04.jpg", "mode": "in"}, {"img": "esp/f10.jpg", "mode": "up", "tint": "grey"}]},
+  {"id": "l3", "text": "Then Al Capone arrived. He spent eight months here. His first prison sentence.", "overlay": "CAPONE'S CELL\n(RESTORED)", "hit": true, "shots": [{"img": "esp/f03.jpg", "mode": "in"}]},
+  {"id": "l4", "text": "His cell had rugs, lamps, and a radio. But he didn't sleep well.", "shots": [{"img": "esp/f00.jpg", "mode": "pan"}]},
+  {"id": "l5", "text": "Legend says guards heard him at night, begging someone to leave him alone. Capone believed it was a man killed in the Saint Valentine's Day Massacre.", "hit": true, "shots": [{"img": "esp/f09.jpg", "mode": "in", "tint": "dark"}, {"img": "esp/f12.jpg", "mode": "in", "tint": "dark"}]},
+  {"id": "l6", "text": "The prison closed in 1971. Today it's open for tours.", "shots": [{"img": "esp/f11.jpg", "mode": "in"}]},
+  {"id": "l7", "text": "And in Cellblock 12, staff and visitors report voices and laughter echoing down an empty hall.", "shots": [{"img": "esp/f08.jpg", "mode": "in", "tint": "dark"}, {"img": "esp/f02.jpg", "mode": "in", "tint": "grey"}]},
+  {"id": "end", "text": "If you hear him tonight... comment leave him alone. Sleep tight, partner."}
+ ]
+}

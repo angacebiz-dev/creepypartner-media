@@ -1,0 +1,394 @@
+{
+ "id": "BoneChapels",
+ "title_top": "BUILT FROM\nTHE DEAD",
+ "speed": 0.86,
+ "comment": "WHICH ONE?",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Some people build with stone. Some build with wood. These four places were built... with the dead. Every one of them is open to visitors. Tonight, partner, we're going underground."
+  },
+  {
+   "id": "h1",
+   "text": "Hallstatt, Austria. A tiny village squeezed between a lake and a mountain.",
+   "shots": [
+    {
+     "img": "hal/f05.jpg",
+     "mode": "in"
+    }
+   ],
+   "chapter": "NUMBER FOUR|THE PAINTED SKULLS OF HALLSTATT"
+  },
+  {
+   "id": "h2",
+   "text": "There's almost no flat ground here. The cemetery can't grow. And for a long time, cremation wasn't allowed.",
+   "shots": [
+    {
+     "img": "hal/f02.jpg",
+     "mode": "pan",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "h3",
+   "text": "So the village did something practical. Ten or fifteen years after a burial, the grave was opened again. The skull and the long bones were taken out, to make room for the next family member.",
+   "shots": [
+    {
+     "img": "hal/f06.jpg",
+     "mode": "up",
+     "tint": "dark"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "h4",
+   "text": "The skulls were set out in the sun and the moonlight for weeks, until they bleached to a soft ivory. Then, from around 1720, families began to paint them.",
+   "shots": [
+    {
+     "img": "hal/f00.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "h5",
+   "text": "Wreaths of flowers. Ivy. Laurel. A cross, a name, and the date of death.",
+   "shots": [
+    {
+     "img": "hal/f01.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "hal/f04.jpg",
+     "mode": "pan"
+    }
+   ]
+  },
+  {
+   "id": "h6",
+   "text": "Today about twelve hundred skulls sit in the bone house in Saint Michael's Chapel. Six hundred and ten of them are painted, lined up by family.",
+   "shots": [
+    {
+     "img": "hal/f03.jpg",
+     "mode": "in",
+     "tint": "sepia"
+    }
+   ]
+  },
+  {
+   "id": "h7",
+   "text": "And the tradition isn't over. The newest skull arrived in 1995. A woman who died in 1983... and asked, in her will, to be placed here with the others.",
+   "shots": [
+    {
+     "img": "hal/f05.jpg",
+     "mode": "out",
+     "tint": "night"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "e1",
+   "text": "Evora, Portugal. Inside the Church of Saint Francis, there's a small door. And above it, carved in stone, a message.",
+   "shots": [
+    {
+     "img": "evo/f09.jpg",
+     "mode": "pan"
+    },
+    {
+     "img": "evo/f02.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ],
+   "chapter": "NUMBER THREE|THE CHAPEL OF BONES"
+  },
+  {
+   "id": "e2",
+   "text": "We bones that are here... are waiting for yours.",
+   "shots": [
+    {
+     "img": "evo/f04.jpg",
+     "mode": "in"
+    }
+   ],
+   "overlay": "\"WE BONES THAT ARE HERE\nARE WAITING FOR YOURS\"",
+   "hit": true
+  },
+  {
+   "id": "e3",
+   "text": "Centuries ago, Evora's cemeteries were overflowing. Franciscan friars dug up the dead, and instead of hiding the bones away, they built them into the walls.",
+   "shots": [
+    {
+     "img": "evo/f05.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "evo/f07.jpg",
+     "mode": "pan",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "text": "Around five thousand people line this chapel. Skulls set in rows like bricks. Bones wrapped around the pillars.",
+   "shots": [
+    {
+     "img": "evo/f10.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "evo/f12.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "text": "The friars wanted visitors to stop and think about how short life is. A poem on one of the pillars begins: Where are you going in such a hurry, traveler?",
+   "shots": [
+    {
+     "img": "evo/f06.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "text": "Nobody knows the names of the people in these walls.",
+   "shots": [
+    {
+     "img": "evo/f00.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "s1",
+   "text": "Sedlec, Czech Republic. From the outside, an ordinary little church and a graveyard.",
+   "shots": [
+    {
+     "img": "sed/f02.jpg",
+     "mode": "pan"
+    }
+   ],
+   "chapter": "NUMBER TWO|THE BONE CHURCH OF SEDLEC"
+  },
+  {
+   "id": "s2",
+   "text": "In 1278, the abbot here came back from Jerusalem with a handful of soil from Golgotha, the hill where Jesus was said to be crucified. He scattered it over this cemetery.",
+   "shots": [
+    {
+     "img": "sed/f14.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "sed/f13.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "text": "Word spread. Suddenly, people from all over wanted to be buried in holy ground. Then came the plague... and then came war.",
+   "shots": [
+    {
+     "img": "sed/f10.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "text": "The graveyard filled up, and the bones were dug up and piled inside the chapel. Somewhere between forty and seventy thousand people.",
+   "shots": [
+    {
+     "img": "sed/f03.jpg",
+     "mode": "in"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "s5",
+   "text": "In 1870, the Schwarzenberg family hired a local woodcarver, Frantisek Rint, to put the bones in order. He bleached them, and he got to work.",
+   "shots": [
+    {
+     "img": "sed/f07.jpg",
+     "mode": "up"
+    },
+    {
+     "img": "sed/f11.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "text": "He built the family's coat of arms out of bones. He hung garlands of skulls from the ceiling.",
+   "shots": [
+    {
+     "img": "sed/f05.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "sed/f09.jpg",
+     "mode": "up",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "text": "And in the center, a chandelier said to contain every bone in the human body.",
+   "shots": [
+    {
+     "img": "sed/f08.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "sed/f12.jpg",
+     "mode": "in"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "s8",
+   "text": "When he was done, Rint signed his work. In bones.",
+   "shots": [
+    {
+     "img": "sed/f04.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "text": "Paris, the late seventeen hundreds. The city of light had a problem underneath it.",
+   "shots": [
+    {
+     "img": "cata/f12.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ],
+   "chapter": "NUMBER ONE|THE EMPIRE OF THE DEAD"
+  },
+  {
+   "id": "p2",
+   "text": "Its biggest cemetery, the Holy Innocents, had become a mound packed with centuries of bodies. Cellar walls next to it started to give way.",
+   "shots": [
+    {
+     "img": "cata/f06.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "text": "But under the city were miles of old limestone quarries. So, starting in 1786, the dead were moved. Night after night, covered wagons carried the bones through the streets and down into the dark.",
+   "shots": [
+    {
+     "img": "cata/f07.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "cata/f05.jpg",
+     "mode": "pan"
+    }
+   ]
+  },
+  {
+   "id": "p4",
+   "text": "It went on for decades. In the end, the remains of more than six million people were stacked down here.",
+   "shots": [
+    {
+     "img": "cata/f14.jpg",
+     "mode": "pan"
+    },
+    {
+     "img": "cata/f11.jpg",
+     "mode": "in"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "p5",
+   "text": "At the entrance, a sign warns you before you go any further.",
+   "shots": [
+    {
+     "img": "cata/f13.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "p6",
+   "text": "Stop. This is the empire of Death.",
+   "shots": [
+    {
+     "img": "cata/f10.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ],
+   "overlay": "\"STOP! THIS IS\nTHE EMPIRE OF DEATH\"",
+   "hit": true
+  },
+  {
+   "id": "p7",
+   "text": "The tunnels go on for about two hundred miles. Visitors only see a small part. And the rest has already claimed at least one man.",
+   "shots": [
+    {
+     "img": "cata/f08.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "p8",
+   "text": "In 1793, a hospital doorkeeper named Philibert Aspairt went down a staircase into the quarries. Nobody knows why. He never came back up.",
+   "shots": [
+    {
+     "img": "cata/f17.jpg",
+     "mode": "in",
+     "tint": "sepia"
+    }
+   ]
+  },
+  {
+   "id": "p9",
+   "text": "Eleven years later, in 1804, workers found his body in one of the tunnels. They buried him right where he lay. His tomb is still down there.",
+   "shots": [
+    {
+     "img": "cata/f04.jpg",
+     "mode": "in",
+     "tint": "dark"
+    },
+    {
+     "img": "cata/f16.jpg",
+     "mode": "in"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "end",
+   "text": "Four places, built from the dead. Which one would you walk into... and which one would you never set foot in? Tell me in the comments. Subscribe for more files. I'll be waiting, partner."
+  }
+ ]
+}

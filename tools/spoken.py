@@ -41,7 +41,7 @@ def decade(n):  # 1960 -> nineteen sixties, 1900 -> nineteen hundreds
 
 
 # names espeak gets wrong -> respellings (checked with kokoro_onnx Tokenizer, en-us)
-PRON = {"911": "nine one one", "NOAA": "Noah", "NOAA's": "Noah's", "Cthulhu": "kuh Thoo loo", "Hokkaido": "Hoh kydoh", "Quesnel": "Kwuhnell", "Okiku": "Ohkeeku", "Eikichi": "Eh-kee-chee",
+PRON = {"Sedlec": "Sed-lets", "Aspairt": "Ahs-pair", "Philibert": "Fee-lee-bear", "Hallstatt": "Hall-shtat", "Evora": "Ehvora", "Evora's": "Ehvora's", "Frantisek": "Fran-tee-shek", "Schwarzenberg": "Shvartsen-berg", "Glattke": "Glat-kee", "Golgotha": "Gol-guh-thuh", "911": "nine one one", "NOAA": "Noah", "NOAA's": "Noah's", "Cthulhu": "kuh Thoo loo", "Hokkaido": "Hoh kydoh", "Quesnel": "Kwuhnell", "Okiku": "Ohkeeku", "Eikichi": "Eh-kee-chee",
         "Tavernier": "Tavernyay", "Bagans": "Baygans", "Toschi": "Toskee", "Estes": "Esteez", "Ina": "Eyena", "Francisville": "Fransisville", "Villisca": "Vuh-Lisska"}
 
 def say(text):

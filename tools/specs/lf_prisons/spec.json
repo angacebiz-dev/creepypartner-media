@@ -1,0 +1,454 @@
+{
+ "id": "HauntedPrisons",
+ "title_top": "4 HAUNTED\nPRISONS",
+ "speed": 0.86,
+ "comment": "WHICH PRISON?",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Four prisons. Thousands of men went in. Some of them, they say, never left. And every one of these places will let you walk right through the gate. Tonight, partner, we're doing time."
+  },
+  {
+   "id": "m1",
+   "text": "Jefferson City, Missouri. The Missouri State Penitentiary.",
+   "shots": [
+    {
+     "img": "msp/f00.jpg",
+     "mode": "pan"
+    },
+    {
+     "img": "msp/f02.jpg",
+     "mode": "up",
+     "tint": "grey"
+    }
+   ],
+   "chapter": "NUMBER FOUR|MISSOURI STATE PENITENTIARY"
+  },
+  {
+   "id": "m2",
+   "text": "It took its first prisoner in March of 1836, the same month the Alamo fell. By the time it closed, it was the oldest working prison west of the Mississippi River.",
+   "shots": [
+    {
+     "img": "msp/f03.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "msp/f07.jpg",
+     "mode": "up",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "text": "It ran for a hundred and sixty eight years. At its peak, it held around five thousand men.",
+   "shots": [
+    {
+     "img": "msp/f04.jpg",
+     "mode": "in",
+     "tint": "dark"
+    },
+    {
+     "img": "msp/f10.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "text": "In 1954, a riot tore through the cell blocks. Prisoners were killed. Buildings burned.",
+   "shots": [
+    {
+     "img": "msp/f06.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "m5",
+   "text": "And in 1967, Time magazine gave it a name it never shook off. The bloodiest forty seven acres in America.",
+   "shots": [
+    {
+     "img": "msp/f08.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ],
+   "overlay": "\"THE BLOODIEST\n47 ACRES IN AMERICA\"",
+   "hit": true
+  },
+  {
+   "id": "m6",
+   "text": "Some of the men inside became famous. A young armed robber named Sonny Liston learned to box in the prison gym. About ten years later, he was the heavyweight champion of the world.",
+   "shots": [
+    {
+     "img": "msp/f11.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "msp/f09.jpg",
+     "mode": "pan",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "m7",
+   "text": "Another inmate, James Earl Ray, hid inside a bread box from the prison bakery and was carried out the gate in 1967. One year later, he assassinated Doctor Martin Luther King Junior.",
+   "shots": [
+    {
+     "img": "msp/f05.jpg",
+     "mode": "up",
+     "tint": "dark"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "m8",
+   "text": "The prison closed in 2004. Today you can tour it, including overnight ghost hunts. Guides and guests talk about shapes in the cells, and sounds nobody can explain.",
+   "shots": [
+    {
+     "img": "msp/f12.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "w1",
+   "text": "Moundsville, West Virginia. A gothic fortress with towers and battlements, right across the street from a two thousand year old burial mound.",
+   "shots": [
+    {
+     "img": "wvp/f12.jpg",
+     "mode": "up"
+    },
+    {
+     "img": "wvp/f02.jpg",
+     "mode": "pan",
+     "tint": "grey"
+    }
+   ],
+   "chapter": "NUMBER THREE|WEST VIRGINIA PENITENTIARY"
+  },
+  {
+   "id": "w2",
+   "text": "The West Virginia Penitentiary opened in 1876. Some of its first prisoners had helped build it.",
+   "shots": [
+    {
+     "img": "wvp/f09.jpg",
+     "mode": "in",
+     "tint": "sepia"
+    },
+    {
+     "img": "wvp/f05.jpg",
+     "mode": "up",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "w3",
+   "text": "The cells were tiny. The prison was built for about a thousand men, and it ended up holding more than twice that.",
+   "shots": [
+    {
+     "img": "wvp/f21.jpg",
+     "mode": "in",
+     "tint": "dark"
+    },
+    {
+     "img": "wvp/f15.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "w4",
+   "text": "Ninety four men were executed here. Eighty five were hanged. Nine died in the electric chair the inmates called Old Sparky.",
+   "shots": [
+    {
+     "img": "wvp/f16.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "w5",
+   "text": "Thirty six men were murdered inside these walls. In 1929, an inmate named R. D. Wall reported other prisoners to the guards. Three of them caught him on his way to the boiler room. He never came back up.",
+   "shots": [
+    {
+     "img": "wvp/f14.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "w6",
+   "text": "Down in the basement was a recreation room the inmates called the Sugar Shack. Gambling. Fights. Things the guards didn't see, or didn't want to.",
+   "shots": [
+    {
+     "img": "wvp/f19.jpg",
+     "mode": "in",
+     "tint": "dark"
+    },
+    {
+     "img": "wvp/f20.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "w7",
+   "text": "The prison closed in 1995. Now it runs tours, and ghost hunts. And one longtime guide says the strangest thing he ever felt here happened in the Sugar Shack.",
+   "shots": [
+    {
+     "img": "wvp/f13.jpg",
+     "mode": "pan"
+    },
+    {
+     "img": "wvp/f00.jpg",
+     "mode": "out",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "o1",
+   "text": "Mansfield, Ohio. A prison that looks like a castle on purpose.",
+   "shots": [
+    {
+     "img": "osr/f00.jpg",
+     "mode": "pan"
+    },
+    {
+     "img": "osr/f05.jpg",
+     "mode": "in"
+    }
+   ],
+   "chapter": "NUMBER TWO|THE OHIO STATE REFORMATORY"
+  },
+  {
+   "id": "o2",
+   "text": "The cornerstone was laid in 1886. The architect hoped the building itself would help young offenders be reborn.",
+   "shots": [
+    {
+     "img": "osr/f09.jpg",
+     "mode": "in",
+     "tint": "sepia"
+    }
+   ]
+  },
+  {
+   "id": "o3",
+   "text": "Inside is the East Cell Block. Six tiers of steel cells, stacked one on top of the other.",
+   "shots": [
+    {
+     "img": "osr/f13.jpg",
+     "mode": "up"
+    },
+    {
+     "img": "osr/f10.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "o4",
+   "text": "Over ninety four years, around a hundred and fifty four thousand men passed through. At the worst of it, the prison held about three thousand five hundred at once.",
+   "shots": [
+    {
+     "img": "osr/f06.jpg",
+     "mode": "in",
+     "tint": "dark"
+    },
+    {
+     "img": "osr/f12.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "o5",
+   "text": "The warden, Arthur Glattke, lived in the prison with his wife Helen and their two sons.",
+   "shots": [
+    {
+     "img": "osr/f11.jpg",
+     "mode": "in",
+     "tint": "sepia"
+    }
+   ]
+  },
+  {
+   "id": "o6",
+   "text": "In November of 1950, Helen was in the family's quarters. A handgun fell and fired. She died three days later.",
+   "shots": [
+    {
+     "img": "osr/f07.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "o7",
+   "text": "Nine years after that, Arthur himself died after a heart attack, still in charge of the prison.",
+   "shots": [
+    {
+     "img": "osr/f03.jpg",
+     "mode": "in",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "o8",
+   "text": "In 1990, a federal court ordered the reformatory closed. The inmates' lawsuit called the conditions brutal and inhumane.",
+   "shots": [
+    {
+     "img": "osr/f02.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "o9",
+   "text": "Then Hollywood moved in. The Shawshank Redemption was filmed here. Today it's a museum with tours and ghost hunts, and the people who work there believe Helen never left. They say she comes back as a scent... that drifts in from nowhere.",
+   "shots": [
+    {
+     "img": "osr/f14.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "osr/f01.jpg",
+     "mode": "out",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "a1",
+   "text": "San Francisco Bay. A rock in the water, more than a mile from shore.",
+   "shots": [
+    {
+     "img": "alc/f20.jpg",
+     "mode": "pan"
+    },
+    {
+     "img": "alc/f04.jpg",
+     "mode": "in"
+    }
+   ],
+   "chapter": "NUMBER ONE|ALCATRAZ"
+  },
+  {
+   "id": "a2",
+   "text": "From 1934 to 1963, Alcatraz was a federal prison for the men other prisons couldn't hold.",
+   "shots": [
+    {
+     "img": "alc/f05.jpg",
+     "mode": "in",
+     "tint": "grey"
+    },
+    {
+     "img": "alc/f12.jpg",
+     "mode": "pan"
+    }
+   ]
+  },
+  {
+   "id": "a3",
+   "text": "In twenty nine years, thirty six men tried fourteen escapes. Twenty three were caught. Seven were shot. At least three drowned.",
+   "shots": [
+    {
+     "img": "alc/f10.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "a4",
+   "text": "But in June of 1962, three men did something nobody had done before. Frank Morris, and two brothers, John and Clarence Anglin.",
+   "shots": [
+    {
+     "img": "alc/f16.jpg",
+     "mode": "in"
+    }
+   ]
+  },
+  {
+   "id": "a5",
+   "text": "For months, they dug through the vents behind their sinks. They made dummy heads out of plaster, paint, and real human hair, and left them in their beds.",
+   "shots": [
+    {
+     "img": "alc/f17.jpg",
+     "mode": "in",
+     "tint": "dark"
+    },
+    {
+     "img": "alc/f15.jpg",
+     "mode": "up",
+     "tint": "grey"
+    }
+   ]
+  },
+  {
+   "id": "a6",
+   "text": "On the night of June eleventh, they climbed to the roof, slipped down to the water, and pushed off on a raft made from raincoats.",
+   "shots": [
+    {
+     "img": "alc/f08.jpg",
+     "mode": "in",
+     "tint": "night"
+    }
+   ]
+  },
+  {
+   "id": "a7",
+   "text": "At the morning count, the guards found the dummies. The men were gone. The FBI searched for seventeen years and found no proof they were alive. The U.S. Marshals still list them as wanted.",
+   "shots": [
+    {
+     "img": "alc/f11.jpg",
+     "mode": "in",
+     "tint": "dark"
+    },
+    {
+     "img": "alc/f13.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ],
+   "hit": true
+  },
+  {
+   "id": "a8",
+   "text": "Today Alcatraz is a national park, with night tours through the cell house. Legends have grown around D Block, the solitary cells the inmates called the Hole.",
+   "shots": [
+    {
+     "img": "alc/f06.jpg",
+     "mode": "in"
+    },
+    {
+     "img": "alc/f19.jpg",
+     "mode": "in",
+     "tint": "dark"
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "text": "Four prisons. Which one could you spend a night in... and which one would have you begging for the door? Tell me in the comments. Subscribe for more files. I'll be waiting, partner."
+  }
+ ]
+}
