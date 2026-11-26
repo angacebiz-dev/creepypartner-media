@@ -1,0 +1,359 @@
+{
+"id": "StillSeeTheDead",
+"title_top": "WHERE THE DEAD\nSTILL WALK",
+"speed": 0.86,
+"comment": "WHICH ONE?",
+"lines": [
+{
+"id": "hook",
+"text": "A courthouse built on a gallows. A battlefield that still gives directions. A cemetery stormed by vampire hunters. Five real places, partner, where people swear the dead never left. Let's go see them."
+},
+{
+"id": "w1",
+"chapter": "NUMBER FIVE|WHALEY HOUSE, SAN DIEGO",
+"text": "San Diego, 1852. A man called Yankee Jim Robinson was hanged on this spot, for stealing a boat.",
+"shots": [
+{
+"img": "wha/f04.jpg",
+"mode": "in",
+"tint": "grey"
+}
+]
+},
+{
+"id": "w2",
+"text": "A man named Thomas Whaley watched the hanging. A few years later, he bought the land.",
+"shots": [
+{
+"img": "wha/f03.jpg",
+"mode": "pan"
+}
+]
+},
+{
+"id": "w3",
+"text": "In 1857 he finished the city's first two story brick house... right on the gallows site.",
+"shots": [
+{
+"img": "wha/f01.jpg",
+"mode": "up"
+},
+{
+"img": "wha/f00.jpg",
+"mode": "in"
+}
+]
+},
+{
+"id": "w4",
+"text": "It became a store, a theater, even the county courthouse.",
+"shots": [
+{
+"img": "wha/f06.jpg",
+"mode": "pan"
+}
+]
+},
+{
+"id": "w5",
+"text": "And the family heard heavy footsteps upstairs, when no one was there. They decided it was Yankee Jim.",
+"shots": [
+{
+"img": "wha/f08.jpg",
+"mode": "in",
+"tint": "dark"
+}
+],
+"hit": true
+},
+{
+"id": "w6",
+"text": "Today it's a museum. And visitors still report footsteps.",
+"shots": [
+{
+"img": "wha/f10.jpg",
+"mode": "in",
+"tint": "night"
+}
+]
+},
+{
+"id": "g1",
+"chapter": "NUMBER FOUR|DEVIL'S DEN, GETTYSBURG",
+"text": "Gettysburg, Pennsylvania. July 1863. In just three days, more than fifty thousand men were killed, wounded, captured or lost.",
+"shots": [
+{
+"img": "get/f05.jpg",
+"mode": "pan"
+},
+{
+"img": "get/f13.jpg",
+"mode": "in",
+"tint": "grey"
+}
+]
+},
+{
+"id": "g2",
+"text": "On July second, Confederate troops fought their way into a maze of giant boulders called Devil's Den.",
+"shots": [
+{
+"img": "get/f00.jpg",
+"mode": "in"
+}
+]
+},
+{
+"id": "g3",
+"text": "Today it's a national park. And the rangers tell a story about it.",
+"shots": [
+{
+"img": "get/f02.jpg",
+"mode": "pan"
+}
+]
+},
+{
+"id": "g4",
+"text": "A visitor said a ragged man in a floppy hat, barefoot, walked up to her and said: what you're looking for is over there. Then he was gone.",
+"shots": [
+{
+"img": "get/f14.jpg",
+"mode": "in",
+"tint": "dark"
+}
+],
+"hit": true
+},
+{
+"id": "g5",
+"text": "The rangers said she'd just described exactly what a Texas soldier looked like in 1863.",
+"shots": [
+{
+"img": "get/f08.jpg",
+"mode": "in",
+"tint": "grey"
+}
+]
+},
+{
+"id": "h1",
+"chapter": "NUMBER THREE|HIGHGATE CEMETERY, LONDON",
+"text": "London. Highgate Cemetery. A grand Victorian graveyard that, by the late nineteen sixties, was overgrown and crumbling.",
+"shots": [
+{
+"img": "high/f13.jpg",
+"mode": "pan"
+},
+{
+"img": "high/f11.jpg",
+"mode": "in"
+}
+]
+},
+{
+"id": "h2",
+"text": "Then the stories started. A tall grey figure, seen drifting between the tombs.",
+"shots": [
+{
+"img": "high/f12.jpg",
+"mode": "in",
+"tint": "night"
+},
+{
+"img": "high/f10.jpg",
+"mode": "in",
+"tint": "dark"
+}
+]
+},
+{
+"id": "h3",
+"text": "Two rival occult investigators went on television. One said it wasn't a ghost at all. It was a vampire. And he announced a hunt.",
+"shots": [
+{
+"img": "high/f01.jpg",
+"mode": "in"
+},
+{
+"img": "high/f05.jpg",
+"mode": "pan"
+}
+]
+},
+{
+"id": "h4",
+"text": "Friday the thirteenth of March, 1970. By nightfall, crowds were climbing the walls with stakes and crosses. Police couldn't hold them back.",
+"shots": [
+{
+"img": "high/f15.jpg",
+"mode": "in",
+"tint": "night"
+},
+{
+"img": "high/f03.jpg",
+"mode": "pan"
+}
+],
+"hit": true
+},
+{
+"id": "h5",
+"text": "No vampire was ever found. But the legend never left. Today Highgate is restored, and open for tours.",
+"shots": [
+{
+"img": "high/f13.jpg",
+"mode": "out",
+"tint": "grey"
+}
+]
+},
+{
+"id": "t1",
+"chapter": "NUMBER TWO|THE TOWER OF LONDON",
+"text": "The Tower of London. A fortress on the River Thames for nearly a thousand years. A palace, a prison... and a place of execution.",
+"shots": [
+{
+"img": "tol/f01.jpg",
+"mode": "pan"
+},
+{
+"img": "tol/f06.jpg",
+"mode": "in"
+}
+]
+},
+{
+"id": "t2",
+"text": "In 1536, Queen Anne Boleyn was beheaded inside these walls. She's buried in the Tower's own chapel.",
+"shots": [
+{
+"img": "tol/f15.jpg",
+"mode": "in",
+"tint": "grey"
+}
+]
+},
+{
+"id": "t3",
+"text": "October 1817. The Keeper of the Crown Jewels, Edmund Swifte, sat down to supper with his family in the Jewel House.",
+"shots": [
+{
+"img": "tol/f02.jpg",
+"mode": "pan"
+}
+]
+},
+{
+"id": "t4",
+"text": "He later wrote that a glowing tube, like bubbling blue liquid, appeared above the table... and moved toward his wife.",
+"shots": [
+{
+"img": "tol/f12.jpg",
+"mode": "in",
+"tint": "night"
+}
+],
+"hit": true
+},
+{
+"id": "t5",
+"text": "1864. A soldier was found collapsed at his post. Charged with sleeping on duty, he said a white figure came at him... and his bayonet went straight through it. Other soldiers backed up his story. He was cleared.",
+"shots": [
+{
+"img": "tol/f00.jpg",
+"mode": "in",
+"tint": "dark"
+},
+{
+"img": "tol/f11.jpg",
+"mode": "pan"
+}
+]
+},
+{
+"id": "e1",
+"chapter": "NUMBER ONE|EASTERN STATE PENITENTIARY",
+"text": "Philadelphia. Eastern State Penitentiary. It opened in 1829, built like a castle, with cell blocks spreading out like the spokes of a wheel.",
+"shots": [
+{
+"img": "esp/f07.jpg",
+"mode": "pan"
+},
+{
+"img": "esp/f01.jpg",
+"mode": "in"
+}
+]
+},
+{
+"id": "e2",
+"text": "The idea was total solitude. Prisoners lived alone, ate alone, and worked alone... for years.",
+"shots": [
+{
+"img": "esp/f04.jpg",
+"mode": "in",
+"tint": "grey"
+},
+{
+"img": "esp/f10.jpg",
+"mode": "in"
+}
+]
+},
+{
+"id": "e3",
+"text": "In 1929, Al Capone arrived. He spent eight months here. His cell had rugs, lamps, and a radio. But he didn't sleep well.",
+"shots": [
+{
+"img": "esp/f03.jpg",
+"mode": "in"
+},
+{
+"img": "esp/f00.jpg",
+"mode": "pan"
+}
+]
+},
+{
+"id": "e4",
+"text": "Legend says guards could hear him at night, begging someone to leave him alone. Capone believed it was a man killed in the Saint Valentine's Day Massacre.",
+"shots": [
+{
+"img": "esp/f09.jpg",
+"mode": "in",
+"tint": "dark"
+},
+{
+"img": "esp/f12.jpg",
+"mode": "in"
+}
+],
+"hit": true
+},
+{
+"id": "e5",
+"text": "The prison closed in 1971. And in Cellblock 12, staff and visitors report voices and laughter, echoing down an empty hall.",
+"shots": [
+{
+"img": "esp/f11.jpg",
+"mode": "pan"
+},
+{
+"img": "esp/f08.jpg",
+"mode": "in",
+"tint": "night"
+},
+{
+"img": "esp/f02.jpg",
+"mode": "in",
+"tint": "dark"
+}
+]
+},
+{
+"id": "end",
+"text": "Five places. Five stories the dead just won't let go of. Which one would you spend a night in, alone? Tell me in the comments. Subscribe for more files. I'll be waiting, partner."
+}
+]
+}

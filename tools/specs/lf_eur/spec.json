@@ -1,0 +1,344 @@
+{
+"id": "EuropeDark",
+"title_top": "EUROPE'S\nDARKEST PLACES",
+"speed": 0.86,
+"comment": "WHICH ONE?",
+"lines": [
+{
+"id": "hook",
+"text": "A castle that sells a monster who never lived there. A hill the Soviets bulldozed, twice. A hospital left to the forest. And a forest where a shepherd and two hundred sheep walked in... and never walked out. Four real places in Europe, partner. Stay close."
+},
+{
+"id": "b1",
+"chapter": "NUMBER FOUR|BRAN CASTLE, ROMANIA",
+"text": "Transylvania, Romania. Bran Castle, built in the late thirteen hundreds on a rock above a mountain pass.",
+"shots": [
+{
+"img": "bran/f01.jpg",
+"mode": "up"
+},
+{
+"img": "bran/f00.jpg",
+"mode": "pan"
+}
+]
+},
+{
+"id": "b2",
+"text": "Every year, crowds of tourists come to see Dracula's Castle.",
+"shots": [
+{
+"img": "bran/f05.jpg",
+"mode": "in"
+},
+{
+"img": "bran/f15.jpg",
+"mode": "up"
+}
+]
+},
+{
+"id": "b3",
+"text": "But Bram Stoker, who wrote Dracula in 1897, never visited Transylvania. His book doesn't mention Bran.",
+"shots": [
+{
+"img": "bran/f09.jpg",
+"mode": "in",
+"tint": "grey"
+}
+]
+},
+{
+"id": "b4",
+"text": "Vlad the Impaler, the real ruler linked to Dracula, never ruled this castle. Most historians say he never set foot inside.",
+"shots": [
+{
+"img": "bran/f10.jpg",
+"mode": "in",
+"tint": "night"
+}
+],
+"hit": true
+},
+{
+"id": "b5",
+"text": "Bran's real story? From 1920, it belonged to Queen Marie of Romania. Today it's a museum, full of her furniture and art.",
+"shots": [
+{
+"img": "bran/f12.jpg",
+"mode": "pan"
+},
+{
+"img": "bran/f11.jpg",
+"mode": "in"
+},
+{
+"img": "bran/f06.jpg",
+"mode": "pan"
+}
+]
+},
+{
+"id": "b6",
+"text": "So why Dracula's Castle? It sits on a cliff like the castle in the novel... and the legend sells tickets. Dracula never lived here. That doesn't keep people from coming to look for him.",
+"shots": [
+{
+"img": "bran/f04.jpg",
+"mode": "in",
+"tint": "dark"
+},
+{
+"img": "bran/f07.jpg",
+"mode": "in",
+"tint": "night"
+}
+]
+},
+{
+"id": "c1",
+"chapter": "NUMBER THREE|THE HILL OF CROSSES, LITHUANIA",
+"text": "Northern Lithuania. A small hill in the middle of farmland.",
+"shots": [
+{
+"img": "hoc/f02.jpg",
+"mode": "pan",
+"tint": "grey"
+}
+]
+},
+{
+"id": "c2",
+"text": "For generations, people have carried crosses here. For the missing, the dead, the sick.",
+"shots": [
+{
+"img": "hoc/f15.jpg",
+"mode": "pan"
+},
+{
+"img": "hoc/f09.jpg",
+"mode": "in"
+}
+]
+},
+{
+"id": "c3",
+"text": "Under Soviet rule, religion was suppressed. The hill became a quiet act of defiance.",
+"shots": [
+{
+"img": "hoc/f06.jpg",
+"mode": "in",
+"tint": "grey"
+}
+]
+},
+{
+"id": "c4",
+"text": "In 1961, the authorities bulldozed it. About five thousand crosses were burned or melted down.",
+"shots": [
+{
+"img": "hoc/f07.jpg",
+"mode": "in",
+"tint": "dark"
+}
+],
+"hit": true
+},
+{
+"id": "c5",
+"text": "People came back, often at night, and planted new ones. In the 1970s the Soviets tore it down again. The crosses came back again.",
+"shots": [
+{
+"img": "hoc/f08.jpg",
+"mode": "in",
+"tint": "night"
+},
+{
+"img": "hoc/f05.jpg",
+"mode": "up"
+}
+]
+},
+{
+"id": "c6",
+"text": "In 1993, Pope John Paul the Second came to pray here. Today there are well over a hundred thousand crosses. No one knows the exact number.",
+"shots": [
+{
+"img": "hoc/f03.jpg",
+"mode": "up"
+},
+{
+"img": "hoc/f12.jpg",
+"mode": "in",
+"tint": "grey"
+},
+{
+"img": "hoc/f13.jpg",
+"mode": "in"
+}
+]
+},
+{
+"id": "s1",
+"chapter": "NUMBER TWO|BEELITZ-HEILSTATTEN, GERMANY",
+"text": "Near Berlin, 1898. Work began on Beelitz Heilstatten, a sanatorium for tuberculosis patients.",
+"shots": [
+{
+"img": "bee/f00.jpg",
+"mode": "in"
+}
+]
+},
+{
+"id": "s2",
+"text": "It grew to about sixty buildings. One of the largest hospital complexes around Berlin.",
+"shots": [
+{
+"img": "bee/f10.jpg",
+"mode": "pan"
+},
+{
+"img": "bee/f06.jpg",
+"mode": "in",
+"tint": "grey"
+}
+]
+},
+{
+"id": "s3",
+"text": "In World War One it treated wounded soldiers. In 1916, one of them was a young corporal named Adolf Hitler.",
+"shots": [
+{
+"img": "bee/f11.jpg",
+"mode": "in",
+"tint": "grey"
+}
+],
+"hit": true
+},
+{
+"id": "s4",
+"text": "In 1945 the Soviet army took it over. It stayed a Soviet military hospital until 1994. In 1990, East Germany's fallen leader Erich Honecker stayed here, before he was flown to Moscow.",
+"shots": [
+{
+"img": "bee/f01.jpg",
+"mode": "in"
+},
+{
+"img": "bee/f09.jpg",
+"mode": "in",
+"tint": "dark"
+}
+]
+},
+{
+"id": "s5",
+"text": "Then most of it was abandoned. Wards, stairwells, operating rooms... left to the forest.",
+"shots": [
+{
+"img": "bee/f02.jpg",
+"mode": "in",
+"tint": "dark"
+},
+{
+"img": "bee/f03.jpg",
+"mode": "up"
+},
+{
+"img": "bee/f13.jpg",
+"mode": "pan",
+"tint": "grey"
+}
+]
+},
+{
+"id": "s6",
+"text": "Locals say it's haunted. Going inside the ruins is forbidden. But today, a walkway up in the treetops lets you look down on them.",
+"shots": [
+{
+"img": "bee/f05.jpg",
+"mode": "in",
+"tint": "dark"
+},
+{
+"img": "bee/f08.jpg",
+"mode": "in",
+"tint": "night"
+}
+]
+},
+{
+"id": "h1",
+"chapter": "NUMBER ONE|HOIA-BACIU FOREST, ROMANIA",
+"text": "Near Cluj Napoca, Romania. The Hoia Baciu forest.",
+"shots": [
+{
+"img": "hoi/f00.jpg",
+"mode": "pan",
+"tint": "grey"
+},
+{
+"img": "hoi/f01.jpg",
+"mode": "pan"
+}
+]
+},
+{
+"id": "h2",
+"text": "Legend says it's named after a shepherd who walked in with two hundred sheep... and was never seen again.",
+"shots": [
+{
+"img": "hoi/f10.jpg",
+"mode": "in",
+"tint": "dark"
+}
+],
+"hit": true
+},
+{
+"id": "h3",
+"text": "The trees here grow twisted and bent. And in the middle there's a clearing. An almost perfect circle, where the trees just stop.",
+"shots": [
+{
+"img": "hoi/f09.jpg",
+"mode": "in",
+"tint": "grey"
+},
+{
+"img": "hoi/f14.jpg",
+"mode": "pan"
+}
+]
+},
+{
+"id": "h4",
+"text": "In 1968, a military technician photographed what he said was a UFO over that clearing.",
+"shots": [
+{
+"img": "hoi/f13.jpg",
+"mode": "up",
+"tint": "night"
+}
+]
+},
+{
+"id": "h5",
+"text": "Visitors talk about strange lights, missing time, and the feeling of being watched. Today you can book night tours. Locals have their own advice. Don't go alone.",
+"shots": [
+{
+"img": "hoi/f06.jpg",
+"mode": "in",
+"tint": "dark"
+},
+{
+"img": "hoi/f02.jpg",
+"mode": "in",
+"tint": "night"
+}
+]
+},
+{
+"id": "end",
+"text": "Four places. A myth, a miracle, a ruin, and a forest that keeps its secrets. Which one would you walk into after dark? Tell me in the comments. Subscribe for more files. I'll be waiting, partner."
+}
+]
+}

@@ -1,0 +1,357 @@
+{
+"id": "AmericaHidden",
+"title_top": "AMERICA'S\nHIDDEN HAUNTS",
+"speed": 0.86,
+"comment": "WHICH ONE?",
+"lines": [
+{
+"id": "hook",
+"text": "A whole city, sealed under the streets. A tomb covered in thousands of wishes. A prison its own inmates built, then burned. And a hotel where a fake doctor sold a cure that didn't exist. Four places hiding in plain sight, partner. Come on."
+},
+{
+"id": "s1",
+"chapter": "NUMBER FOUR|THE SEATTLE UNDERGROUND",
+"text": "June 6, 1889. A pot of glue tipped over in a carpentry shop. The Great Seattle Fire burned the heart of the city.",
+"shots": [
+{
+"img": "sea/f11.jpg",
+"mode": "pan",
+"tint": "sepia"
+}
+]
+},
+{
+"id": "s2",
+"text": "Old Seattle sat on soggy tideflats. At high tide, toilets could erupt.",
+"shots": [
+{
+"img": "sea/f08.jpg",
+"mode": "in",
+"tint": "dark"
+}
+]
+},
+{
+"id": "s3",
+"text": "So when they rebuilt, they raised the streets one to two stories higher. The old storefronts and sidewalks were sealed in underneath.",
+"shots": [
+{
+"img": "sea/f06.jpg",
+"mode": "pan"
+},
+{
+"img": "sea/f00.jpg",
+"mode": "up",
+"tint": "dark"
+}
+],
+"hit": true
+},
+{
+"id": "s4",
+"text": "Glass tiles in the new sidewalks let a little daylight down into the dark.",
+"shots": [
+{
+"img": "sea/f02.jpg",
+"mode": "in",
+"tint": "night"
+}
+]
+},
+{
+"id": "s5",
+"text": "In 1907 the city condemned the underground, afraid of bubonic plague. For decades, it was left to rot.",
+"shots": [
+{
+"img": "sea/f14.jpg",
+"mode": "in",
+"tint": "grey"
+},
+{
+"img": "sea/f09.jpg",
+"mode": "pan",
+"tint": "dark"
+}
+]
+},
+{
+"id": "s6",
+"text": "In 1965 a local author, Bill Speidel, started tours. You can still walk it today.",
+"shots": [
+{
+"img": "sea/f05.jpg",
+"mode": "in"
+},
+{
+"img": "sea/f10.jpg",
+"mode": "pan"
+},
+{
+"img": "sea/f15.jpg",
+"mode": "in",
+"tint": "dark"
+}
+]
+},
+{
+"id": "l1",
+"chapter": "NUMBER THREE|ST. LOUIS CEMETERY NO. 1",
+"text": "New Orleans. Saint Louis Cemetery Number One, founded in 1789. The oldest cemetery still standing in the city.",
+"shots": [
+{
+"img": "stl/f04.jpg",
+"mode": "in"
+},
+{
+"img": "stl/f00.jpg",
+"mode": "in",
+"tint": "grey"
+}
+]
+},
+{
+"id": "l2",
+"text": "The dead here rest above ground, in tombs of brick and plaster.",
+"shots": [
+{
+"img": "stl/f03.jpg",
+"mode": "pan",
+"tint": "grey"
+},
+{
+"img": "stl/f02.jpg",
+"mode": "in"
+}
+]
+},
+{
+"id": "l3",
+"text": "One tomb is believed to hold Marie Laveau, the city's famous voodoo priestess. She died in 1881.",
+"shots": [
+{
+"img": "stl/f05.jpg",
+"mode": "up"
+}
+]
+},
+{
+"id": "l4",
+"text": "The legend. Mark her tomb with three X's, make a wish... and she'll grant it.",
+"shots": [
+{
+"img": "stl/f11.jpg",
+"mode": "pan"
+},
+{
+"img": "stl/f15.jpg",
+"mode": "in"
+}
+],
+"hit": true
+},
+{
+"id": "l5",
+"text": "Thousands did. Marker. Lipstick. Scratches in the stone. People left coins, flowers and gifts in the cracks.",
+"shots": [
+{
+"img": "stl/f06.jpg",
+"mode": "up"
+},
+{
+"img": "stl/f12.jpg",
+"mode": "in"
+},
+{
+"img": "stl/f09.jpg",
+"mode": "in"
+}
+]
+},
+{
+"id": "l6",
+"text": "Then someone painted her whole tomb pink. Since 2015, you can only go inside with a registered tour guide.",
+"shots": [
+{
+"img": "stl/f14.jpg",
+"mode": "in"
+},
+{
+"img": "stl/f10.jpg",
+"mode": "in",
+"tint": "grey"
+}
+]
+},
+{
+"id": "p1",
+"chapter": "NUMBER TWO|THE OLD IDAHO PENITENTIARY",
+"text": "Boise, Idaho. The Old Idaho Penitentiary took its first prisoners in 1872.",
+"shots": [
+{
+"img": "oip/f00.jpg",
+"mode": "in"
+},
+{
+"img": "oip/f09.jpg",
+"mode": "pan"
+}
+]
+},
+{
+"id": "p2",
+"text": "Inmates quarried the sandstone, and built its walls themselves.",
+"shots": [
+{
+"img": "oip/f04.jpg",
+"mode": "up"
+},
+{
+"img": "oip/f01.jpg",
+"mode": "pan"
+}
+]
+},
+{
+"id": "p3",
+"text": "Over a hundred and one years, more than thirteen thousand people were locked up here. About two hundred and fifteen of them were women. Ten men were executed here.",
+"shots": [
+{
+"img": "oip/f10.jpg",
+"mode": "pan",
+"tint": "grey"
+},
+{
+"img": "oip/f06.jpg",
+"mode": "in",
+"tint": "dark"
+}
+],
+"hit": true
+},
+{
+"id": "p4",
+"text": "Its most notorious inmate, Harry Orchard, killed a former governor with a bomb. He died inside, in 1954.",
+"shots": [
+{
+"img": "oip/f13.jpg",
+"mode": "in",
+"tint": "dark"
+}
+]
+},
+{
+"id": "p5",
+"text": "In 1971 and 1973, inmates rioted over conditions, and set buildings on fire. It closed in December 1973. The burned walls are still standing.",
+"shots": [
+{
+"img": "oip/f03.jpg",
+"mode": "pan",
+"tint": "grey"
+},
+{
+"img": "oip/f08.jpg",
+"mode": "in",
+"tint": "dark"
+}
+]
+},
+{
+"id": "p6",
+"text": "Today it's a museum. Ghost hunting shows have filmed inside.",
+"shots": [
+{
+"img": "oip/f02.jpg",
+"mode": "in",
+"tint": "night"
+},
+{
+"img": "oip/f12.jpg",
+"mode": "in"
+}
+]
+},
+{
+"id": "c1",
+"chapter": "NUMBER ONE|THE CRESCENT HOTEL, ARKANSAS",
+"text": "Eureka Springs, Arkansas. The Crescent Hotel opened in 1886. A luxury resort in the Ozark mountains.",
+"shots": [
+{
+"img": "cre/f00.jpg",
+"mode": "pan"
+},
+{
+"img": "cre/f01.jpg",
+"mode": "in"
+}
+]
+},
+{
+"id": "c2",
+"text": "Legend says an Irish stonemason called Michael fell to his death while it was being built.",
+"shots": [
+{
+"img": "cre/f03.jpg",
+"mode": "up",
+"tint": "grey"
+}
+]
+},
+{
+"id": "c3",
+"text": "1937. Norman Baker bought it. He had no medical license. He opened the Baker Cancer Hospital.",
+"shots": [
+{
+"img": "cre/f07.jpg",
+"mode": "in",
+"tint": "grey"
+}
+]
+},
+{
+"id": "c4",
+"text": "He promised a cure without surgery. Desperate patients came from all over the country. There was no cure. In 1940, Baker went to federal prison, for mail fraud.",
+"shots": [
+{
+"img": "cre/f02.jpg",
+"mode": "up"
+},
+{
+"img": "cre/f05.jpg",
+"mode": "pan",
+"tint": "grey"
+}
+],
+"hit": true
+},
+{
+"id": "c5",
+"text": "The basement he used as a morgue is still there.",
+"shots": [
+{
+"img": "cre/f15.jpg",
+"mode": "in",
+"tint": "night"
+}
+]
+},
+{
+"id": "c6",
+"text": "Today it's a hotel again, with nightly ghost tours. Staff say Michael's favorite room is two eighteen.",
+"shots": [
+{
+"img": "cre/f12.jpg",
+"mode": "in",
+"tint": "night"
+},
+{
+"img": "cre/f09.jpg",
+"mode": "in"
+}
+]
+},
+{
+"id": "end",
+"text": "Four places. A buried city, a wishing tomb, a burned prison, and a hotel that sold false hope. Which one would you check into tonight? Tell me in the comments. Subscribe for more files. I'll be waiting, partner."
+}
+]
+}
